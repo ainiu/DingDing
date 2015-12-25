@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">专车</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login_people">LoginPeopleActivity</string>
+    <string name="title_activity_regis_people">RegisPeopleActivity</string>
+    <string name="title_activity_choose">ChooseActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_personal_center">PersonalCenterActivity</string>
+    <string name="title_activity_my_message">MyMessageActivity</string>
+    <string name="title_activity_di_tu">DiTuActivity</string>
+    <string name="title_activity_line">LineActivity</string>
+    <string name="title_activity_xiang_qing">XiangQingActivity</string>
+    <string name="title_activity_ping_jia">PingJiaActivity</string>
+    <string name="title_activity_yu_yue">YuYueActivity</string>
+    <string name="title_activity_driver">DriverActivity</string>
+    <string name="title_activity_driver_regis">DriverRegisActivity</string>
+    <string name="title_activity_driver_home">DriverHomeActivity</string>
+    <string name="title_activity_my">MyActivity</string>
+    <string name="shen_fen_shen">身份审核</string>
+    <string name="messsage_fill_my">我的消息</string>
+    <string name="dingdan_my_fill">全部订单</string>
+    <string name="money_bady_my">我的账户</string>
+    <string name="title_activity_status">StatusActivity</string>
+    <string name="title_activity_driver_set">DriverSetActivity</string>
+    <string name="title_activity_driver_ding_dan">DriverDingDanActivity</string>
+    <string name="title_activity_datum">DatumActivity</string>
+    <string name="title_activity_qu_yu">QuYuActivity</string>
+    <string name="title_activity_driver_my_message">DriverMyMessageActivity</string>
+    <string name="title_activity_driver_my_money">DriverMyMoneyActivity</string>
+    <string name="title_activity_shou_suo">ShouSuoActivity</string>
+    <string name="title_activity_zhao_hui">ZhaoHuiActivity</string>
+    <string name="title_activity_driver_xiu_gai">DriverXiuGaiActivity</string>
+    <string name="title_activity_ping_fen">PingFenActivity</string>
+    <string name="title_activity_assess">AssessActivity</string>
+
+</resources>

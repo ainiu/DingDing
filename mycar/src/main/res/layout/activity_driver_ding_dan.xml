@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverDingDanActivity" >
+    <RelativeLayout 
+        android:id="@+id/driver_ding_relativeLayout_01"
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="#000000"
+        >
+
+        <TextView
+            android:id="@+id/driver_ding_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="订单用户" 
+            android:textColor="#FFFFFF"
+            android:textSize="21sp"/>
+
+        <ImageView
+            android:id="@+id/driver_ding_image_01"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/picture_04" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/driver_ding_relativeLayout_02"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/driver_ding_relativeLayout_01" 
+        android:background="@mipmap/picture_96">
+
+        <ImageView
+            android:id="@+id/driver_ding_image_02"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/picture_97" />
+
+        <TextView
+            android:id="@+id/driver_ding_text_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/driver_ding_image_02"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FEFEFE"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"
+            android:text="王小姐" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/driver_ding_button_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:text="接单" />
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SousuoActivity" >
+
+    <RelativeLayout
+        android:id="@+id/sousuo_relativeLayout_01"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:background="#1FA9EB" >
+
+        <ImageView
+            android:id="@+id/sousuo_image_01"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="60dp"
+            android:background="@drawable/ding_121" />
+
+        <Button
+            android:id="@+id/soushuo_finlish"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:text="取消"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <SearchView
+            android:id="@+id/sousuo_image_each"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@null"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/sousuo_image_01"
+            android:iconifiedByDefault="true" >
+
+        </SearchView>
+    </RelativeLayout>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/pull_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/sousuo_relativeLayout_01"
+        android:focusable= "true"
+        android:focusableInTouchMode="true"
+    />
+
+
+</RelativeLayout>

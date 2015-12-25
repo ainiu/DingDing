@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/body_rectangle_while_bg_color"
+    android:orientation="vertical"
+    android:paddingBottom="3dp"
+    android:paddingTop="3dp" >
+
+    <RelativeLayout
+        android:id="@+id/orderdetails_layout_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/orderdetails_text_orderdesc"
+            android:textColor="@color/font_color_333333"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/orderdetails_button_cancel"
+            style="@style/button_style_fun_border"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button_red_bg"
+            android:text="@string/orderdetails_button_cancel" 
+            android:visibility="gone"/>
+        <Button
+            android:id="@+id/orderdetails_button_return"
+            style="@style/button_style_fun_border"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button_red_bg"
+            android:text="@string/orderdetails_button_return" 
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@drawable/orderdetails_address_line_dotted" />
+
+    <RelativeLayout
+        android:id="@+id/orderdetails_address_layout"
+        style="@style/button_style_rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp" >
+
+        <ImageView
+            android:id="@+id/orderdetails_address_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/orderdetails_address_icon" />
+
+        <LinearLayout
+            android:id="@+id/orderdetails_address_userinfo_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@+id/orderdetails_address_icon"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/orderdetails_text_name"
+                    android:textColor="@color/font_color_666666"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/orderdetails_address_userinfo_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="@color/font_color_666666"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/orderdetails_text_mobile"
+                    android:textColor="@color/font_color_666666"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/orderdetails_address_userinfo_mobile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="@color/font_color_666666"
+                    android:textSize="14dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/order_confirm_userinfo_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/orderdetails_address_userinfo_layout"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="12dp"
+            android:layout_toRightOf="@+id/orderdetails_address_icon"
+            android:textColor="@color/font_color_666666"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/order_confirm_userinfo_postZip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/order_confirm_userinfo_address"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/orderdetails_address_icon"
+            android:textColor="@color/font_color_666666"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/order_confirm_userinfo_before"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/before_gray_icon" 
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@drawable/orderdetails_address_line_dotted" />
+
+</LinearLayout>

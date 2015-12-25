@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\anim\\push_buttom_in.xml",
+        "source": "E:\\DingDing\\res\\anim\\push_buttom_in.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_bottom.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.bigkoo\\pickerview\\2.0.5\\res\\anim\\slide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_bottom.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\DingDing\\Pulllibrary\\unspecified\\res\\anim\\slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_in.xml",
+        "source": "E:\\DingDing\\res\\anim\\push_bottom_in.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\anim\\loading_animation.xml",
+        "source": "E:\\DingDing\\res\\anim\\loading_animation.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_top.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\DingDing\\Pulllibrary\\unspecified\\res\\anim\\slide_out_to_top.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_bottom.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\DingDing\\Pulllibrary\\unspecified\\res\\anim\\slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_bottom.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.bigkoo\\pickerview\\2.0.5\\res\\anim\\slide_out_bottom.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\anim\\pullrefresh_herder_loading_progressbar_anim.xml",
+        "source": "E:\\DingDing\\res\\anim\\pullrefresh_herder_loading_progressbar_anim.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_out.xml",
+        "source": "E:\\DingDing\\res\\anim\\push_bottom_out.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_top.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\DingDing\\Pulllibrary\\unspecified\\res\\anim\\slide_in_from_top.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\anim\\push_right_out.xml",
+        "source": "E:\\DingDing\\res\\anim\\push_right_out.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\anim\\push_left_out.xml",
+        "source": "E:\\DingDing\\res\\anim\\push_left_out.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\anim\\push_buttom_out.xml",
+        "source": "E:\\DingDing\\res\\anim\\push_buttom_out.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\anim\\push_left_in.xml",
+        "source": "E:\\DingDing\\res\\anim\\push_left_in.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\anim\\progress_anim.xml",
+        "source": "E:\\DingDing\\res\\anim\\progress_anim.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\anim\\push_right_in.xml",
+        "source": "E:\\DingDing\\res\\anim\\push_right_in.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    }
+]

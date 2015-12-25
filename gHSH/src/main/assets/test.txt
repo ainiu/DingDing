@@ -1,0 +1,4 @@
+home首页；cart购物车；cate分类；member个人中心
+
+E:\Android\IASMaillShopDefault>ant -buildfile Build_init.xml -Dproperties=./path
+.properties

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_pressed="true">
+		<shape android:shape="rectangle">
+	        <!-- 填充的颜色 -->
+	        <solid android:color="@color/listview_bg_color" />
+	        <!-- 设置矩形的四个角为弧形 -->
+	        <!-- android:radius 弧形的半径 -->
+	        <stroke android:width="2dip" android:color="@color/listview_border_select_color"/>
+	    </shape>
+	</item>
+ 
+	<item android:state_focused="true">
+		<shape android:shape="rectangle">
+	        <!-- 填充的颜色 -->
+	        <solid android:color="@color/listview_bg_color" />
+	        <!-- 设置矩形的四个角为弧形 -->
+	        <!-- android:radius 弧形的半径 -->
+	        <stroke android:width="2dip" android:color="@color/listview_border_select_color"/>
+	    </shape>
+	</item>
+	<item>
+		<shape android:shape="rectangle">
+	        <!-- 填充的颜色 -->
+	        <solid android:color="@color/listview_bg_color" />
+	        <!-- 设置矩形的四个角为弧形 -->
+	        <!-- android:radius 弧形的半径 -->
+	        <stroke android:width="1dip" android:color="@color/listview_border_color"/>
+	    </shape>
+	</item>
+</selector>
+
+
+

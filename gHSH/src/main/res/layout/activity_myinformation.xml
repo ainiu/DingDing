@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/body_rectangle_while_border_bg"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <Button
+                        android:id="@+id/myinformation_head_button"
+                        style="@style/button_style_radius_before_border"
+                        android:layout_height="80dp"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/button_while_rectangle_bg"
+                        android:text="@string/myInformation_head" />
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="right|center_vertical"
+                        android:layout_marginRight="25dp"
+                        android:src="@drawable/personal_avatar_bg" />
+
+                    <ImageView
+                        android:id="@+id/myinformation_head_image"
+                        android:layout_width="68dp"
+                        android:layout_height="68dp"
+                        android:layout_gravity="right|center_vertical"
+                        android:layout_marginRight="26dp"
+                        android:src="@drawable/personal_no_active_user_icon" />
+                </FrameLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/border_color" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/textView_style_comment"
+                        android:text="@string/myInformation_username" />
+
+                    <TextView
+                        android:id="@+id/myinformation_username"
+                        style="@style/textView_style_comment"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="right|center_vertical" />
+                </FrameLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/border_color" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <Button
+                        android:id="@+id/myinformation_realName_button"
+                        style="@style/button_style_rectangle_before"
+                        android:text="@string/myInformation_realName" />
+
+                    <TextView
+                        android:id="@+id/myinformation_realName"
+                        style="@style/textView_style_comment"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="right|center_vertical" />
+                </FrameLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/border_color" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <Button
+                        android:id="@+id/myinformation_birthday_button"
+                        style="@style/button_style_rectangle_before"
+                        android:text="@string/myInformation_birthday" />
+
+                    <TextView
+                        android:id="@+id/myinformation_birthday"
+                        style="@style/textView_style_comment"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="right|center_vertical" />
+                </FrameLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/border_color" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <Button
+                        android:id="@+id/myinformation_mobile_button"
+                        style="@style/button_style_rectangle_before"
+                        android:text="@string/myInformation_mobile" />
+
+                    <TextView
+                        android:id="@+id/myinformation_mobile"
+                        style="@style/textView_style_comment"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="right|center_vertical" />
+                </FrameLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/border_color" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/textView_style_comment"
+                        android:text="@string/myInformation_email" />
+
+                    <TextView
+                        android:id="@+id/myinformation_email"
+                        style="@style/textView_style_comment"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="right|center_vertical" />
+                </FrameLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/border_color" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/textView_style_comment"
+                        android:text="@string/myInformation_regtime" />
+
+                    <TextView
+                        android:id="@+id/myinformation_regtime"
+                        style="@style/textView_style_comment"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="right|center_vertical" />
+                </FrameLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/border_color" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/textView_style_comment"
+                        android:text="@string/myInformation_lasttime" />
+
+                    <TextView
+                        android:id="@+id/myinformation_lasttime"
+                        style="@style/textView_style_comment"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="right|center_vertical" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/myInformation_modify_pwd"
+                style="@style/button_style_rectangle_before_border"
+                android:layout_marginTop="10dp"
+                android:text="@string/myInformation_modify_pwd" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="7dp"
+    android:layout_marginBottom="17dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:textColor="@color/fenlei_btn_color"
+    android:background="@drawable/tv_select"
+    android:text="123"
+    >
+
+    <!--<RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radiobuton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/tv_select"
+            android:textColor="@color/fenlei_btn_color"
+            android:text="123"
+            />
+    </RadioGroup>-->
+
+</TextView >

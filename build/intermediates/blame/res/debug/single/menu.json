@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\menu\\xin_zeng.xml",
+        "source": "E:\\DingDing\\res\\menu\\xin_zeng.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\menu\\zhao_hui.xml",
+        "source": "E:\\DingDing\\res\\menu\\zhao_hui.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\menu\\payment.xml",
+        "source": "E:\\DingDing\\res\\menu\\payment.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "E:\\DingDing\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\menu\\lian_xi.xml",
+        "source": "E:\\DingDing\\res\\menu\\lian_xi.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\menu\\que_ren.xml",
+        "source": "E:\\DingDing\\res\\menu\\que_ren.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\menu\\regis.xml",
+        "source": "E:\\DingDing\\res\\menu\\regis.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\menu\\rest_passe.xml",
+        "source": "E:\\DingDing\\res\\menu\\rest_passe.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\menu\\sou.xml",
+        "source": "E:\\DingDing\\res\\menu\\sou.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\menu\\order_details.xml",
+        "source": "E:\\DingDing\\res\\menu\\order_details.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\menu\\xian_shi.xml",
+        "source": "E:\\DingDing\\res\\menu\\xian_shi.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\menu\\my_collection.xml",
+        "source": "E:\\DingDing\\res\\menu\\my_collection.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\menu\\change.xml",
+        "source": "E:\\DingDing\\res\\menu\\change.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\menu\\view_logistics.xml",
+        "source": "E:\\DingDing\\res\\menu\\view_logistics.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\menu\\persinal_center.xml",
+        "source": "E:\\DingDing\\res\\menu\\persinal_center.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\menu\\chan_pin_mu.xml",
+        "source": "E:\\DingDing\\res\\menu\\chan_pin_mu.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\menu\\shou_huo_adress.xml",
+        "source": "E:\\DingDing\\res\\menu\\shou_huo_adress.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\menu\\gong_gao.xml",
+        "source": "E:\\DingDing\\res\\menu\\gong_gao.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\menu\\personal_profile.xml",
+        "source": "E:\\DingDing\\res\\menu\\personal_profile.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\menu\\chan_pin.xml",
+        "source": "E:\\DingDing\\res\\menu\\chan_pin.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\menu\\fen_lei.xml",
+        "source": "E:\\DingDing\\res\\menu\\fen_lei.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\menu\\skin.xml",
+        "source": "E:\\DingDing\\res\\menu\\skin.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\menu\\gang_gao.xml",
+        "source": "E:\\DingDing\\res\\menu\\gang_gao.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\menu\\shou_huo.xml",
+        "source": "E:\\DingDing\\res\\menu\\shou_huo.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\menu\\shopping.xml",
+        "source": "E:\\DingDing\\res\\menu\\shopping.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\menu\\security_settings.xml",
+        "source": "E:\\DingDing\\res\\menu\\security_settings.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\menu\\chong_zhi.xml",
+        "source": "E:\\DingDing\\res\\menu\\chong_zhi.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\menu\\my_order.xml",
+        "source": "E:\\DingDing\\res\\menu\\my_order.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\menu\\sousuo.xml",
+        "source": "E:\\DingDing\\res\\menu\\sousuo.xml"
+    }
+]

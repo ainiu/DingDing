@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShouHuoActivity">
+
+    <RelativeLayout
+        android:id="@+id/shouhuo_relativeLayout_01"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:background="#1FA9EB">
+
+        <TextView
+            android:id="@+id/shouhui_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="收货地址"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+
+        <ImageView
+            android:id="@+id/shouhuo_image_01"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:onClick="doClick"
+            android:src="@drawable/ding_110" />
+
+        <Button
+            android:id="@+id/shouhuo_add"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13dp"
+            android:background="@null"
+            android:text="添加"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/shouhuo_listView_01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#00000000"
+        android:layout_below="@+id/shouhuo_relativeLayout_01" />
+
+
+</RelativeLayout>

@@ -1,0 +1,191 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ZhaoHuiActivity" >
+    
+    <RelativeLayout 
+        android:id="@+id/zhaohui_relativeLayout_01"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="#000000"
+        >
+        <TextView 
+            android:id="@+id/zhaohui_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="找回密码"
+            android:textSize="21sp"
+            android:textColor="#FFFFFF"
+            />
+        
+        <ImageView 
+            android:id="@+id/zhaohui_image_01"
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="12dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/picture_04"
+            />
+        
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/zhaohui_relativeLayout_02"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/zhaohui_relativeLayout_01"
+        android:background="#FEF7DB"
+        >
+        <TextView 
+            android:id="@+id/zhaohui_text_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:text="使用已注册的手机找回密码"
+            android:textSize="11sp"
+            android:textColor="#EC6E18"
+            />
+        
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/zhaohui_relativeLayout_03"
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/zhaohui_relativeLayout_02"
+        android:background="#F6F6F6"
+        ></RelativeLayout>
+    
+    <ImageView 
+        android:id="@+id/zhaohui_image_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/zhaohui_relativeLayout_03"
+        android:src="@mipmap/picture_90"
+        />
+    
+    <RelativeLayout 
+        android:id="@+id/zhaohui_relativeLayout_04"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/zhaohui_image_02"
+        >
+        
+        <EditText 
+            android:id="@+id/zhaohui_edit_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="18dp"
+            android:background="@null"
+            android:layout_centerVertical="true"
+            android:textSize="12sp"
+            android:textColor="#A0A0A0"
+            android:hint="输入您的手机号"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="120dp"
+            />
+
+        <Button
+            android:id="@+id/zhaohui_button_01"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@mipmap/picture_123"
+            android:text="获取验证码"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+        
+    </RelativeLayout>
+    
+    <ImageView 
+        android:id="@+id/zhaohui_image_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/zhaohui_relativeLayout_04"
+        android:src="@mipmap/picture_90"
+        />
+  <RelativeLayout 
+      android:id="@+id/zhaohui_relativeLayout_05"
+      android:layout_width="wrap_content"
+      android:layout_height="40dp"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentRight="true"
+      android:layout_below="@+id/zhaohui_image_03"
+      >
+      
+      <EditText
+          android:id="@+id/zhaohui_edit_02"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_centerVertical="true"
+          android:layout_marginLeft="15dp"
+          android:background="@null"
+          android:hint="请输入验证码"
+          android:textColor="#A0A0A0"
+          android:layout_alignParentRight="true"
+          android:layout_marginRight="120dp"
+          android:textSize="12sp" />
+
+  </RelativeLayout>
+  
+   <ImageView 
+       android:id="@+id/zhaohui_image_04"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentRight="true"
+       android:layout_below="@+id/zhaohui_relativeLayout_05"
+       android:src="@mipmap/picture_90"
+       />
+   <RelativeLayout 
+       android:id="@+id/zhaohui_relativeLayout_06"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentRight="true"
+       android:layout_below="@+id/zhaohui_image_04"
+       android:layout_alignParentBottom="true" 
+       android:background="#F6F6F6"      
+       >
+       <Button 
+           android:id="@+id/zhaohui_button_02"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentRight="true"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="40dp"
+           android:background="@mipmap/picture_82"
+           android:text="确认提交"
+           android:textColor="#666666"
+           android:textSize="15sp"
+           />
+       
+   </RelativeLayout>
+    
+</RelativeLayout>

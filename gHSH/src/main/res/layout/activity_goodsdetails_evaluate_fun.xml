@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/body_rectangle_while_bg_color"
+    android:stretchColumns="*" >
+
+    <TableRow>
+
+        <RelativeLayout
+            android:id="@+id/goodsdetails_evaluate_fun_layout1"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp" >
+
+            <TextView
+                android:id="@+id/goodsdetails_evaluate_fun_text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="@string/goods_details_evaluate_text_fun1"
+                android:textColor="@color/font_color_333333"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/goodsdetails_evaluate_fun_number1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/goodsdetails_evaluate_fun_text1"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="(0)"
+                android:textColor="@color/font_color_999999"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:background="@color/border_color" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/goodsdetails_evaluate_fun_layout2"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp" >
+
+            <TextView
+                android:id="@+id/goodsdetails_evaluate_fun_text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="@string/goods_details_evaluate_text_fun2"
+                android:textColor="@color/font_color_333333"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/goodsdetails_evaluate_fun_number2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/goodsdetails_evaluate_fun_text2"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="(0)"
+                android:textColor="@color/font_color_999999"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:background="@color/border_color" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/goodsdetails_evaluate_fun_layout3"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp" >
+
+            <TextView
+                android:id="@+id/goodsdetails_evaluate_fun_text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="@string/goods_details_evaluate_text_fun3"
+                android:textColor="@color/font_color_333333"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/goodsdetails_evaluate_fun_number3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/goodsdetails_evaluate_fun_text3"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="(0)"
+                android:textColor="@color/font_color_999999"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:background="@color/border_color" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/goodsdetails_evaluate_fun_layout4"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp" >
+
+            <TextView
+                android:id="@+id/goodsdetails_evaluate_fun_text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="@string/goods_details_evaluate_text_fun4"
+                android:textColor="@color/font_color_333333"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/goodsdetails_evaluate_fun_number4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/goodsdetails_evaluate_fun_text4"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="(0)"
+                android:textColor="@color/font_color_999999"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </TableRow>
+
+</TableLayout>

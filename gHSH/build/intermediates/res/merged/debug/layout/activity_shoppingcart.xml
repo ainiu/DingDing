@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/header" />
+
+    <LinearLayout
+        android:id="@+id/content_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/bg_yellow"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <TextView
+                android:id="@+id/shoppingcart_total_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="@color/font_color_yellow"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/shoppingcart_clear_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/clear"
+                android:textColor="@color/font_color_yellow"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/shoppingcart_listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@drawable/line_dotted"
+            android:dividerHeight="1dp"
+            android:paddingBottom="65dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="-65dp"
+            android:background="@color/white" >
+
+            <CheckBox
+                android:id="@+id/shoppingcart_checkBox"
+                style="@style/checkBox_style"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:checked="true" />
+
+            <TextView
+                android:id="@+id/shoppingcart_checkBox_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/shoppingcart_checkBox"
+                android:text="@string/selectAll"
+                android:textColor="@color/font_color_333333"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/shoppingcart_total_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/shoppingcart_checkBox"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/shoppingcart_total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+                    android:layout_weight="1"
+                    android:textColor="@color/goods_price_color"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:text="@string/shoppingcart_text_goods_total"
+                        android:textColor="@color/font_color_999999"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/shoppingcart_goods_total"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:textColor="@color/font_color_999999"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/shoppingcart_ok_button"
+                style="@style/button_style_fun_border"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_red_bg"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="@string/shoppingcart_button_accounts" />
+
+            <Button
+                android:id="@+id/shoppingcart_delete_button"
+                style="@style/button_style_fun_border"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_while_radius_red_border_bg"
+                android:drawableLeft="@drawable/shoppingcart_delete_icon"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="@string/delete"
+                android:textColor="@color/goods_price_color"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

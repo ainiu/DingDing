@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\DingDing\\expandableListTest\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ck_unchecked.png",
+        "source": "E:\\DingDing\\expandableListTest\\src\\main\\res\\drawable-mdpi\\ck_unchecked.png"
+    },
+    {
+        "merged": "E:\\DingDing\\expandableListTest\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\li_bg2.png",
+        "source": "E:\\DingDing\\expandableListTest\\src\\main\\res\\drawable-mdpi\\li_bg2.png"
+    },
+    {
+        "merged": "E:\\DingDing\\expandableListTest\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "E:\\DingDing\\expandableListTest\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\DingDing\\expandableListTest\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ck_partial_checked.png",
+        "source": "E:\\DingDing\\expandableListTest\\src\\main\\res\\drawable-mdpi\\ck_partial_checked.png"
+    },
+    {
+        "merged": "E:\\DingDing\\expandableListTest\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ck_checked.png",
+        "source": "E:\\DingDing\\expandableListTest\\src\\main\\res\\drawable-mdpi\\ck_checked.png"
+    }
+]

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="AMap_3DMap_V2.4.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/gHSH/libs/AMap_3DMap_V2.4.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

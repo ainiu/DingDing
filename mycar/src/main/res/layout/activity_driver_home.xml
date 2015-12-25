@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverHomeActivity" >
+
+    <RelativeLayout
+        android:id="@+id/driver_relativeLayout_01"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" 
+        android:layout_alignParentRight="true"
+        android:background="#000000">
+
+        <TextView
+            android:id="@+id/home_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="首页" 
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+
+        <ImageView
+            android:id="@+id/home_image_01"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:src="@mipmap/picture_32" />
+
+        <ImageView
+            android:id="@+id/home_image_02"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:src="@mipmap/picture_31" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/driver_list_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/driver_relativeLayout_01" >
+    </ListView>
+
+</RelativeLayout>

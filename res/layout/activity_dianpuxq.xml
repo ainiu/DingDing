@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/zhaohui_relativeLayout_01"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="#1fa9eb">
+
+        <ImageView
+            android:id="@+id/xianshi_image_fanhui"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="11dp"
+            android:layout_centerVertical="true"
+            android:onClick="doClick"
+            android:src="@drawable/ding_110" />
+
+        <TextView
+            android:id="@+id/zhaohui_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_centerInParent="true"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/xianshi_qiehuan"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="17dp"
+            android:background="@drawable/xianshi_tab"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+             />
+    </RelativeLayout>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/dianpu_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/zhaohui_relativeLayout_01"
+        />
+
+    <com.handmark.pulltorefresh.library.PullToRefreshGridView
+        android:id="@+id/dianpu_gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/zhaohui_relativeLayout_01"
+        android:numColumns="2"
+        android:background="@color/haiwai_button__true_color"
+        android:horizontalSpacing="10dp"
+        />
+
+</RelativeLayout>

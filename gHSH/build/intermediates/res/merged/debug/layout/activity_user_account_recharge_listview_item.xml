@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/listview_item_bg"
+        android:padding="15dp" >
+
+        <TextView
+            android:id="@+id/paymentway_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/font_color_666666"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/paymentway_item_checkBox"
+            style="@style/checkBox_style"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:focusable="false" />
+    </RelativeLayout>
+
+</LinearLayout>

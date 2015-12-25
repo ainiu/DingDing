@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+
+        <RelativeLayout
+        android:id="@+id/relativeLayout_01"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#1FA9EB" >
+
+        <ImageView
+            android:id="@+id/image_01"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:onClick="doClick"
+            android:src="@drawable/ding_110" />
+
+        <TextView
+            android:id="@+id/text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="登录"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+    </RelativeLayout>
+
+        <ScrollView
+            android:id="@+id/login_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/lin1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText_01"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/gouwu_zhong"
+            android:ems="10"
+            android:hint="请输入手机号码或邮箱"
+            android:textColor="#999999"
+            android:textSize="12sp" >
+            <requestFocus />
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/editText_02"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="15dp"
+            android:ems="10"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+            android:background="@drawable/gouwu_zhong"
+            android:textColor="#999999"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/main_button_01"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/ding_89"
+            android:text="登  录"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp" />
+        <RelativeLayout
+            android:id="@+id/Lin4"
+            android:layout_width="match_parent"
+            android:layout_margin="15dp"
+            android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/main_button_02"
+            android:layout_width="40dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@null"
+            android:onClick="doClick"
+            android:text="注册账号"
+            android:textColor="#1FA9EB"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/main_button_03"
+            android:layout_width="50dp"
+            android:layout_height="15dp"
+            android:background="@null"
+            android:onClick="doClick"
+            android:text="忘记密码?"
+            android:textColor="#999999"
+            android:layout_alignParentRight="true"
+            android:textSize="10sp" />
+        </RelativeLayout>
+        </LinearLayout>
+        </ScrollView>
+</LinearLayout>

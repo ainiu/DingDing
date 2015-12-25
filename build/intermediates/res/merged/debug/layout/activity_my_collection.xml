@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/haiwai_button__true_color"
+    tools:context=".MyCollectionActivity">
+
+    <RelativeLayout
+        android:id="@+id/mycollection_relativeLayout_01"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#1FA9EB">
+
+        <TextView
+            android:id="@+id/mycollection_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="我的收藏"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+
+        <ImageView
+            android:id="@+id/mycollection_image_01"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:onClick="doClick"
+            android:layout_marginLeft="13dp"
+            android:src="@drawable/ding_110" />
+
+        <Button
+            android:id="@+id/mycollection_button_01"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13dp"
+            android:background="@drawable/ding_142" />
+    </RelativeLayout>
+
+
+    <GridView
+        android:id="@+id/mycollection_girdView_01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="@color/haiwai_text_color_hai"
+        android:layout_below="@+id/mycollection_relativeLayout_01"
+        android:numColumns="2"/>
+
+</RelativeLayout>

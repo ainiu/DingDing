@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listview_item_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/collect_item_image_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp" >
+
+        <ImageView
+            android:id="@+id/collect_item_image"
+            style="@style/imageview_style_comment"
+            android:layout_height="@dimen/goods_image_gridview_height"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/default_image" />
+
+        <Button
+            android:id="@+id/collect_item_delete_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:background="@drawable/mycollect_close_icon"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/collect_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:lines="1"
+        android:padding="5dp"
+        android:textColor="@color/font_color_666666"
+        android:textSize="14sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/collect_item_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:textColor="@color/goods_price_color"
+            android:textSize="16sp" />
+      
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="querenjiesuan_genghuandizhi"><u>更换地址</u></string>
+    <string name="app_name">叮叮</string>
+    <string name="sou_list_01">海外</string>
+    <string name="action_settings">settings</string>
+    <string name="sou_list_02">分类</string>
+    <!-- dialog数据-->
+    <string name="sou_list_03">首页</string>
+    <string name="dialog_jiazai">加载中...</string>
+    <!-- 购物车界面-->
+    <string name="sou_list_04">购物车</string>
+    <string name="shopingcar_dialog_cancel">取消</string>
+    <string name="shopingcar_wangcheng_shouchang">请选择你要收藏的商品</string>
+    <string name="shopingcar_wangcheng_deleteshoping">请选择要删除的商品</string>
+    <string name="shoping_dialog_confirm">确定</string>
+    <string name="shoping_listview_item_bianji">编辑</string>
+    <string name="shoping_listview_item_wanchegn">完成</string>
+    <string name="shoppingcart_alter_delete_more">是否要删除当前选中商品？</string>
+    <string name="shoppingcart_text_order_total">合计:</string>
+    <string name="shoppingcart_text_goods_total">商品金额:</string>
+    <string name="shoppingcart_text_empty">购物车还没有商品，赶紧去逛逛吧！</string>
+    <string name="shoppingcart_text_top_number">您购物车中一共有%1$s件商品</string>
+    <string name="shoppingcart_tip_cart_empty">请先选择购买商品</string>
+    <string name="shoppingcart_button_accounts">结算</string>
+    <string name="shoppingcart_maijia">卖家:</string>
+    <string name="shoppingcart_count">X</string>
+    <string name="shoppingcart_renmingbin">¥</string>
+    <!--个人中心-->
+    <string name="sou_list_05">个人中心</string>
+    <string name="my_order_quan">全部</string>
+    <string name="my_order_dai">待付款</string>
+    <string name="my_order_fa">待发货</string>
+    <string name="my_order_shou">待收货</string>
+    <string name="my_order_wan">已完成</string>
+    <string name="geren_shouhuoren">收货人</string>
+    <string name="geren_shouhuodizhi">收货地址</string>
+    <string name="geren_phone">联系电话</string>
+    <string name="geren_youbian">邮编</string>
+    <string name="fenlei_shangpingfenlei">商品分类</string>
+    <string name="fenlei_dianpuliebiao">店铺列表</string>
+    <string name="fenlei_remen">热门分类</string>
+    <string name="haiwai_dianputuijian_huodongjia">活动价</string>
+    <string name="app_exit">退出</string>
+    <!--地址选择-->
+    <string name="dizhixuanzhe">请选择地址</string>
+    <string name="address_delete_tishi">确认删除地址</string>
+    <string name="pullrefresh_header_pull_to_refresh">下拉刷新</string>
+    <string name="pullrefresh_header_refresh">正在更新...</string>
+    <string name="pullrefresh_footer_pull_to_refresh">上拉刷新</string>
+    <string name="pullrefresh_footer_refresh">正在加载...</string>
+    <string name="pullrefresh_release_to_refresh">释放立即更新</string>
+    <string name="pullrefresh_refresh_success">加载成功</string>
+    <string name="pullrefresh_refresh_faile">加载失败</string>
+    <string name="pullrefresh_refresh_not_more">没有更多数据</string>
+</resources>

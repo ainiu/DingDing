@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/haiwai_button__true_color"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="175dp"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/sou_girdView_list_view_image_01"
+                android:layout_width="171dp"
+                android:layout_height="183dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ding_128" />
+
+            <TextView
+                android:id="@+id/sou_girdView_list_view_text_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="#666666"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:id="@+id/sou_girdView_list_view_text_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:textColor="#333333"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/delete_markView"
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:clickable="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="right"
+            android:src="@drawable/delete" />
+    </FrameLayout>
+</LinearLayout>

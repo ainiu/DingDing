@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.baidu.dingding"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 智支付权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 新增 -->
+    <uses-permission android:name="org.simalliance.openmobileapi.SMARTCARD" />
+    <uses-permission android:name="android.permission.NFC" />
+
+    <uses-feature android:name="android.hardware.nfc.hce" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <application
+        android:name="com.baidu.dingding.TApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/dingding"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        <activity
+            android:name="com.baidu.dingding.activity.BaseActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.baidu.dingding.view.RegisActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.baidu.dingding.view.SousuoActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.baidu.dingding.MainActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity android:name="com.baidu.dingding.view.SecuritySettingsActivity" />
+        <activity android:name="com.baidu.dingding.view.ChangeActivity" />
+        <activity android:name="com.baidu.dingding.view.XinZengActivity" />
+        <activity android:name="com.baidu.dingding.view.ZhaoHuiActivity" />
+        <activity android:name="com.baidu.dingding.view.ChongZhiActivity" />
+        <activity android:name="com.baidu.dingding.view.ChanPinActivity" />
+        <activity android:name="com.baidu.dingding.view.ChanPinMuActivity" />
+        <activity android:name="com.baidu.dingding.view.LianXiActivity" />
+        <activity android:name="com.baidu.dingding.view.ShouHuoActivity" />
+        <activity android:name="com.baidu.dingding.view.ShouHuoAdressActivity" />
+        <activity android:name="com.baidu.dingding.view.PersonalProfileActivity" />
+        <activity android:name="com.baidu.dingding.view.MyOrderActivity" />
+        <activity android:name="com.baidu.dingding.view.MyCollectionActivity" />
+        <activity android:name="com.baidu.dingding.view.SkinActivity" />
+        <activity android:name="com.baidu.dingding.view.ShopinghelpActivity" />
+        <activity android:name="com.baidu.dingding.view.QueRenActivity" />
+        <activity android:name="com.baidu.dingding.view.PaymentActivity" />
+        <activity android:name="com.baidu.dingding.view.OrderDetailsActivity" />
+        <activity android:name="com.baidu.dingding.view.ViewLogisticsActivity" />
+        <activity android:name="com.baidu.dingding.view.GongGaoActivity" />
+        <activity android:name="com.baidu.dingding.view.XianShiActivity" />
+        <activity android:name="com.baidu.dingding.activity.DianpuXQActivity" />
+        <activity android:name="com.baidu.dingding.view.ShangpingtwoActivity" />
+        <activity android:name="com.baidu.dingding.view.ShangpingThreeActivity" />
+        <activity android:name="com.baidu.dingding.fragment.ShopingXQ" />
+        <!-- 支付界面 -->
+        <activity android:name="com.baidu.dingding.zhifu.activity.ZhifuActivity" />
+        <activity android:name="com.baidu.dingding.zhifu.activity.MerchantPayResultActivity" />
+        <activity
+            android:name="com.baidu.dingding.activity.UploadImageActivity"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="com.baidu.dingding.fragment.MainFragent"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/MyTabPageIndicatorTheme" >
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 智付银联支付activity -->
+        <activity
+            android:name="com.dinpay.plugin.activity.DinpayChannelActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.unionpay.uppay.PayActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!--
+            <activity
+            android:name="com.unionpay.uppay.PayActivityEx"
+            android:configChanges="orientation|keyboardHidden"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"></activity>
+        -->
+        <activity
+            android:name="com.dinpay.plugin.activity.OrderMessageActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dinpay.plugin.activity.BindMobileActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dinpay.plugin.activity.DinpayPayActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dinpay.plugin.activity.BankCardListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dinpay.plugin.activity.PayResultActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dinpay.plugin.activity.AgreeMentActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dinpay.plugin.activity.DinpayBaseActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dinpay.plugin.activity.BaseActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="android.support.v7.widget.TestActivity"
+            android:label="RecyclerViewTestActivity" />
+    </application>
+
+</manifest>

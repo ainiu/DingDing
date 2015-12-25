@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="dinpayPlugin">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/dinpayPlugin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

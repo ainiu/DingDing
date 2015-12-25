@@ -1,0 +1,184 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecuritySettingsActivity" >
+
+    <RelativeLayout
+        android:id="@+id/setting_relativeLayout_01"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#1FA9EB" >
+
+        <TextView
+            android:id="@+id/setting_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="安全设置"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+
+        <ImageView
+            android:id="@+id/setting_image_01"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:src="@drawable/ding_110" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/setting_relativeLayout_02"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/setting_relativeLayout_01" >
+        
+        <TextView 
+            android:id="@+id/setting_text_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:text="密保问题"
+            android:textColor="#666666"
+            android:textSize="14sp"
+            />
+
+        <EditText
+            android:id="@+id/setting_edit_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@+id/setting_text_02"
+            android:layout_marginLeft="20dp"
+            android:background="@null"
+            android:ems="10"
+            android:hint="请输入密保问题"
+            android:textColor="#CCCCCC"
+            android:textSize="13sp" >
+        </EditText>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/setting_image_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/setting_relativeLayout_02"
+        android:src="@drawable/ding_18" />
+
+    <RelativeLayout
+        android:id="@+id/setting_relativeLayout_03"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/setting_image_02" >
+        <TextView 
+            android:id="@+id/setting_text_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:text="密保答案"
+            android:textColor="#666666"
+            android:textSize="14sp"
+            />
+        <EditText
+            android:id="@+id/setting_edit_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@+id/setting_text_03"
+            android:layout_marginLeft="20dp"
+            android:background="@null"
+            android:ems="10"
+            android:hint="请输入密保答案"
+            android:textColor="#CCCCCC"
+            android:textSize="13sp" >
+        </EditText>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/setting_image_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/setting_relativeLayout_03"
+        android:src="@drawable/ding_18" />
+    
+    <RelativeLayout
+        android:id="@+id/setting_relativeLayout_04"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/setting_image_03" >
+        <TextView 
+            android:id="@+id/setting_text_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:text="保密邮箱"
+            android:textColor="#666666"
+            android:textSize="14sp"
+            />
+        <EditText
+            android:id="@+id/setting_edit_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@+id/setting_text_04"
+            android:layout_marginLeft="20dp"
+            android:background="@null"
+            android:ems="10"
+            android:hint="请输入保密邮箱"
+            android:textColor="#CCCCCC"
+            android:textSize="13sp" >
+        </EditText>
+    </RelativeLayout>
+    
+    <ImageView
+        android:id="@+id/setting_image_04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/setting_relativeLayout_04"
+        android:src="@drawable/ding_18" />
+
+    <Button
+        android:id="@+id/setting_button_01"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/setting_image_04"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ding_89"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:text="确  定" />
+
+</RelativeLayout>

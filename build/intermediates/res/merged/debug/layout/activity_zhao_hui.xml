@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ZhaoHuiActivity" >
+
+    <RelativeLayout
+        android:id="@+id/zhaohui_relativeLayout_01"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#1FA9EB" >
+
+        <TextView
+            android:id="@+id/zhaohui_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="找回密码"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+
+        <ImageView
+            android:id="@+id/zhaohui_image_01"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:onClick="doClick"
+            android:src="@drawable/ding_110" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/zhaohui_image_02"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/zhaohui_relativeLayout_01"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ding_120" />
+
+    <EditText
+        android:id="@+id/zhaohui_edit_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/zhaohui_image_02"
+        android:layout_alignLeft="@+id/zhaohui_image_02"
+        android:layout_alignRight="@+id/zhaohui_image_02"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="请输入您注册用的手机号码或邮箱"
+        android:textColor="#999999"
+        android:textSize="11sp" >
+    </EditText>
+
+    <Button
+        android:id="@+id/zhaohui_button_01"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_alignLeft="@+id/zhaohui_image_02"
+        android:layout_alignRight="@+id/zhaohui_image_02"
+        android:layout_below="@+id/zhaohui_image_02"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/btn_yuanjiao_lan"
+        android:onClick="doClick"
+        android:text="重置密码"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+</RelativeLayout>

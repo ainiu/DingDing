@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\DingDing\\expandableListTest\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\DingDing\\expandableListTest\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\expandableListTest\\build\\intermediates\\res\\merged\\debug\\layout\\children_item.xml",
+        "source": "E:\\DingDing\\expandableListTest\\src\\main\\res\\layout\\children_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\expandableListTest\\build\\intermediates\\res\\merged\\debug\\layout\\group_item.xml",
+        "source": "E:\\DingDing\\expandableListTest\\src\\main\\res\\layout\\group_item.xml"
+    }
+]

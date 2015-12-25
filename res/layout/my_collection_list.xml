@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/mycollection_list_image_01"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ding_157" />
+
+    <TextView
+        android:id="@+id/mycollection_list_text_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mycollection_list_image_01"
+        android:layout_alignRight="@+id/mycollection_list_image_01"
+        android:layout_below="@+id/mycollection_list_image_01"
+        android:text="(ANNA SUI)许愿精香水50ml"
+        android:textColor="#666666"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/mycollection_list_text_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mycollection_list_text_01"
+        android:layout_alignRight="@+id/mycollection_list_text_01"
+        android:layout_below="@+id/mycollection_list_text_01"
+        android:text="2.9折/相信在内心深处的美梦...."
+        android:textColor="#999999"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/mycollection_list_text_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mycollection_list_text_02"
+        android:layout_below="@+id/mycollection_list_text_02"
+        android:layout_marginTop="3dp"
+        android:text="¥199.30"
+        android:textColor="#666666"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/mycollection_list_text_04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/mycollection_list_text_03"
+        android:layout_alignBottom="@+id/mycollection_list_text_03"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/mycollection_list_text_03"
+        android:text="¥299"
+        android:textColor="#999999"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/mycollection_list_text_05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/mycollection_list_text_02"
+        android:layout_alignTop="@+id/mycollection_list_text_03"
+        android:text="06:23:02"
+        android:textColor="#1FA9EB"
+        android:textSize="9sp" />
+
+    <ImageView
+        android:id="@+id/mycollection_list_image_02"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignTop="@+id/mycollection_list_text_05"
+        android:layout_marginRight="4dp"
+        android:layout_toLeftOf="@+id/mycollection_list_text_05"
+        android:src="@drawable/wang_37" />
+
+</RelativeLayout>

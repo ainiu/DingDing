@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/haiwai_fragment_list_image_01"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ding_125" />
+
+    <TextView
+        android:id="@+id/haiwai_fragment_list_text_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="7dp"
+        android:singleLine="true"
+        android:layout_marginTop="12dp"
+        android:layout_toRightOf="@+id/haiwai_fragment_list_image_01"
+        android:text="雅诗兰黛肌透眼部精华霜11ml,深透眼部肌肤,一瓶修护!"
+        android:textColor="#666666"
+        android:textSize="12sp" />
+
+
+
+    <TextView
+        android:id="@+id/haiwai_fragment_list_text_04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/haiwai_fragment_list_text_01"
+        android:layout_marginLeft="7dp"
+        android:layout_toRightOf="@+id/haiwai_fragment_list_image_01"
+        android:layout_marginTop="7dp"
+        android:text="¥178.0"
+        android:textColor="#333333"
+        android:textSize="14sp" />
+
+
+
+</RelativeLayout>

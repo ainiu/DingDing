@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg_color"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        layout="@layout/header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/mysendinfo_consignee"
+                style="@style/edittext_style_radius_border"
+                android:hint="@string/mySendinfo_add_hint_consignee" 
+                android:inputType="none"/>
+
+            <EditText
+                android:id="@+id/mysendinfo_mobile"
+                style="@style/edittext_style_radius_border"
+                android:layout_marginTop="5dp"
+                android:maxLength="11"
+                android:hint="@string/mySendinfo_add_hint_mobile" 
+                android:inputType="numberSigned"/>
+
+            <EditText
+                android:id="@+id/mysendinfo_postCode"
+                style="@style/edittext_style_radius_border"
+                android:layout_marginTop="5dp"
+                android:maxLength="6"
+                android:inputType="numberSigned"
+                android:hint="@string/mySendinfo_add_hint_postCode" />
+
+            <EditText
+                android:id="@+id/mysendinfo_city"
+                style="@style/edittext_style_radius_before_border"
+                android:layout_marginTop="5dp"
+                android:hint="@string/mySendinfo_add_hint_city" 
+                />
+
+            <EditText
+                android:id="@+id/mysendinfo_address"
+                style="@style/edittext_style_radius_border"
+                android:layout_marginTop="5dp"
+                android:hint="@string/mySendinfo_add_hint_address" 
+                android:inputType="none"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

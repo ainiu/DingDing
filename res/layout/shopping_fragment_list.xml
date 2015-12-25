@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/shopping_fragment_list_relativeLayout_01"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <CheckBox
+            android:id="@+id/shopping_fragment_list_checkBox_01"
+            style="@style/CustomCheckboxShopping"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp" />
+
+        <ImageView
+            android:id="@+id/shopping_fragment_list_image_01"
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/shopping_fragment_list_checkBox_01"
+            android:src="@drawable/ding_01" />
+
+        <TextView
+            android:id="@+id/shopping_fragment_list_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/shopping_fragment_list_checkBox_01"
+            android:layout_alignBottom="@+id/shopping_fragment_list_checkBox_01"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/shopping_fragment_list_image_01"
+            android:text="布心街道"
+            android:textColor="#666666"
+            android:textSize="11sp" />
+
+        <ImageView
+            android:id="@+id/shopping_fragment_list_image_02"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="40dp"
+            android:src="@drawable/ding_04" />
+
+        <Button
+            android:id="@+id/shopping_fragment_list_button_01"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@null"
+            android:text="编辑"
+            android:textColor="#666666"
+            android:textSize="11sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/shopping_fragment_list_image_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/shopping_fragment_list_relativeLayout_01"
+        android:src="@drawable/ding_02" />
+
+    <RelativeLayout
+        android:id="@+id/shopping_fragment_list_relativeLayout_02"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/shopping_fragment_list_image_03" >
+
+        <CheckBox
+            android:id="@+id/shopping_fragment_list_checkBox_02"
+            style="@style/CustomCheckboxShopping"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp" />
+
+        <ImageView
+            android:id="@+id/shopping_fragment_list_image_04"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/shopping_fragment_list_checkBox_02"
+            android:src="@drawable/ding_165" />
+
+        <TextView
+            android:id="@+id/shopping_fragment_list_text_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/shopping_fragment_list_image_04"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/shopping_fragment_list_image_04"
+            android:text="【香港直邮】极致奢华的香水！莫杰(Marcfcobs)小皱菊紧致面部去皱纹无刺激..."
+            android:textColor="#333333"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/shopping_fragment_list_text_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/shopping_fragment_list_text_02"
+            android:layout_alignTop="@+id/shopping_fragment_list_checkBox_02"
+            android:layout_marginTop="3dp"
+            android:text="颜色分类 : "
+            android:textColor="#999999"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/shopping_fragment_list_text_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/shopping_fragment_list_text_03"
+            android:layout_toRightOf="@+id/shopping_fragment_list_text_03"
+            android:text="黄色"
+            android:textColor="#999999"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/shopping_fragment_list_text_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/shopping_fragment_list_text_04"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/shopping_fragment_list_text_04"
+            android:text="尺寸 : "
+            android:textColor="#999999"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/shopping_fragment_list_text_06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/shopping_fragment_list_text_05"
+            android:layout_toRightOf="@+id/shopping_fragment_list_text_05"
+            android:text="500ML"
+            android:textColor="#999999"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/shopping_fragment_list_text_07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/shopping_fragment_list_text_03"
+            android:layout_below="@+id/shopping_fragment_list_text_03"
+            android:layout_marginTop="10dp"
+            android:text="¥199.20"
+            android:textColor="#333333"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/shopping_fragment_list_text_08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/shopping_fragment_list_text_02"
+            android:layout_alignTop="@+id/shopping_fragment_list_text_07"
+            android:text="X1"
+            android:textColor="#999999"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/shopping_fragment_list_image_05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/shopping_fragment_list_relativeLayout_02"
+        android:src="@drawable/ding_92" />
+
+    <RelativeLayout
+        android:id="@+id/shopping_fragment_list_relativeLayout_03"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/shopping_fragment_list_image_05"
+        android:background="#F6F6F6" >
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/shopping_fragment_list_image_06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/shopping_fragment_list_relativeLayout_03"
+        android:src="@drawable/ding_92" />
+
+</RelativeLayout>

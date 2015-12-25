@@ -1,0 +1,377 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\DingDing\AndroidManifest.xml:2:1-142:12
+	xmlns:android
+		ADDED from E:\DingDing\AndroidManifest.xml:2:11-69
+	package
+		ADDED from E:\DingDing\AndroidManifest.xml:3:5-33
+		INJECTED from E:\DingDing\AndroidManifest.xml
+		INJECTED from E:\DingDing\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\DingDing\AndroidManifest.xml
+		INJECTED from E:\DingDing\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\DingDing\AndroidManifest.xml
+		INJECTED from E:\DingDing\AndroidManifest.xml
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from E:\DingDing\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\DingDing\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.INTERNET
+ADDED from E:\DingDing\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\DingDing\AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:9:22-77
+uses-permission#android.permission.READ_CONTACTS
+ADDED from E:\DingDing\AndroidManifest.xml:10:5-72
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:10:22-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\DingDing\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from E:\DingDing\AndroidManifest.xml:13:5-66
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:13:22-63
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\DingDing\AndroidManifest.xml:14:5-84
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:14:22-81
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\DingDing\AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:16:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\DingDing\AndroidManifest.xml:17:5-75
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:17:22-72
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\DingDing\AndroidManifest.xml:18:5-76
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:18:22-73
+uses-permission#org.simalliance.openmobileapi.SMARTCARD
+ADDED from E:\DingDing\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:20:22-76
+uses-permission#android.permission.NFC
+ADDED from E:\DingDing\AndroidManifest.xml:21:5-62
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:21:22-59
+uses-feature#android.hardware.nfc.hce
+ADDED from E:\DingDing\AndroidManifest.xml:23:5-61
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:23:19-58
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from E:\DingDing\AndroidManifest.xml:25:5-71
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:25:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from E:\DingDing\AndroidManifest.xml:26:5-80
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:26:22-77
+application
+ADDED from E:\DingDing\AndroidManifest.xml:28:5-140:19
+MERGED from [com.android.support:support-v4:23.1.0] E:\DingDing\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:recyclerview-v7:21.0.3] E:\DingDing\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\AndroidManifest.xml:17:5-19:19
+MERGED from [com.android.support:support-v4:23.1.0] E:\DingDing\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:21.0.3] E:\DingDing\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.3\AndroidManifest.xml:16:5-19
+MERGED from [DingDing:Pulllibrary:unspecified] E:\DingDing\build\intermediates\exploded-aar\DingDing\Pulllibrary\unspecified\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-v4:23.1.0] E:\DingDing\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.zhy:flowlayout-lib:1.0.0] E:\DingDing\build\intermediates\exploded-aar\com.zhy\flowlayout-lib\1.0.0\AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:appcompat-v7:22.2.1] E:\DingDing\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] E:\DingDing\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.victor:lib:1.0.1] E:\DingDing\build\intermediates\exploded-aar\com.victor\lib\1.0.1\AndroidManifest.xml:11:5-14:19
+MERGED from [com.7heaven.ioswidget:iosswitch:0.5] E:\DingDing\build\intermediates\exploded-aar\com.7heaven.ioswidget\iosswitch\0.5\AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:appcompat-v7:22.2.1] E:\DingDing\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] E:\DingDing\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from E:\DingDing\AndroidManifest.xml:32:9-41
+	android:allowBackup
+		ADDED from E:\DingDing\AndroidManifest.xml:30:9-35
+	android:icon
+		ADDED from E:\DingDing\AndroidManifest.xml:31:9-42
+	android:theme
+		ADDED from E:\DingDing\AndroidManifest.xml:33:9-68
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:29:9-36
+activity#com.baidu.dingding.activity.BaseActivity
+ADDED from E:\DingDing\AndroidManifest.xml:35:9-37:15
+	android:configChanges
+		ADDED from E:\DingDing\AndroidManifest.xml:36:13-63
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:35:19-56
+activity#com.baidu.dingding.view.RegisActivity
+ADDED from E:\DingDing\AndroidManifest.xml:38:9-39:66
+	android:configChanges
+		ADDED from E:\DingDing\AndroidManifest.xml:39:13-63
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:38:19-71
+activity#com.baidu.dingding.view.SousuoActivity
+ADDED from E:\DingDing\AndroidManifest.xml:40:9-41:66
+	android:configChanges
+		ADDED from E:\DingDing\AndroidManifest.xml:41:13-63
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:40:19-72
+activity#com.baidu.dingding.MainActivity
+ADDED from E:\DingDing\AndroidManifest.xml:42:9-43:66
+	android:configChanges
+		ADDED from E:\DingDing\AndroidManifest.xml:43:13-63
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:42:19-65
+activity#com.baidu.dingding.view.SecuritySettingsActivity
+ADDED from E:\DingDing\AndroidManifest.xml:44:9-85
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:44:19-82
+activity#com.baidu.dingding.view.ChangeActivity
+ADDED from E:\DingDing\AndroidManifest.xml:45:9-75
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:45:19-72
+activity#com.baidu.dingding.view.XinZengActivity
+ADDED from E:\DingDing\AndroidManifest.xml:46:9-76
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:46:19-73
+activity#com.baidu.dingding.view.ZhaoHuiActivity
+ADDED from E:\DingDing\AndroidManifest.xml:47:9-76
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:47:19-73
+activity#com.baidu.dingding.view.ChongZhiActivity
+ADDED from E:\DingDing\AndroidManifest.xml:48:9-77
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:48:19-74
+activity#com.baidu.dingding.view.ChanPinActivity
+ADDED from E:\DingDing\AndroidManifest.xml:49:9-76
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:49:19-73
+activity#com.baidu.dingding.view.ChanPinMuActivity
+ADDED from E:\DingDing\AndroidManifest.xml:50:9-78
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:50:19-75
+activity#com.baidu.dingding.view.LianXiActivity
+ADDED from E:\DingDing\AndroidManifest.xml:51:9-75
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:51:19-72
+activity#com.baidu.dingding.view.ShouHuoActivity
+ADDED from E:\DingDing\AndroidManifest.xml:52:9-76
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:52:19-73
+activity#com.baidu.dingding.view.ShouHuoAdressActivity
+ADDED from E:\DingDing\AndroidManifest.xml:53:9-82
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:53:19-79
+activity#com.baidu.dingding.view.PersonalProfileActivity
+ADDED from E:\DingDing\AndroidManifest.xml:54:9-66
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:54:19-63
+activity#com.baidu.dingding.view.MyOrderActivity
+ADDED from E:\DingDing\AndroidManifest.xml:55:9-76
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:55:19-73
+activity#com.baidu.dingding.view.MyCollectionActivity
+ADDED from E:\DingDing\AndroidManifest.xml:56:9-81
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:56:19-78
+activity#com.baidu.dingding.view.SkinActivity
+ADDED from E:\DingDing\AndroidManifest.xml:57:9-73
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:57:19-70
+activity#com.baidu.dingding.view.ShopinghelpActivity
+ADDED from E:\DingDing\AndroidManifest.xml:58:9-80
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:58:19-77
+activity#com.baidu.dingding.view.QueRenActivity
+ADDED from E:\DingDing\AndroidManifest.xml:59:9-57
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:59:19-54
+activity#com.baidu.dingding.view.PaymentActivity
+ADDED from E:\DingDing\AndroidManifest.xml:60:9-58
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:60:19-55
+activity#com.baidu.dingding.view.OrderDetailsActivity
+ADDED from E:\DingDing\AndroidManifest.xml:61:9-81
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:61:19-78
+activity#com.baidu.dingding.view.ViewLogisticsActivity
+ADDED from E:\DingDing\AndroidManifest.xml:62:9-82
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:62:19-79
+activity#com.baidu.dingding.view.GongGaoActivity
+ADDED from E:\DingDing\AndroidManifest.xml:63:9-76
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:63:19-73
+activity#com.baidu.dingding.view.XianShiActivity
+ADDED from E:\DingDing\AndroidManifest.xml:64:9-76
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:64:19-73
+activity#com.baidu.dingding.activity.DianpuXQActivity
+ADDED from E:\DingDing\AndroidManifest.xml:65:9-63
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:65:19-60
+activity#com.baidu.dingding.view.ShangpingtwoActivity
+ADDED from E:\DingDing\AndroidManifest.xml:66:9-63
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:66:19-60
+activity#com.baidu.dingding.view.ShangpingThreeActivity
+ADDED from E:\DingDing\AndroidManifest.xml:67:9-65
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:67:19-62
+activity#com.baidu.dingding.fragment.ShopingXQ
+ADDED from E:\DingDing\AndroidManifest.xml:68:9-74
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:68:19-71
+activity#com.baidu.dingding.zhifu.activity.ZhifuActivity
+ADDED from E:\DingDing\AndroidManifest.xml:70:9-65
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:70:19-63
+activity#com.baidu.dingding.zhifu.activity.MerchantPayResultActivity
+ADDED from E:\DingDing\AndroidManifest.xml:71:9-77
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:71:19-75
+activity#com.baidu.dingding.activity.UploadImageActivity
+ADDED from E:\DingDing\AndroidManifest.xml:73:9-75:59
+	android:theme
+		ADDED from E:\DingDing\AndroidManifest.xml:75:13-56
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:74:13-57
+activity#com.baidu.dingding.fragment.MainFragent
+ADDED from E:\DingDing\AndroidManifest.xml:76:9-85:20
+	android:configChanges
+		ADDED from E:\DingDing\AndroidManifest.xml:78:13-63
+	android:theme
+		ADDED from E:\DingDing\AndroidManifest.xml:79:13-59
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:77:13-67
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\DingDing\AndroidManifest.xml:81:13-84:29
+action#android.intent.action.MAIN
+ADDED from E:\DingDing\AndroidManifest.xml:82:17-69
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:82:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\DingDing\AndroidManifest.xml:83:17-77
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:83:27-74
+activity#com.dinpay.plugin.activity.DinpayChannelActivity
+ADDED from E:\DingDing\AndroidManifest.xml:88:9-91:52
+	android:screenOrientation
+		ADDED from E:\DingDing\AndroidManifest.xml:91:13-49
+	android:configChanges
+		ADDED from E:\DingDing\AndroidManifest.xml:90:13-63
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:89:13-76
+activity#com.unionpay.uppay.PayActivity
+ADDED from E:\DingDing\AndroidManifest.xml:92:9-97:58
+	android:windowSoftInputMode
+		ADDED from E:\DingDing\AndroidManifest.xml:97:13-55
+	android:screenOrientation
+		ADDED from E:\DingDing\AndroidManifest.xml:96:13-49
+	android:configChanges
+		ADDED from E:\DingDing\AndroidManifest.xml:94:13-63
+	android:excludeFromRecents
+		ADDED from E:\DingDing\AndroidManifest.xml:95:13-46
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:93:13-58
+activity#com.dinpay.plugin.activity.OrderMessageActivity
+ADDED from E:\DingDing\AndroidManifest.xml:105:9-108:61
+	android:screenOrientation
+		ADDED from E:\DingDing\AndroidManifest.xml:108:13-49
+	android:configChanges
+		ADDED from E:\DingDing\AndroidManifest.xml:107:13-63
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:106:13-75
+activity#com.dinpay.plugin.activity.BindMobileActivity
+ADDED from E:\DingDing\AndroidManifest.xml:109:9-112:61
+	android:screenOrientation
+		ADDED from E:\DingDing\AndroidManifest.xml:112:13-49
+	android:configChanges
+		ADDED from E:\DingDing\AndroidManifest.xml:111:13-63
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:110:13-73
+activity#com.dinpay.plugin.activity.DinpayPayActivity
+ADDED from E:\DingDing\AndroidManifest.xml:113:9-117:61
+	android:screenOrientation
+		ADDED from E:\DingDing\AndroidManifest.xml:117:13-49
+	android:configChanges
+		ADDED from E:\DingDing\AndroidManifest.xml:115:13-63
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:114:13-72
+	android:launchMode
+		ADDED from E:\DingDing\AndroidManifest.xml:116:13-42
+activity#com.dinpay.plugin.activity.BankCardListActivity
+ADDED from E:\DingDing\AndroidManifest.xml:118:9-122:61
+	android:screenOrientation
+		ADDED from E:\DingDing\AndroidManifest.xml:122:13-49
+	android:configChanges
+		ADDED from E:\DingDing\AndroidManifest.xml:120:13-63
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:119:13-75
+	android:launchMode
+		ADDED from E:\DingDing\AndroidManifest.xml:121:13-42
+activity#com.dinpay.plugin.activity.PayResultActivity
+ADDED from E:\DingDing\AndroidManifest.xml:123:9-126:61
+	android:screenOrientation
+		ADDED from E:\DingDing\AndroidManifest.xml:126:13-49
+	android:configChanges
+		ADDED from E:\DingDing\AndroidManifest.xml:125:13-63
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:124:13-72
+activity#com.dinpay.plugin.activity.AgreeMentActivity
+ADDED from E:\DingDing\AndroidManifest.xml:127:9-130:61
+	android:screenOrientation
+		ADDED from E:\DingDing\AndroidManifest.xml:130:13-49
+	android:configChanges
+		ADDED from E:\DingDing\AndroidManifest.xml:129:13-63
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:128:13-72
+activity#com.dinpay.plugin.activity.DinpayBaseActivity
+ADDED from E:\DingDing\AndroidManifest.xml:131:9-134:61
+	android:screenOrientation
+		ADDED from E:\DingDing\AndroidManifest.xml:134:13-49
+	android:configChanges
+		ADDED from E:\DingDing\AndroidManifest.xml:133:13-63
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:132:13-73
+activity#com.dinpay.plugin.activity.BaseActivity
+ADDED from E:\DingDing\AndroidManifest.xml:135:9-138:61
+	android:screenOrientation
+		ADDED from E:\DingDing\AndroidManifest.xml:138:13-49
+	android:configChanges
+		ADDED from E:\DingDing\AndroidManifest.xml:137:13-63
+	android:name
+		ADDED from E:\DingDing\AndroidManifest.xml:136:13-67
+uses-sdk
+INJECTED from E:\DingDing\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.bigkoo:pickerview:2.0.5] E:\DingDing\build\intermediates\exploded-aar\com.bigkoo\pickerview\2.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:23.1.0] E:\DingDing\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:21.0.3] E:\DingDing\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:23.1.0] E:\DingDing\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:21.0.3] E:\DingDing\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.3\AndroidManifest.xml:15:5-42
+MERGED from [DingDing:Pulllibrary:unspecified] E:\DingDing\build\intermediates\exploded-aar\DingDing\Pulllibrary\unspecified\AndroidManifest.xml:7:5-9:40
+MERGED from [DingDing:ViewPagerIndicator:unspecified] E:\DingDing\build\intermediates\exploded-aar\DingDing\ViewPagerIndicator\unspecified\AndroidManifest.xml:7:5-9:40
+MERGED from [com.android.support:support-v4:23.1.0] E:\DingDing\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.zhy:flowlayout-lib:1.0.0] E:\DingDing\build\intermediates\exploded-aar\com.zhy\flowlayout-lib\1.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:22.2.1] E:\DingDing\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] E:\DingDing\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.victor:lib:1.0.1] E:\DingDing\build\intermediates\exploded-aar\com.victor\lib\1.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.7heaven.ioswidget:iosswitch:0.5] E:\DingDing\build\intermediates\exploded-aar\com.7heaven.ioswidget\iosswitch\0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:22.2.1] E:\DingDing\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] E:\DingDing\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from E:\DingDing\AndroidManifest.xml
+		INJECTED from E:\DingDing\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\DingDing\AndroidManifest.xml
+		INJECTED from E:\DingDing\AndroidManifest.xml
+activity#android.support.v7.widget.TestActivity
+ADDED from [com.android.support:recyclerview-v7:21.0.3] E:\DingDing\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\AndroidManifest.xml:18:9-115
+	android:label
+		ADDED from [com.android.support:recyclerview-v7:21.0.3] E:\DingDing\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\AndroidManifest.xml:18:19-59
+	android:name
+		ADDED from [com.android.support:recyclerview-v7:21.0.3] E:\DingDing\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\AndroidManifest.xml:18:60-113

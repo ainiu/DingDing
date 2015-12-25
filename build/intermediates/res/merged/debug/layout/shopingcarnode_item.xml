@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/shopping_checkbox1"
+        style="@style/CustomCheckboxShopping"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:layout_weight="0.2"/>
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:src="@drawable/ding_51" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:text="123"
+        android:textColor="@color/gouwu_bianji"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:src="@drawable/ding_77" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="25dp"
+        android:background="@color/geren_text_color_ge" />
+
+    <Button
+        android:id="@+id/btn_bianji"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:background="@color/haiwai_button__true_color"
+        android:text="编辑"
+        android:textColor="@color/gouwu_bianji"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

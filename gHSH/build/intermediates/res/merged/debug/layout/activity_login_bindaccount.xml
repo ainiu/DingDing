@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp" >
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/personal_avatar_bg" />
+
+                <ImageView
+                    android:id="@+id/bindaccount_image_view"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="21dp"
+                    android:src="@drawable/personal_no_active_user_icon" />
+
+                <TextView
+                    android:id="@+id/bindaccount_nickName_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/bindaccount_image_view"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/font_color_666666"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/body_radius_bg"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/bindaccount_userName"
+                    style="@style/edittext_style_null_border"
+                    android:background="@color/transparent"
+                    android:drawableLeft="@drawable/login_in_user_name_icon"
+                    android:hint="@string/bindaccount_hint_username" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.1dp"
+                    android:background="@color/border_color" />
+
+                <EditText
+                    android:id="@+id/bindaccount_password"
+                    style="@style/edittext_style_null_border"
+                    android:background="@color/transparent"
+                    android:drawableLeft="@drawable/login_in_key_icon"
+                    android:hint="@string/bindaccount_hint_password"
+                    android:inputType="textPassword" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/bindaccount_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="没有账号？,请先注册账号在进行绑定"
+                android:textColor="@color/font_color_999999"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/bind_button"
+                    style="@style/button_style_fun_border"
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/button_orange_bg"
+                    android:text="@string/bindaccount_button_bind" />
+
+                <Button
+                    android:id="@+id/login_button"
+                    style="@style/button_style_fun_border"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/button_green"
+                    android:text="@string/bindaccount_button_login" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

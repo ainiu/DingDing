@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/ding_my_children_relativeLayout_01"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" >
+
+        <ImageView
+            android:id="@+id/ding_my_children_image_01"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/picture_45" />
+
+        <TextView
+            android:id="@+id/ding_my_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ding_my_children_image_01"
+            android:layout_marginRight="18dp"
+            android:layout_toLeftOf="@+id/ding_my_children_image_01"
+            android:layout_marginBottom="18dp"
+            android:text="您的位置" 
+            android:textSize="10sp"
+            android:textColor="#676767"/>
+
+        <ImageView
+            android:id="@+id/ding_my_children_image_02"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_above="@+id/ding_my_text_01"
+            android:layout_marginRight="-3dp"
+            android:layout_toLeftOf="@+id/ding_my_children_image_01"
+            android:src="@mipmap/picture_102" />
+
+        <TextView
+            android:id="@+id/ding_my_text_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/ding_my_text_01"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/ding_my_children_image_01"
+            android:text="宝安中心" 
+            android:textSize="10sp"
+            android:textColor="#676767"/>
+
+        <ImageView
+            android:id="@+id/ding_my_children_image_03"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="-4dp"
+            android:layout_above="@+id/ding_my_children_image_02"
+            android:layout_toRightOf="@+id/ding_my_children_image_01"
+            android:src="@mipmap/picture_44" />
+
+        <TextView
+            android:id="@+id/ding_my_text_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ding_my_children_image_02"
+            android:layout_centerHorizontal="true"
+            android:text="约计"
+            android:textSize="10sp" 
+            android:textColor="#676767"/>
+
+        <TextView
+            android:id="@+id/ding_my_text_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="10min" 
+            android:textColor="#676767"
+            android:textSize="13sp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

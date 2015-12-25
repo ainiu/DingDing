@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp" >
+
+        <Spinner
+            android:id="@+id/consult_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/collect_spinner_selector"
+            android:entries="@array/consult_type"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/consult_addButton"
+            style="@style/button_style_fun_border"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button_orange_bg"
+            android:drawableLeft="@drawable/goodsdetails_consult_add_icon"
+            android:text="@string/goods_details_consult_button_add" />
+    </RelativeLayout>
+
+    <com.ghsh.view.pullrefresh.DListView
+        android:id="@+id/content_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

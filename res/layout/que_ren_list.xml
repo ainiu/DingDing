@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/que_ren"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFF"
+        android:padding="13dp">
+
+        <ImageView
+            android:id="@+id/que_ren_list_image_08"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="13dp"
+            android:src="@drawable/ding_01" />
+
+        <TextView
+            android:id="@+id/que_ren_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@+id/que_ren_list_image_08"
+            android:text="momo红玫瑰"
+            android:textColor="#666666"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/que_ren_maijia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="17dp"
+            android:layout_toRightOf="@+id/que_ren_name"
+            android:text="卖家 : "
+            android:textColor="#666666"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/que_ren_realayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F9F9F9"
+        android:padding="20dp">
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/que_ren_list_image_09"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:src="@drawable/ding_170" />
+
+        <TextView
+            android:id="@+id/que_ren_title"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_toRightOf="@+id/que_ren_list_image_09"
+            android:text="【香港直邮】极致奢华的香水!莫杰(MarcJacobs)小皱菊..."
+            android:textColor="#666666"
+            android:textSize="14sp" />
+
+        <com.zhy.view.flowlayout.TagFlowLayout
+            android:id="@+id/TagFlowLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/que_ren_title"
+            android:layout_below="@+id/que_ren_title"
+            android:layout_marginTop="20dp"/>
+
+
+
+        <TextView
+            android:id="@+id/que_ren_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="#666666"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/que_ren_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_alignRight="@+id/que_ren_price"
+            android:layout_below="@+id/que_ren_price"
+            android:textColor="#999999"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+
+
+
+
+
+
+</LinearLayout>

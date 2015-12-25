@@ -1,0 +1,586 @@
+[
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\withdraw_bank_add_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\withdraw_bank_add_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\orderdetalis_ensure_icon2.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\orderdetalis_ensure_icon2.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\personal_levle_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\personal_levle_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_image.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\default_image.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\personal_list_coupon_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\personal_list_coupon_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\withdraw_alipay_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\withdraw_alipay_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\browser_baritem_forward.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\browser_baritem_forward.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\camera_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\camera_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\goods_base_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\goods_base_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\personal_top_bg.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\personal_top_bg.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\withdraw_alipay_to_money_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\withdraw_alipay_to_money_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\collect_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\collect_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sendinfo_delete_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\sendinfo_delete_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\goods_cart_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\goods_cart_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\orderdetails_payway_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\orderdetails_payway_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\personal_list_books_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\personal_list_books_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\collect_spinner_nornal.9.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\collect_spinner_nornal.9.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\goodslist_cart_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\goodslist_cart_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\edittext_del_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\edittext_del_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shoppingcart_delete_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\shoppingcart_delete_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\album_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\album_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\share_login_qq_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\share_login_qq_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\share_login_wechat_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\share_login_wechat_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_hot_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\search_hot_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ratingbar_select.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\ratingbar_select.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\header_logo_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\header_logo_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\orderdetails_coupon_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\orderdetails_coupon_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\before_up_gray_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\before_up_gray_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\personal_list_user_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\personal_list_user_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\share_tencent_weibo_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\share_tencent_weibo_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\category_list_left_bg.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\category_list_left_bg.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\orderlist_empty_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\orderlist_empty_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\goods_list_toolbarr_down_arrow.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\goods_list_toolbarr_down_arrow.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\line_dotted_bg.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\line_dotted_bg.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\orderdetalis_ensure_icon3.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\orderdetalis_ensure_icon3.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\conduct_indicator_unfocused.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\conduct_indicator_unfocused.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_logo.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\home_logo.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\goods_consult_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\goods_consult_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\footer_persion_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\footer_persion_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\satisfied_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\satisfied_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\start_splash_bg.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\start_splash_bg.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\start_splash_background.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\start_splash_background.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\before_white_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\before_white_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\personal_growthvalue_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\personal_growthvalue_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shoppingcart_empty_cart_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\shoppingcart_empty_cart_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\triangle_right_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\triangle_right_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\category_list_left_arrow.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\category_list_left_arrow.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\share_wechat_pengyou_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\share_wechat_pengyou_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\goods_add_shopping_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\goods_add_shopping_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\setting_accsessory_check_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\setting_accsessory_check_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\orderdetalis_ensure_icon1.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\orderdetalis_ensure_icon1.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\goods_attr_colse_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\goods_attr_colse_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shoppint_add_text_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\shoppint_add_text_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\personal_list_gift_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\personal_list_gift_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\personal_list_address_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\personal_list_address_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_promotion_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\home_promotion_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\personal_no_active_user_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\personal_no_active_user_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\banner_indicator_unfocused.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\banner_indicator_unfocused.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mycoupon_item_bg.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\mycoupon_item_bg.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_gonggao_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\home_gonggao_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\personal_list_opinion_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\personal_list_opinion_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\skip_top.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\skip_top.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pullrefresh_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\pullrefresh_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\commission_money_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\commission_money_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_promotion_icon_1.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\home_promotion_icon_1.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\browser_baritem_refresh.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\browser_baritem_refresh.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\banner_indicator_focused.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\banner_indicator_focused.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\header_search_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\header_search_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\goodsdetails_share_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\goodsdetails_share_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\footer_home_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\footer_home_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\goods_attr_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\goods_attr_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\share_qq_qzone_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\share_qq_qzone_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\personal_avatar_bg.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\personal_avatar_bg.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\goods_evaluate_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\goods_evaluate_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mycollect_number_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\mycollect_number_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\share_login_sina_weibo_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\share_login_sina_weibo_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\personal_list_collect_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\personal_list_collect_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\orderdetalis_ensure_icon4.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\orderdetalis_ensure_icon4.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\share_login_alipay_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\share_login_alipay_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\consult_answer_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\consult_answer_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\checkbox_default_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\checkbox_default_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mycoupon_item_footer_bg.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\mycoupon_item_footer_bg.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_in_key_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\login_in_key_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\measge_down_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\measge_down_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\footer_news_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\footer_news_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\goods_list_toolbarr_up_arrow.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\goods_list_toolbarr_up_arrow.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\conduct_icon3.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\conduct_icon3.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shopingcart_edit_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\shopingcart_edit_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\footer_category_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\footer_category_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\orderdetails_paymentway_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\orderdetails_paymentway_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\commission_score_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\commission_score_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\goods_des_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\goods_des_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\networt_not_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\networt_not_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\goodsdetails_consult_add_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\goodsdetails_consult_add_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\progress_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\personal_list_allorder_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\personal_list_allorder_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\browser_baritem_back.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\browser_baritem_back.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sendinfo_edit_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\sendinfo_edit_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\personal_list_msg_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\personal_list_msg_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\header_video_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\header_video_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\measge_up_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\measge_up_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\collect_select_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\collect_select_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_history_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\search_history_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\orderdetails_receipt_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\orderdetails_receipt_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner_nornal.9.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\spinner_nornal.9.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\checkbox_select_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\checkbox_select_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pullrefresh_header_arrow_down.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\pullrefresh_header_arrow_down.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\orderdetails_address_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\orderdetails_address_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\footer_cart_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\footer_cart_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\share_sina_weibo_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\share_sina_weibo_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\personal_list_withdraw_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\personal_list_withdraw_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\order_listview_item_bg_down.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\order_listview_item_bg_down.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ratingbar_unselect.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\ratingbar_unselect.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\consult_question_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\consult_question_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\setting_push_off_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\setting_push_off_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\satisfied_no_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\satisfied_no_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\conduct_icon2.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\conduct_icon2.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\conduct_icon1.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\conduct_icon1.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\conduct_indicator_focused.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\conduct_indicator_focused.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\goods_order_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\goods_order_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\personal_list_history_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\personal_list_history_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pullrefresh_header_lodding_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\pullrefresh_header_lodding_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_clear_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\search_clear_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dustbin_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\dustbin_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\personal_setting_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\personal_setting_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\share_qq_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\share_qq_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\personal_list_browse_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\personal_list_browse_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\share_wechat_friend_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\share_wechat_friend_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_in_user_name_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\login_in_user_name_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_goods2_image.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\home_goods2_image.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_notice_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\home_notice_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\map_baidu_location_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\map_baidu_location_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\before_down_gray_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\before_down_gray_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mycollect_close_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\mycollect_close_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\order_listview_item_bg_up.9.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\order_listview_item_bg_up.9.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\before_gray_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\before_gray_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logistics_status_enable_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\logistics_status_enable_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shoppint_minus_text_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\shoppint_minus_text_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\orderdetails_orderstatus_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\orderdetails_orderstatus_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\setting_push_on_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\setting_push_on_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_category_more_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\home_category_more_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\empty_pager_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\empty_pager_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logistics_status_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\logistics_status_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\header_back_icon.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\header_back_icon.png"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_goods1_image.png",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\drawable-hdpi\\home_goods1_image.png"
+    }
+]

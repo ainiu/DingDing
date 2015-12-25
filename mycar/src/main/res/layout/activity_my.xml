@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyActivity" >
+
+    <RelativeLayout
+        android:id="@+id/my_relatvieLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@mipmap/picture_23" >
+
+        <TextView
+            android:id="@+id/my_driver_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="我"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+
+        <ImageView
+            android:id="@+id/my_image_01"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:src="@mipmap/picture_04" />
+
+        <ImageView
+            android:id="@+id/my_image_02"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:src="@mipmap/picture_19" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/my_relativeLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/my_relatvieLayout1"
+        android:background="@mipmap/picture_23" >
+
+        <ImageView
+            android:id="@+id/my_image_03"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:src="@mipmap/picture_20" />
+
+        <ImageView
+            android:id="@+id/my_image_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/my_image_03"
+            android:layout_alignRight="@+id/my_image_03"
+            android:src="@mipmap/picture_21" />
+
+        <TextView
+            android:id="@+id/driver_my_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/my_image_04"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="23dp"
+            android:text="TextView"
+            android:textColor="#EAEAEA"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/my_relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/my_relativeLayout2" >
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:gravity="left"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radio0"
+                style="@style/mainTabs_radio"
+                android:drawableTop="@mipmap/picture_14"
+                android:text="@string/shen_fen_shen" />
+
+            <RadioButton
+                android:id="@+id/radio1"
+                style="@style/mainTabs_radio"
+                android:drawableTop="@mipmap/picture_15"
+                android:text="@string/messsage_fill_my" />
+
+            <RadioButton
+                android:id="@+id/radio2"
+                style="@style/mainTabs_radio"
+                android:drawableTop="@mipmap/picture_16"
+                android:text="@string/dingdan_my_fill" />
+
+            <RadioButton
+                android:id="@+id/radio3"
+                style="@style/mainTabs_radio"
+                android:drawableTop="@mipmap/picture_17"
+                android:text="@string/money_bady_my" />
+        </RadioGroup>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/picture_80" />
+
+    <ImageView
+        android:id="@+id/my_imageView_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/my_relativeLayout1"
+        android:src="@mipmap/picture_07" />
+
+    <ListView
+        android:id="@+id/driver_list_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/my_imageView_01" >
+
+    </ListView>
+
+</RelativeLayout>

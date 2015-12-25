@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverMyMessageActivity" >
+    
+    <RelativeLayout 
+        android:id="@+id/driver_my_message_01"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#000000"
+        >
+        
+        <TextView 
+            android:id="@+id/driver_my_message_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="我的消息"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp"
+            />
+        
+        <ImageView 
+            android:id="@+id/driver_my_message_image_01"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="12dp"
+            android:src="@mipmap/picture_04"
+            />
+
+        <Button
+            android:id="@+id/driver_my_message_button_01"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/driver_my_message_text_01"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:text="清空"
+            android:textSize="17sp"
+            android:textColor="#FFFFFF" />
+      
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/driver_my_message_01" >
+    </ListView>
+    
+</RelativeLayout>

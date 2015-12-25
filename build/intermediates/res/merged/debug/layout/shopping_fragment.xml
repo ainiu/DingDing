@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F6F6"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/shopping_fragment_relativeLayout_01"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="#1FA9EB">
+
+        <TextView
+            android:id="@+id/shopping_fragment_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="购物车"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="13dp"
+            android:background="@null"
+            android:text="编辑"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/reala"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/shopping_fragment_relativeLayout_01" >
+
+        <com.baidu.dingding.view.MyView.CustomViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

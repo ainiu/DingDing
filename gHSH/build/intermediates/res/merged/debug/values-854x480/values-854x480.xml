@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fontSize_button_style_comment">14sp</dimen>
+    <dimen name="fontSize_comment">14sp</dimen>
+    <dimen name="fontSize_comment_tip">12sp</dimen>
+    <dimen name="fontSize_goods_category_gridview_1_title">14sp</dimen>
+    <dimen name="fontSize_goods_category_gridview_2_title">12sp</dimen>
+    <dimen name="fontSize_goods_category_listview_1_title">16sp</dimen>
+    <dimen name="fontSize_goods_category_listview_2_title">14sp</dimen>
+    <dimen name="fontSize_goods_details_button">12sp</dimen>
+    <dimen name="fontSize_goods_details_title">14sp</dimen>
+    <dimen name="fontSize_goods_list_price">14sp</dimen>
+    <dimen name="fontSize_goods_list_title">12sp</dimen>
+    <dimen name="fontSize_header_button">14sp</dimen>
+    <dimen name="fontSize_header_search">12sp</dimen>
+    <dimen name="fontSize_header_title">18sp</dimen>
+    <dimen name="fontSize_textView_style_comment">14sp</dimen>
+</resources>

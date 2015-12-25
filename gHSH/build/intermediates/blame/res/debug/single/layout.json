@@ -1,0 +1,602 @@
+[
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mycoupon.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_mycoupon.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_account_record_listview_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_user_account_record_listview_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goodsdetails_des.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_goodsdetails_des.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home1.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_home1.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goodscategory_gridview_item1.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_goodscategory_gridview_item1.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_withdraw_to_bank.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_withdraw_to_bank.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_orderdetails_address.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_orderdetails_address.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\empty_pager.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\empty_pager.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_orderdetails_listview_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_orderdetails_listview_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_logistics_listview_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_order_logistics_listview_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mybonus.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_mybonus.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_coupon_listview_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_order_coupon_listview_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home_listview_item_promotion.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_home_listview_item_promotion.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goodscategory_listview_item2.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_goodscategory_listview_item2.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login_bindaccount.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_login_bindaccount.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_comment_add.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_comment_add.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_bonus_listview_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_order_bonus_listview_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_news_list_scroll_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_news_list_scroll_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_withdraw.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_withdraw.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home_listview_item_ad.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_home_listview_item_ad.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opinion_listview_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_opinion_listview_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shoppingcart.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_shoppingcart.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_payway_listview_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_order_payway_listview_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pay_web.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_pay_web.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goodslist_listview_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_goodslist_listview_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\commissiongoods.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\commissiongoods.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_orderlist.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_orderlist.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mybonus_layout.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_mybonus_layout.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goodslist_walldalls_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_goodslist_walldalls_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goodsdetails_number_add_minus.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_goodsdetails_number_add_minus.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_receipt.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_order_receipt.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_orderdetails.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_orderdetails.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goodsdetails.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_goodsdetails.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shoppingcart_number_add_minus.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_shoppingcart_number_add_minus.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home_listview_item_gridview.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_home_listview_item_gridview.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login_share_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_login_share_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_logistics.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_order_logistics.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goodsdetails_main.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_goodsdetails_main.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_payway.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_order_payway.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_alterdialog.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\dialog_alterdialog.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_paymentway_listview_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_order_paymentway_listview_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_banner.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_banner.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home_imageview.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_home_imageview.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goodsdetails_evaluate.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_goodsdetails_evaluate.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_news_home_listview_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_news_home_listview_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_return.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_order_return.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goodscategory_listview_item1.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_goodscategory_listview_item1.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_message.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_message.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home_bannery.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_home_bannery.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_edit_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_register_edit_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pay_web_tools.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_pay_web_tools.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goodslist_gridview_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_goodslist_gridview_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_withdraw_bank_add_button.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_withdraw_bank_add_button.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mybonus_gridview_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_mybonus_gridview_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goodscategory_gridview_item2.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_goodscategory_gridview_item2.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goodsdetails_button_tool.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_goodsdetails_button_tool.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\pullrefresh_header.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\pullrefresh_header.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goodsdetails_evaluate_fun.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_goodsdetails_evaluate_fun.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mycoupon_layout.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_mycoupon_layout.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_account_recharge.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_user_account_recharge.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\view_toast.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\view_toast.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\pullrefresh_footer.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\pullrefresh_footer.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_groupbuylist.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_groupbuylist.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_mobile.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_register_mobile.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goodsdetails_evaluate_listview_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_goodsdetails_evaluate_listview_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shoppingcart_listview_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_shoppingcart_listview_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_bonus.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_order_bonus.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home_top_view.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_home_top_view.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opinion.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_opinion.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goodsdetails_consult_add.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_goodsdetails_consult_add.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mycoupon_gridview_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_mycoupon_gridview_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_withdraw_to_alipay.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_withdraw_to_alipay.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_simple_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\spinner_simple_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mymodify_pwd.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_mymodify_pwd.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_share_gridview_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_share_gridview_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_single_page_web.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_single_page_web.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_share.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_share.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_news_home_gridview_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_news_home_gridview_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_news_list_listview_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_news_list_listview_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_orderlist_listview_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_orderlist_listview_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shoppingcart_empty.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_shoppingcart_empty.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goodsdetails_consult_listview_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_goodsdetails_consult_listview_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_personal.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_personal.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_orderdetails_down.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_orderdetails_down.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_forgetpwd_new.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_forgetpwd_new.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_start.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home_listview_item_promotion_title.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_home_listview_item_promotion_title.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goodsdetails_attr.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_goodsdetails_attr.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_withdraw_listview_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_withdraw_listview_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_upload_image.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_upload_image.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\networt_not.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\networt_not.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_groupbuylist_listview_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_groupbuylist_listview_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_account_record.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_user_account_record.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goodslist.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_goodslist.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\empty_orderlist_pager.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\empty_orderlist_pager.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\header.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\header.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goodscategory.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_goodscategory.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_group_details.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_group_details.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_myinformation.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_myinformation.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_news_list.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_news_list.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_account_recharge_listview_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_user_account_recharge_listview_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home_gridview.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_home_gridview.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_tab.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_main_tab.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_personal_top.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_personal_top.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_singlepageweb.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_singlepageweb.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home_listview_item_article_notice.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_home_listview_item_article_notice.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mysendinfo_listview_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_mysendinfo_listview_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goodsdetails_consult.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_goodsdetails_consult.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_account_withdraw.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_user_account_withdraw.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\view_main_tab_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\view_main_tab_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_news_home_top.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_news_home_top.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_myinformation_modify.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_myinformation_modify.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_personal_scrollview.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_personal_scrollview.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_news_home.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_news_home.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\view_update_notification.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\view_update_notification.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mygoodshistory.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_mygoodshistory.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home_funs_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_home_funs_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_news_details.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_news_details.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_orderdetails_goods.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_orderdetails_goods.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mygoodshitory_gridview_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_mygoodshitory_gridview_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_conduct.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_conduct.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_withdraw_add_bank.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_withdraw_add_bank.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mysendinfo.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_mysendinfo.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goodsdetails_attr_type.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_goodsdetails_attr_type.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_coupon.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_order_coupon.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_comment_add_listeview_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_comment_add_listeview_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_group_details_button_tool.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_group_details_button_tool.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\alert_progress_view.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\alert_progress_view.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_region.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_region.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home_listview_item_goods_3.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_home_listview_item_goods_3.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_paymentway.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_order_paymentway.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_group_details_attr.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_group_details_attr.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_orderlist_goods_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_orderlist_goods_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home_article_notice.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_home_article_notice.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mysendinfo_modify.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_mysendinfo_modify.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home_catagory_goods_3_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_home_catagory_goods_3_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_conduct_button.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_conduct_button.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_qq_share_weibo.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\dialog_qq_share_weibo.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goodsdetails_attr_value.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_goodsdetails_attr_value.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_forgetpwd.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_forgetpwd.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_map_gaode.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_map_gaode.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mycollect.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_mycollect.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opinion_add.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_opinion_add.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_message_listview_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_message_listview_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home_listview_item_bannery.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_home_listview_item_bannery.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\gHSH\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mycollect_gridview_item.xml",
+        "source": "E:\\DingDing\\gHSH\\src\\main\\res\\layout\\activity_mycollect_gridview_item.xml"
+    }
+]

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="red">#7f00</color>
+	<color name="black">#000000</color>
+	<color name="transparent">#00ffffff</color>
+	
+	<!-- 应用 -->
+	<color name="app_bg_color">#f6f6f6</color>
+	<color name="app_global_color">#529835</color><!-- 整体颜色 -->
+	<!-- 头部 -->
+	<color name="header_title_text_color">#ffffff</color>
+	<color name="header_bg_color">#529835</color>
+	<color name="header_other_text_color">#ffffff</color>
+	<color name="header_other_bg_color">#d82225</color>
+	<color name="header_search_edittext_bg_color">#fefefe</color>
+	<!-- 底部 -->
+	<color name="footer_bg_color">#262626</color>
+	<color name="footer_bg_select_color">#121313</color>
+	<color name="footer_tab_text_color">#b3b3b3</color>
+	<color name="footer_tab_select_text_color">#ffffff</color>
+	
+	
+	<!-- 框框 -->
+	<color name="body_radius_bg_color">#fefefe</color>
+	<color name="body_radius_gary_bg_color">#ebebeb</color>
+	<color name="body_rectangle_while_bg_color">#ffffff</color>
+	
+	<!-- e5e5e5边框颜色e3e3e3 -->
+	<color name="border_color">#e5e5e5</color>
+	<color name="border_color_dddddd">#dddddd</color>
+	<color name="lines_color">#e3e3e3</color>
+	
+	
+	<!-- 按钮 -->
+	<color name="button_orange_bg_color">#ec711b</color>
+	<color name="button_orange_select_bg_color">#e6a87d</color>
+	<color name="button_orange_enabled_bg_color">#d1d2cf</color>
+	
+	<color name="button_blue_bg_color">#509ae7</color>
+	<color name="button_blue_select_bg_color">#9fcbf9</color>
+	<color name="button_enable_bg_color">#999999</color>
+	
+	<color name="button_while_bg_color">#ffffff</color>
+	<color name="button_while_select_bg_color">#fff4c2</color>
+	<color name="button_while_border_color">#e5e5e5</color>
+	<color name="button_while_red_border_color">#e73336</color>
+	<color name="button_while_gary_border_color">#dedede</color>
+	
+	<color name="button_red_bg_color">#e73336</color>
+	<color name="button_red_select_bg_color">#ef7073</color>
+	
+	<color name="button_gary_dark_bg_color">#999999</color>
+	<color name="button_gary_dark_select_bg_color">#cbcbcb</color>
+	
+	<color name="button_gary_light_bg_color">#f9f9f9</color>
+	<color name="button_gary_light_select_bg_color">#ececec</color>
+	<color name="button_gary_light_border_color">#dbdbdb</color>
+	
+	<color name="button_number_bg_color">#f5f5f5</color>
+	<color name="button_number_select_bg_color">#ecebeb</color>
+	<color name="button_number_border_color">#efefef</color>
+	
+	
+	<!-- 字体颜色 -->
+	<color name="black_font_color">#313131</color>
+	<color name="font_hint_color">#999999</color><!-- 输入框hid颜色 -->
+	<color name="font_color_666666">#666666</color><!-- 灰色字体颜色 -->
+	<color name="font_color_333333">#333333</color><!-- 灰色字体颜色 -->
+	<color name="font_color_999999">#999999</color><!-- 灰色字体颜色 -->
+	<color name="font_color_red">#e73336</color><!-- 红色字体颜色 -->
+	<color name="font_color_yellow">#eb6100</color>
+	<color name="font_color_red_fc5b5b">#fc5b5b</color>
+	
+	<!-- 背景颜色 -->
+	<color name="bg_yellow">#fff7dc</color>
+	<!-- 商品 -->
+	<color name="goods_price_color">#e73336</color>
+	
+	<!-- 商品分类 -->
+	<color name="goods_category_text_select_color">#747474</color>
+	<color name="goods_category_gridview1_color">#f6f6f6</color>
+	<color name="goods_category_list_left_bg_color">#e3e3e3</color>
+	
+	
+	<!-- list View 颜色 -->
+	<color name="listview_bg_color">#ffffff</color>
+	<color name="listview_border_color">#ffffff</color>
+	<color name="listview_border_select_color">#eeeeee</color>
+	
+	<!--商品详细 -->
+	<color name="goodsdetails_tab_select_font_color">#fe6700</color>
+	
+	<color name="goodsdetails_rectangle_button_bg">#d9d9d9</color>
+	<color name="goodsdetails_rectangle_button_border">#dcdcdc</color>
+	
+	<color name="goodsdetails_button_gray_bg_color">#ededed</color>
+	<color name="goodsdetails_button_gray_bg_select_color">#e6e9e8</color>
+	
+	<color name="button_goods_attr_bg_color">#f5f5f5</color>
+	<color name="button_goods_attr_select_bg_color">#e73336</color>
+	<color name="button_goods_attr_border_color">#efefef</color>
+	
+	<!-- 头部tab -->
+	<color name="tab_child_text_color">#666666</color>
+	<color name="tab_child_text_selected_color">#fe6700</color>
+	<color name="tab_child_boder_color">#e6e6e6</color>
+	<color name="tab_child_select_boder_color">#fe6700</color>
+	<color name="tab_child_left_boder_color">#d9d9d9</color>
+	<color name="tab_child_right_boder_color">#f6f6f6</color>
+	<color name="tab_child_bg_color">#ebebeb</color>
+	
+	<!-- 砍价弹框 -->
+	<color name="bargain_dialog_text_color">#ff6600</color>
+	
+	
+	<!-- 优惠劵 -->
+	<color name="coupont_text_color">#ff8383</color>
+	
+</resources>

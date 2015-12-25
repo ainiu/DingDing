@@ -1,0 +1,558 @@
+[
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shou_huo_adress.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_shou_huo_adress.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\zhifu.xml",
+        "source": "E:\\DingDing\\res\\layout\\zhifu.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\fenlei_fragment_shangpin.xml",
+        "source": "E:\\DingDing\\res\\layout\\fenlei_fragment_shangpin.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\each_dingding_xianshi_grid.xml",
+        "source": "E:\\DingDing\\res\\layout\\each_dingding_xianshi_grid.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_skin.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_skin.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_details.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_order_details.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_order.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_my_order.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mydingall.xml",
+        "source": "E:\\DingDing\\res\\layout\\fragment_mydingall.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\gouwutv.xml",
+        "source": "E:\\DingDing\\res\\layout\\gouwutv.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\pullview.xml",
+        "source": "E:\\DingDing\\res\\layout\\pullview.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_view_logistics.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_view_logistics.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\daishou_myorder.xml",
+        "source": "E:\\DingDing\\res\\layout\\daishou_myorder.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\fenlei_fragment_dianpu.xml",
+        "source": "E:\\DingDing\\res\\layout\\fenlei_fragment_dianpu.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\daifu_myorder.xml",
+        "source": "E:\\DingDing\\res\\layout\\daifu_myorder.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\orde_crema.xml",
+        "source": "E:\\DingDing\\res\\layout\\orde_crema.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\sou_girdview_list_01.xml",
+        "source": "E:\\DingDing\\res\\layout\\sou_girdview_list_01.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\shouhuo_list_item.xml",
+        "source": "E:\\DingDing\\res\\layout\\shouhuo_list_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_rest_passe.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_rest_passe.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chan_pin.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_chan_pin.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\merchant_pay_result.xml",
+        "source": "E:\\DingDing\\res\\layout\\merchant_pay_result.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_collection.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_my_collection.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\wancheng_order.xml",
+        "source": "E:\\DingDing\\res\\layout\\wancheng_order.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\shopping_fragment.xml",
+        "source": "E:\\DingDing\\res\\layout\\shopping_fragment.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\fenlei__item_gridview_two.xml",
+        "source": "E:\\DingDing\\res\\layout\\fenlei__item_gridview_two.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\souye_each_list_item.xml",
+        "source": "E:\\DingDing\\res\\layout\\souye_each_list_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sousuo.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_sousuo.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\haiwai_liuyanban.xml",
+        "source": "E:\\DingDing\\res\\layout\\haiwai_liuyanban.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\geren_shopingcollection_item.xml",
+        "source": "E:\\DingDing\\res\\layout\\geren_shopingcollection_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\dianpu__listorgrid_item.xml",
+        "source": "E:\\DingDing\\res\\layout\\dianpu__listorgrid_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_zhao_hui.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_zhao_hui.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\layout_slideshow.xml",
+        "source": "E:\\DingDing\\res\\layout\\layout_slideshow.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_que_ren.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_que_ren.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shoping_help.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_shoping_help.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\hw_shoping_xq.xml",
+        "source": "E:\\DingDing\\res\\layout\\hw_shoping_xq.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\my_order_list.xml",
+        "source": "E:\\DingDing\\res\\layout\\my_order_list.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\alert_progress_view.xml",
+        "source": "E:\\DingDing\\res\\layout\\alert_progress_view.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_list_item.xml",
+        "source": "E:\\DingDing\\res\\layout\\dialog_list_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_upload_image.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_upload_image.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\loading_dialog.xml",
+        "source": "E:\\DingDing\\res\\layout\\loading_dialog.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\fenlei_three.xml",
+        "source": "E:\\DingDing\\res\\layout\\fenlei_three.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chong_zhi.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_chong_zhi.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\haiwai_shoping_girdview_item.xml",
+        "source": "E:\\DingDing\\res\\layout\\haiwai_shoping_girdview_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\newton_cradle_loading.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.victor\\lib\\1.0.1\\res\\layout\\newton_cradle_loading.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\shopping_fragment_list.xml",
+        "source": "E:\\DingDing\\res\\layout\\shopping_fragment_list.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\skin_list.xml",
+        "source": "E:\\DingDing\\res\\layout\\skin_list.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\layout_basepickerview.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.bigkoo\\pickerview\\2.0.5\\res\\layout\\layout_basepickerview.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\each_dingding_xianshi_list.xml",
+        "source": "E:\\DingDing\\res\\layout\\each_dingding_xianshi_list.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\main_fragment.xml",
+        "source": "E:\\DingDing\\res\\layout\\main_fragment.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\shopingcarnode_item.xml",
+        "source": "E:\\DingDing\\res\\layout\\shopingcarnode_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\pickerview_options.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.bigkoo\\pickerview\\2.0.5\\res\\layout\\pickerview_options.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\book_loading.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.victor\\lib\\1.0.1\\res\\layout\\book_loading.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\fenlei_two.xml",
+        "source": "E:\\DingDing\\res\\layout\\fenlei_two.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sou.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_sou.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\shopingwangcheng.xml",
+        "source": "E:\\DingDing\\res\\layout\\shopingwangcheng.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\gerenzhongxin_list_item.xml",
+        "source": "E:\\DingDing\\res\\layout\\gerenzhongxin_list_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_security_settings.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_security_settings.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\haiwai_fragment_list_view.xml",
+        "source": "E:\\DingDing\\res\\layout\\haiwai_fragment_list_view.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_item.xml",
+        "source": "E:\\DingDing\\res\\layout\\fragment_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\tv.xml",
+        "source": "E:\\DingDing\\res\\layout\\tv.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_alterdialog.xml",
+        "source": "E:\\DingDing\\res\\layout\\dialog_alterdialog.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\quanbu_order.xml",
+        "source": "E:\\DingDing\\res\\layout\\quanbu_order.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_regis.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_regis.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\view_logistics_list.xml",
+        "source": "E:\\DingDing\\res\\layout\\view_logistics_list.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chan_pin_mu.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_chan_pin_mu.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\daifa_myorder.xml",
+        "source": "E:\\DingDing\\res\\layout\\daifa_myorder.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\frag.xml",
+        "source": "E:\\DingDing\\res\\layout\\frag.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_persinal_center.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_persinal_center.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\abc_simple_dropdown_hint.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\alertdialog.xml",
+        "source": "E:\\DingDing\\res\\layout\\alertdialog.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\include_pickerview_topbar.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.bigkoo\\pickerview\\2.0.5\\res\\layout\\include_pickerview_topbar.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\gouwu_list_item.xml",
+        "source": "E:\\DingDing\\res\\layout\\gouwu_list_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\DingDing\\Pulllibrary\\unspecified\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\pickerview_time.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.bigkoo\\pickerview\\2.0.5\\res\\layout\\pickerview_time.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_personal_profile.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_personal_profile.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\order_details_list_view.xml",
+        "source": "E:\\DingDing\\res\\layout\\order_details_list_view.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_xin_zeng.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_xin_zeng.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_xian_shi.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_xian_shi.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dianpuxq.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_dianpuxq.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fen_lei.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_fen_lei.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\payment_list.xml",
+        "source": "E:\\DingDing\\res\\layout\\payment_list.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\gouwu_gridview_chichun_item.xml",
+        "source": "E:\\DingDing\\res\\layout\\gouwu_gridview_chichun_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\pullrefresh_header.xml",
+        "source": "E:\\DingDing\\res\\layout\\pullrefresh_header.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\que_ren_list.xml",
+        "source": "E:\\DingDing\\res\\layout\\que_ren_list.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\fenlei_list.xml",
+        "source": "E:\\DingDing\\res\\layout\\fenlei_list.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\haiwai_fragment.xml",
+        "source": "E:\\DingDing\\res\\layout\\haiwai_fragment.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_payment.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_payment.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_lian_xi.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_lian_xi.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\DingDing\\Pulllibrary\\unspecified\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\fenlei_dianfu.xml",
+        "source": "E:\\DingDing\\res\\layout\\fenlei_dianfu.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\chanpinmu_list.xml",
+        "source": "E:\\DingDing\\res\\layout\\chanpinmu_list.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\attribute_mywidget_layout.xml",
+        "source": "E:\\DingDing\\res\\layout\\attribute_mywidget_layout.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\chanpin_list.xml",
+        "source": "E:\\DingDing\\res\\layout\\chanpin_list.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_change.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\sou_girdview_list_02.xml",
+        "source": "E:\\DingDing\\res\\layout\\sou_girdview_list_02.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\dianpu__grid_item.xml",
+        "source": "E:\\DingDing\\res\\layout\\dianpu__grid_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shou_huo.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_shou_huo.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\my_collection_list.xml",
+        "source": "E:\\DingDing\\res\\layout\\my_collection_list.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\haiwai_ycd_itm.xml",
+        "source": "E:\\DingDing\\res\\layout\\haiwai_ycd_itm.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\geren_dingdanall_item.xml",
+        "source": "E:\\DingDing\\res\\layout\\geren_dingdanall_item.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\activity_gong_gao.xml",
+        "source": "E:\\DingDing\\res\\layout\\activity_gong_gao.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\jiajianqi.xml",
+        "source": "E:\\DingDing\\res\\layout\\jiajianqi.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\layout\\pullrefresh_footer.xml",
+        "source": "E:\\DingDing\\res\\layout\\pullrefresh_footer.xml"
+    }
+]

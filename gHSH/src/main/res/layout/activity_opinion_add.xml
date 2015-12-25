@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/opinion_tip_text_type"
+            android:textColor="@color/font_color_333333"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/opinion_add_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/collect_spinner_selector"
+            android:gravity="center" 
+            android:entries="@array/opinion_type"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/border_color" />
+    
+    <EditText
+        android:id="@+id/opinion_item_title"
+        style="@style/edittext_style_radius_border"
+        android:layout_margin="10dp"
+        android:gravity="top"
+        android:hint="@string/opinion_hint_title"
+        android:padding="10dp"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/opinion_item_comment"
+        style="@style/edittext_style_radius_border"
+        android:layout_margin="10dp"
+        android:gravity="top"
+        android:hint="@string/opinion_hint_comment"
+        android:lines="10"
+        android:maxLines="10"
+        android:padding="10dp"
+        android:singleLine="false"
+        android:textSize="14sp" />
+
+</LinearLayout>

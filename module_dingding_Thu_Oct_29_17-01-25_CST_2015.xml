@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_dingding" default="compile.module.dingding">
+  <dirname property="module.dingding.basedir" file="${ant.file.module_dingding}"/>
+  
+  <property name="module.jdk.home.dingding" value="${jdk.home.android_api_18_platform}"/>
+  <property name="module.jdk.bin.dingding" value="${jdk.bin.android_api_18_platform}"/>
+  <property name="module.jdk.classpath.dingding" value="jdk.classpath.android_api_18_platform"/>
+  
+  <property name="compiler.args.dingding" value="-encoding UTF-8 -source 1.6 ${compiler.args}"/>
+  
+  <property name="dingding.output.dir" value="${module.dingding.basedir}/build/intermediates/classes/debug"/>
+  <property name="dingding.testoutput.dir" value="${module.dingding.basedir}/build/intermediates/classes/androidTest/debug"/>
+  
+  <path id="dingding.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="dingding.module.production.classpath">
+    <path refid="${module.jdk.classpath.dingding}"/>
+    <pathelement location="${library.output.dir}"/>
+  </path>
+  
+  <path id="dingding.runtime.production.module.classpath">
+    <pathelement location="${dingding.output.dir}"/>
+    <path refid="library.runtime.production.module.classpath"/>
+  </path>
+  
+  <path id="dingding.module.classpath">
+    <path refid="${module.jdk.classpath.dingding}"/>
+    <pathelement location="${dingding.output.dir}"/>
+    <pathelement location="${library.testoutput.dir}"/>
+    <pathelement location="${library.output.dir}"/>
+  </path>
+  
+  <path id="dingding.runtime.module.classpath">
+    <pathelement location="${dingding.testoutput.dir}"/>
+    <pathelement location="${dingding.output.dir}"/>
+    <path refid="library.runtime.module.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.dingding">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.dingding">
+    <patternset refid="excluded.from.module.dingding"/>
+  </patternset>
+  
+  <path id="dingding.module.sourcepath">
+    <dirset dir="${module.dingding.basedir}">
+      <include name="build/generated/source/r/debug"/>
+      <include name="build/generated/source/aidl/debug"/>
+      <include name="build/generated/source/buildConfig/debug"/>
+      <include name="build/generated/source/rs/debug"/>
+      <include name="build/generated/res/rs/debug"/>
+      <include name="res"/>
+      <include name="src"/>
+      <include name="assets"/>
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.dingding" depends="compile.module.dingding.production,compile.module.dingding.tests" description="Compile module DingDing"/>
+  
+  <target name="compile.module.dingding.production" depends="register.custom.compilers,compile.module.library" description="Compile module DingDing; production classes">
+    <mkdir dir="${dingding.output.dir}"/>
+    <javac2 destdir="${dingding.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.dingding}/javac">
+      <compilerarg line="${compiler.args.dingding}"/>
+      <bootclasspath refid="dingding.module.bootclasspath"/>
+      <classpath refid="dingding.module.production.classpath"/>
+      <src refid="dingding.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.dingding"/>
+    </javac2>
+    
+    <copy todir="${dingding.output.dir}">
+      <fileset dir="${module.dingding.basedir}/build/generated/source/r/debug">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.dingding.basedir}/build/generated/source/aidl/debug">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.dingding.basedir}/build/generated/source/buildConfig/debug">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.dingding.basedir}/build/generated/source/rs/debug">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.dingding.basedir}/build/generated/res/rs/debug">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.dingding.basedir}/res">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.dingding.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.dingding.basedir}/assets">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.dingding.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.dingding.tests" depends="register.custom.compilers,compile.module.dingding.production" description="compile module DingDing; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.dingding" description="cleanup module">
+    <delete dir="${dingding.output.dir}"/>
+    <delete dir="${dingding.testoutput.dir}"/>
+  </target>
+</project>

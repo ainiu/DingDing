@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/body_radius_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="30dp"
+        android:paddingTop="50dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/shoppingcart_empty_cart_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/shoppingcart_text_empty"
+            android:textColor="@color/font_color_333333"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/shopping_cart_goto_home_button"
+            style="@style/button_style_fun_border"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_while_radius_gray_border_bg"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/home_goto"
+            android:textColor="@color/font_color_999999" />
+    </LinearLayout>
+
+</FrameLayout>

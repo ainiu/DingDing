@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShSwitchView"><attr format="reference|color" name="tintColor"/><attr format="reference|dimension" name="outerStrokeWidth"/><attr format="reference|dimension" name="shadowSpace"/></declare-styleable>
+    <!-- From: file:/Users/7heaven/AndroidStudioProjects/SHSwitchView/iosswitch/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">iosswitch</string>
+</resources>

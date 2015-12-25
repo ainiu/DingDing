@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <!-- 自定义自动换行-->
+    <declare-styleable name="FlowLayout">
+        <attr name="horizontal_spacing" format="dimension" />
+        <attr name="vertical_spacing" format="dimension" />
+    </declare-styleable>
+
+    <!-- 自定义btn-->
+    <declare-styleable name="JWRadioBtn">
+        <attr name="android:text" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+    <!--declare-styleable：自定义属性的值  -->
+    <!--<declare-styleable name="ToBar">
+        <attr name="title" format="string" />
+        <attr name="titleTextSize" format="dimension" />
+        <attr name="titleColor" format="color" />
+        <attr name="leftText" format="string" />
+        <attr name="leftBackground" format="reference|color" />
+        <attr name="leftColor" format="color" />
+        <attr name="rightText" format="string" />
+        <attr name="rightBackground" format="reference|color" />
+        <attr name="rightColor" format="color" />
+    </declare-styleable>-->
+</resources>

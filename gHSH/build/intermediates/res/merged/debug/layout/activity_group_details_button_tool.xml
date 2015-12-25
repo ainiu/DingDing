@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_gravity="bottom"
+    android:layout_marginTop="-50dp"
+    android:background="@drawable/body_rectangle_while_border_bg" >
+
+    <Button
+        android:id="@+id/orderButton"
+        style="@style/button_style_fun_border"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/button_orange_bg"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="@string/goods_details_order"
+        android:textSize="@dimen/fontSize_goods_details_button" />
+
+</RelativeLayout>

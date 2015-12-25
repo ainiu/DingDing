@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/forgetpwd_password1"
+                style="@style/edittext_style_radius_border"
+                android:hint="新密码"
+                 android:inputType="textPassword"  />
+
+            <EditText
+                android:id="@+id/forgetpwd_password2"
+                style="@style/edittext_style_radius_border"
+                android:layout_marginTop="5dp"
+                android:hint="确认密码"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/forgetpwd_okButton"
+                style="@style/button_style_fun_border"
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_blue_bg"
+                android:text="@string/forgetPwd_button" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

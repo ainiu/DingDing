@@ -1,0 +1,209 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LianXiActivity">
+
+    <RelativeLayout
+        android:id="@+id/lianxi_relativeLayout_01"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#1FA9EB">
+
+        <TextView
+            android:id="@+id/lianxi_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="联系方式"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+
+        <ImageView
+            android:id="@+id/lianxi_image_01"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="13dp"
+            android:layout_centerVertical="true"
+            android:onClick="doClick"
+            android:src="@drawable/ding_110" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/lianxi_relativeLayout_02"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/lianxi_relativeLayout_01"
+        android:background="@drawable/bottom_biankuang">
+
+        <ImageView
+            android:id="@+id/lianxi_image_02"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:src="@drawable/wang_39" />
+
+        <TextView
+            android:id="@+id/lianxi_text_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/lianxi_image_02"
+            android:text="联系电话"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/lianxi_text_03"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:text="0755-65462987"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/lianxi_relativeLayout_03"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/lianxi_relativeLayout_02"
+        android:background="@drawable/bottom_biankuang">
+
+        <ImageView
+            android:id="@+id/lianxi_image_04"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:src="@drawable/wang_40" />
+
+        <TextView
+            android:id="@+id/lianxi_text_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/lianxi_image_04"
+            android:text="联系地址"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/lianxi_text_05"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:text="深圳市宝民一路宝通大厦508"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/lianxi_relativeLayout_04"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/lianxi_relativeLayout_03"
+        android:background="@drawable/bottom_biankuang">
+
+        <ImageView
+            android:id="@+id/lianxi_image_06"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:src="@drawable/wang_41" />
+
+        <TextView
+            android:id="@+id/lianxi_text_06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/lianxi_image_06"
+            android:text="QQ"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/lianxi_text_07"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:text="54121348"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/lianxi_relativeLayout_05"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/lianxi_relativeLayout_04"
+        android:background="@drawable/bottom_biankuang">
+
+        <ImageView
+            android:id="@+id/lianxi_image_08"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:src="@drawable/wang_42" />
+
+        <TextView
+            android:id="@+id/lianxi_text_08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/lianxi_image_08"
+            android:text="邮政编码"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/lianxi_text_09"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:text="541213"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/lianxi_btn"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/lianxi_relativeLayout_05"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/haiwai_text_color_wai"
+        android:text="确  定"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+
+</RelativeLayout>

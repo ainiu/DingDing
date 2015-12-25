@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/new_item_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/default_image" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/new_item_image"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="0dp" >
+
+        <TextView
+            android:id="@+id/news_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/news_item_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:textColor="@color/font_color_999999"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/news_item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/font_color_999999"
+            android:textSize="12sp"
+            android:text="9小时前" />
+    </LinearLayout>
+
+</RelativeLayout>

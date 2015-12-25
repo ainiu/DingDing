@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/my_children_relativeLayout_01"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        >
+
+        <ImageView
+            android:id="@+id/my_children_image_01"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/picture_33" />
+
+        <TextView
+            android:id="@+id/my_children_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/my_children_image_01"
+            android:text="TextView"
+            android:textSize="10sp"
+            android:textColor="#666666" />
+
+        <TextView
+            android:id="@+id/my_children_image_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/my_children_text_01"
+            android:layout_alignBottom="@+id/my_children_text_01"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/my_children_text_01"
+            android:textSize="12sp"
+            android:text="TextView"
+            android:textColor="#434343" />
+
+        <ImageView
+            android:id="@+id/my_children_image_03"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignLeft="@+id/my_children_text_01"
+            android:layout_alignTop="@+id/my_children_text_01"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/picture_11" />
+
+        <TextView
+            android:id="@+id/my_children_text_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/my_children_image_03"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@+id/my_children_image_03"
+            android:text="TextView"
+            android:textColor="#676767"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/my_children_image_04"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignLeft="@+id/my_children_image_03"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/picture_12" />
+
+        <TextView
+            android:id="@+id/my_children_text_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/my_children_text_02"
+            android:layout_alignTop="@+id/my_children_image_04"
+            android:text="TextView"
+            android:textColor="#676767"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/my_children_image_05"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_alignLeft="@+id/my_children_image_04"
+            android:layout_below="@+id/my_children_text_03"
+            android:layout_marginTop="5dp"
+            android:src="@mipmap/picture_25" />
+
+        <TextView
+            android:id="@+id/my_children_text_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/my_children_image_05"
+            android:layout_alignLeft="@+id/my_children_text_03"
+            android:text="TextView" 
+            android:textColor="#383838"
+            android:textSize="12sp"/>
+
+        <ImageView
+            android:id="@+id/my_children_image_06"
+            android:layout_width="4dp"
+            android:layout_height="15dp"
+            android:layout_alignBottom="@+id/my_children_image_01"
+            android:layout_alignLeft="@+id/my_children_text_04"
+            android:layout_marginLeft="60dp"
+            android:layout_toRightOf="@+id/my_children_text_03"
+            android:src="@mipmap/picture_94" />
+
+        <ImageView
+            android:id="@+id/my_children_image_07"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignBottom="@+id/my_children_image_06"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/my_children_image_06"
+            android:src="@mipmap/picture_26" />
+
+        <TextView
+            android:id="@+id/my_children_text_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/my_children_image_06"
+            android:layout_toRightOf="@+id/my_children_image_07"
+            android:layout_marginLeft="6dp"
+            android:text="TextView"
+             android:textColor="#383838"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/my_children_text_06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/my_children_image_05"
+            android:layout_below="@+id/my_children_image_05"
+            android:layout_marginTop="5dp"
+            android:text="价格:" 
+            android:textSize="12sp"
+            android:textColor="#666666"/>
+
+        <TextView
+            android:id="@+id/my_children_text_07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/my_children_text_06"
+            android:layout_alignBottom="@+id/my_children_text_06"
+            android:layout_alignLeft="@+id/my_children_text_06"
+            android:layout_marginLeft="30dp"
+            android:text="100"
+            android:textColor="#3A3A3A"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/my_children_text_08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/my_children_text_07"
+            android:layout_alignBottom="@+id/my_children_text_07"
+            android:layout_alignLeft="@+id/my_children_text_07"
+            android:layout_marginLeft="28dp"
+            android:textSize="9sp"
+            android:textColor="#808080"
+            android:text="元" />
+
+        <TextView
+            android:id="@+id/my_children_text_09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/my_children_text_08"
+            android:layout_alignLeft="@+id/my_children_image_07"
+            android:text="小费:" 
+            android:textSize="12sp"
+            android:textColor="#666666"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/my_children_text_09"
+            android:layout_toRightOf="@+id/my_children_text_09"
+            android:text="TextView"
+            android:textColor="#808080"
+            android:textSize="7sp" />
+
+        <ImageView
+            android:id="@+id/my_children_image_08"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/picture_91" />
+
+        <TextView
+            android:id="@+id/my_children_text_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/my_children_image_02"
+            android:layout_alignBottom="@+id/my_children_image_02"
+            android:layout_toLeftOf="@+id/my_children_image_08"
+            android:text="待出发"
+            android:textSize="12sp" 
+            android:textColor="#EA6644"/>
+
+        <TextView
+            android:id="@+id/my_children_text_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/my_children_text_09"
+            android:layout_alignBottom="@+id/my_children_text_09"
+            android:layout_toRightOf="@+id/my_children_text_05"
+            android:text="已完成"
+            android:textSize="12sp"
+            android:textColor="#9D9D9D" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

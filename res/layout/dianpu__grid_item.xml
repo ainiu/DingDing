@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/haiwai_button__true_color"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/grid_img"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@color/haiwai_button__true_color"
+        android:src="@drawable/ding_42" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/haiwai_button__true_color"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/grid_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="name"
+            />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="商城价:"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/grid_primalPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.1" />
+
+            <ImageView
+                android:id="@+id/soushuo_jifeng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:src="@drawable/ding_126" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:background="@color/haiwai_button__true_color"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/wang_08" />
+            <TextView
+                android:id="@+id/grid_originPlace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="德国" 
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

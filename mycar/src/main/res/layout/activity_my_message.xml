@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyMessageActivity" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout003"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" 
+        android:layout_alignParentRight="true"
+        android:background="#000000" >
+
+        <TextView
+            android:id="@+id/myMessageName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="我的消息" 
+            android:textColor="#FFFFFF"
+            android:textSize="21sp"/>
+
+        <ImageView
+            android:id="@+id/myMessageImage"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:src="@mipmap/biao" />
+
+        <ImageView
+            android:id="@+id/myMessageShan"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="14dp"
+            android:src="@mipmap/page_22" />
+        
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout003" >
+    </ListView>
+
+</RelativeLayout>

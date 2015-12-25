@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="@drawable/btn_allbai"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/fenlei_list_linearLayout_01"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fenlei_grid_text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上衣"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/fenlei_list_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="大减价"
+            android:textColor="#999999"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/fenlei_grid_image"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="15dp"
+        android:background="@null"
+        android:src="@drawable/ding_144" />
+
+</LinearLayout>

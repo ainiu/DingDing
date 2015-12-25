@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header_layout"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/header_bg_color" >
+
+    <ImageView
+        android:id="@+id/header_back_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:maxWidth="80dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:src="@drawable/header_back_icon"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/header_button_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/message_number"
+        android:background="@color/transparent"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/header_other_text_color"
+        android:textSize="@dimen/fontSize_header_button"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/message_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF00FF" />
+
+    <TextView
+        android:id="@+id/header_msg_number"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/badgeview_bg"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/header_title_view"
+        android:layout_width="230dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/fontSize_header_title" />
+
+    <FrameLayout
+        android:id="@+id/header_search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="6dp"
+        android:layout_toLeftOf="@+id/header_button_view"
+        android:layout_toRightOf="@+id/header_back_view"
+        android:maxWidth="230dp"
+        android:visibility="gone" >
+
+        <EditText
+            android:id="@+id/header_search_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/header_search_edittext_bg"
+            android:drawableLeft="@drawable/header_search_icon"
+            android:ellipsize="end"
+            android:hint="@string/header_search_hint"
+            android:paddingLeft="5dp"
+            android:paddingRight="30dp"
+            android:singleLine="true"
+            android:textSize="@dimen/fontSize_header_search" />
+
+        <ImageView
+            android:id="@+id/header_search_video_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/header_video_icon"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/header_search_del_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="2dp"
+            android:src="@drawable/edittext_del_icon"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</RelativeLayout>

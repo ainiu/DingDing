@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+	<meta charset="UTF-8">
+	<title>Region</title>
+	<script type="text/javascript" src="js/regiondata.js"></script>
+	<script type="text/javascript">
+		function getAddress(rid) {
+			var provinces = window._regionMap;
+			var address = "";
+			for(province in provinces){
+				if(province == rid){
+					address = provinces[province][0];
+					return address;
+				}else{
+					var cities = provinces[province][2];
+					for(city in cities){
+						if (city == rid) {
+							address = provinces[province][0] + cities[city][0];
+							return address;
+						}else{
+							var areas = cities[city][2];
+							for(area in areas){
+								if (area == rid) {
+									address = provinces[province][0] + cities[city][0] + areas[area][0];
+									return address;
+								}
+							}
+						}
+					}
+				}
+			}
+			return address;
+		}
+		$getRegionMap();
+	</script>
+</head>
+<body>
+	<!--<script type="text/javascript">
+		document.writeln(getAddress("100"));
+	</script>-->
+</body>
+</html>

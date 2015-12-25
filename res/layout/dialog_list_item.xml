@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:zhy="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/addtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text="尺码"
+        />
+    <com.zhy.view.flowlayout.TagFlowLayout
+        android:id="@+id/TagFlowLayout"
+        android:layout_width="match_parent"
+        zhy:max_select="1"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

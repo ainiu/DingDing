@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listview_item_bg" >
+
+    <CheckBox
+        android:id="@+id/goods_item_checkBox"
+        style="@style/checkBox_style"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:focusable="false" />
+
+    <ImageView
+        android:id="@+id/goods_item_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/goods_item_checkBox"
+        android:background="@drawable/body_rectangle_null_centent_bg"
+        android:padding="1dp"
+        android:src="@drawable/default_image" />
+
+    <TextView
+        android:id="@+id/goods_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/goods_item_image"
+        android:ellipsize="end"
+        android:lines="2"
+        android:textColor="@color/font_color_333333"
+        android:textSize="16sp" />
+
+    <TableLayout
+        android:id="@+id/goods_item_tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/goods_item_name"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/goods_item_image"
+        android:stretchColumns="*" >
+
+        <TableRow>
+
+            <LinearLayout
+                android:id="@+id/goods_item_price_layout"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:text="@string/goods_details_price"
+                    android:textColor="@color/font_color_999999"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/goods_item_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:textColor="@color/font_color_999999"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/goods_item_number_layout"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:paddingRight="10dp"
+                android:paddingLeft="0dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:text="@string/goods_details_number"
+                    android:textColor="@color/font_color_999999"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/goods_item_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:textColor="@color/font_color_999999"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow >
+
+            <TextView
+                android:id="@+id/goods_item_attr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="1"
+                android:textColor="@color/font_color_999999"
+                android:textSize="14sp"
+                android:layout_span="2" />
+        </TableRow>
+    </TableLayout>
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/goods_item_name"
+        android:layout_marginTop="28dp"
+        android:layout_toRightOf="@+id/goods_item_image"
+        layout="@layout/activity_shoppingcart_number_add_minus" />
+
+</RelativeLayout>

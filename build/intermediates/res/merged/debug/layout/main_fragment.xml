@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:background="#F6F6F6"
+        >
+   
+
+        <Button
+            android:id="@+id/sou_Button_haiwai"
+            style="@style/haiwai_button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableTop="@drawable/sou_list_01"
+            android:textColor="@color/haiwai_color_list"
+            android:text="@string/sou_list_01" />
+
+        <Button
+            android:id="@+id/sou_Button_fenlei"
+            style="@style/fenlei_button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableTop="@drawable/sou_list_02"
+            android:textColor="@color/fenlei_color_list"
+            android:text="@string/sou_list_02" />
+
+        <Button
+            android:id="@+id/sou_Button_souye"
+            style="@style/shouye_button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:textColor="@color/shouye_color_list"
+            android:background="@null"
+            android:drawableTop="@drawable/sou_list_03"
+            android:text="@string/sou_list_03" />
+
+        <Button
+            android:id="@+id/sou_Button_gouwuche"
+            style="@style/gouwu_button_style"
+            android:layout_width="wrap_content"
+            android:background="@null"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gouwu_color_list"
+            android:drawableTop="@drawable/sou_list_04"
+            android:text="@string/sou_list_04" />
+
+        <Button
+            android:id="@+id/sou_Button_geren"
+            style="@style/shouye_button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:textColor="@color/shouye_color_list"
+            android:drawableTop="@drawable/sou_list_05"
+            android:text="@string/sou_list_05" />
+    </LinearLayout>
+
+</LinearLayout>

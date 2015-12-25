@@ -1,0 +1,223 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PingFenActivity" >
+
+    <RelativeLayout
+        android:id="@+id/pingfen_relativeLayout_01"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#000000" >
+
+        <TextView
+            android:id="@+id/pingfen_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="张师傅"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+
+        <ImageView
+            android:id="@+id/pingfen_image_01"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:src="@mipmap/picture_04" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pingfen_relativeLayout_02"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/pingfen_relativeLayout_01" >
+
+        <ImageView
+            android:id="@+id/pingfen_image_02"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:src="@mipmap/picture_33" />
+
+        <TextView
+            android:id="@+id/pingfen_text_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/pingfen_image_02"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@+id/pingfen_image_02"
+            android:text="张师傅"
+            android:textColor="#333333"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pingfen_text_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/pingfen_text_02"
+            android:layout_below="@+id/pingfen_text_02"
+            android:layout_marginTop="3dp"
+            android:text="粤**M5D1"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pingfen_text_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/pingfen_text_03"
+            android:layout_alignBottom="@+id/pingfen_text_03"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/pingfen_text_03"
+            android:text="比亚迪S6"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pingfen_text_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/pingfen_text_03"
+            android:layout_below="@+id/pingfen_text_03"
+            android:layout_marginTop="2dp"
+            android:text="身份证:"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/pingfen_text_06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/pingfen_text_05"
+            android:layout_toRightOf="@+id/pingfen_text_05"
+            android:text="440981*******3393"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/pingfen_image_04"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/pingfen_image_02"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/page_50" />
+
+        <TextView
+            android:id="@+id/pingfen_text_07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/pingfen_image_04"
+            android:layout_alignRight="@+id/pingfen_image_04"
+            android:layout_marginRight="16dp"
+            android:text="4.9"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/pingfen_image_05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/pingfen_relativeLayout_02"
+        android:src="@mipmap/picture_90" />
+
+    <LinearLayout
+        android:id="@+id/pingfen_linearLayout_01"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/pingfen_image_05"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/pingfen_relativeLayout_03"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/pingfen_text_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/pingfen_text_08"
+                android:layout_below="@+id/pingfen_text_08"
+                android:text="486"
+                android:textColor="#666666"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/pingfen_text_08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                android:text="服务次数"
+                android:textColor="#666666"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/pingfen_relativeLayout_04"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/pingfen_text_09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="55dp"
+                android:layout_marginTop="12dp"
+                android:text="司机排名"
+                android:textColor="#666666"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/pingfen_text_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/pingfen_text_09"
+                android:layout_below="@+id/pingfen_text_09"
+                android:text="16549"
+                android:textColor="#666666"
+                android:textSize="17sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/pingfen_image_06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/pingfen_linearLayout_01"
+        android:src="@mipmap/picture_90" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pingfen_image_06" >
+    </ListView>
+
+</RelativeLayout>

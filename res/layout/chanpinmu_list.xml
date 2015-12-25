@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/chanpinmu_list_image_01"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ding_128" />
+
+    <TextView
+        android:id="@+id/chanpinmu_list_text_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/chanpinmu_list_image_01"
+        android:layout_alignRight="@+id/chanpinmu_list_image_01"
+        android:layout_below="@+id/chanpinmu_list_image_01"
+        android:text="托尼魅力Tonymoiy角质护理足膜25ml*2去角质 嫩白!" 
+        android:textSize="10sp"
+        android:textColor="#666666"
+        android:layout_marginTop="3dp"
+        />
+
+    <TextView
+        android:id="@+id/chanpinmu_list_text_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/chanpinmu_list_text_01"
+        android:layout_below="@+id/chanpinmu_list_text_01"
+        android:text="活动价"
+        android:textColor="#666666"
+        android:textSize="10sp"
+        android:layout_marginTop="3dp" />
+
+    <TextView
+        android:id="@+id/chanpinmu_list_text_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/chanpinmu_list_text_02"
+        android:layout_toRightOf="@+id/chanpinmu_list_text_02"
+        android:text="¥399.0" 
+        android:textColor="#666666"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/chanpinmu_list_text_04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/chanpinmu_list_text_01"
+        android:layout_alignTop="@+id/chanpinmu_list_text_03"
+        android:text="美妆"
+        android:textColor="#A9A9A9"
+        android:layout_marginRight="4dp"
+        android:textSize="9sp" />
+
+    <ImageView
+        android:id="@+id/chanpinmu_list_image_02"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignTop="@+id/chanpinmu_list_text_04"
+        android:layout_toLeftOf="@+id/chanpinmu_list_text_04"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/ding_33" />
+
+</RelativeLayout>

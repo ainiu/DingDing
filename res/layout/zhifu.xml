@@ -1,0 +1,259 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fefefe"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="#0c74bd"
+        android:gravity="center"
+        android:text="银联控件jar集成测试"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="商户号"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/edt_merchantcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="异步通知地址"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/edt_notifyurl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="接口版本"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/edt_version"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:paddingLeft="10dip" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="签名方式"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/edt_signtype"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:paddingLeft="10dip" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="订单号"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/edt_orderno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="订单时间"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/edt_ordertime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="订单金额"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/edt_orderamount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="商品名称"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/edt_productname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="redo_flag订单是否允许重复标识"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/edt_redoflag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="0允许重复1不允许重复"
+                android:paddingLeft="10dip" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="商品编号"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/edt_productcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="商品数量"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/edt_productnum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="商品描述"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/edt_produnctdesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="公用回传参数"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/edt_extra_return_param"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="子订单1(每点击一下“添加”增加一条子订单，下面的订单内容可改)" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/mer_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="123" />
+
+                <EditText
+                    android:id="@+id/order_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="123" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/order_monery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="0.1" />
+
+                <EditText
+                    android:id="@+id/goods_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="jeny" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/addOrder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="添加子订单" />
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="提交" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

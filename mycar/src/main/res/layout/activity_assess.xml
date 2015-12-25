@@ -1,0 +1,420 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AssessActivity" >
+
+    <RelativeLayout
+        android:id="@+id/assess_relativeLayout_01"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#000000" >
+
+        <TextView
+            android:id="@+id/assess_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="评价详情"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+
+        <ImageView
+            android:id="@+id/assess_image_01"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:src="@mipmap/biao" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/assess_relativeLayout_02"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/assess_relativeLayout_01" >
+
+        <ImageView
+            android:id="@+id/assess_image_02"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@mipmap/picture_33" />
+
+        <TextView
+            android:id="@+id/assess_text_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/assess_image_02"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/assess_image_02"
+            android:text="张师傅"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/assess_text_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/assess_text_02"
+            android:layout_centerVertical="true"
+            android:text="粤**M8D1"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/assess_text_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/assess_text_03"
+            android:text="比亚迪S6"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/assess_image_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/assess_text_03"
+            android:layout_toRightOf="@+id/assess_text_03"
+            android:src="@mipmap/yuping" />
+
+        <TextView
+            android:id="@+id/assess_text_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/assess_image_03"
+            android:layout_alignLeft="@+id/assess_text_04"
+            android:text="4.9"
+            android:textColor="#F7F7F7"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/assess_text_06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/assess_image_03"
+            android:layout_alignRight="@+id/assess_text_04"
+            android:text="185单"
+            android:textColor="#666666"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:id="@+id/assess_image_04"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/assess_image_02"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="14dp"
+            android:src="@mipmap/phonelin" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/assess_relativeLayout_03"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/assess_relativeLayout_02" >
+
+        <ImageView
+            android:id="@+id/assess_image_05"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:src="@mipmap/pingjialine" />
+
+        <TextView
+            android:id="@+id/assess_text_07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/assess_image_05"
+            android:text="成功支付"
+            android:textColor="#999999"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="40dp"
+            android:layout_toRightOf="@+id/assess_text_07"
+            android:src="@mipmap/pingjialine" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/assess_relativeLayout_04"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/assess_relativeLayout_03" >
+
+        <TextView
+            android:id="@+id/assess_text_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="672.5元"
+            android:textColor="#333333"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/assess_relativeLayout_05"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/assess_relativeLayout_04" >
+
+        <ImageView
+            android:id="@+id/assess_image_06"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:src="@mipmap/pingjialine" />
+
+        <TextView
+            android:id="@+id/assess_text_08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/assess_image_06"
+            android:text="评价司机"
+            android:textColor="#999999"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/assess_image_07"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="40dp"
+            android:layout_toRightOf="@+id/assess_text_08"
+            android:src="@mipmap/pingjialine" />
+    </RelativeLayout>
+
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/assess_relativeLayout_05"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/assess_text_14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ratingBar1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="请把您的不满告诉我们"
+        android:textColor="#FF9827"
+        android:textSize="10sp" />
+
+    <LinearLayout
+        android:id="@+id/assess_linearLayout_01"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/assess_text_14" >
+
+        <RelativeLayout
+            android:id="@+id/assess_relativeLayout_06"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+
+            <CheckBox
+                android:id="@+id/assess_checkbox_01"
+                style="@style/CustomCheckboxAssess"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp" />
+
+            <TextView
+                android:id="@+id/assess_text_09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/assess_checkbox_01"
+                android:text="司机路线不熟悉"
+                android:textColor="#444444"
+                android:textSize="11sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/assess_relativeLayout_07"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+
+            <CheckBox
+                android:id="@+id/assess_checkbox_02"
+                style="@style/CustomCheckboxAssess"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp" />
+
+            <TextView
+                android:id="@+id/assess_text_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/assess_checkbox_02"
+                android:text="衣着不体"
+                android:textColor="#444444"
+                android:textSize="11sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/assess_linearLayout_03"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/assess_linearLayout_01"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/assess_linearLayout_02"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/assess_linearLayout_03" >
+
+        <RelativeLayout
+            android:id="@+id/assess_relativeLayout_08"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+
+            <CheckBox
+                android:id="@+id/assess_checkbox_03"
+                style="@style/CustomCheckboxAssess"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp" />
+
+            <TextView
+                android:id="@+id/assess_text_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/assess_checkbox_03"
+                android:text="没主动开门"
+                android:textColor="#444444"
+                android:textSize="11sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/assess_relativeLayout_09"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_weight="1" >
+
+            <CheckBox
+                android:id="@+id/assess_checkbox_04"
+                style="@style/CustomCheckboxAssess"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp" />
+
+            <TextView
+                android:id="@+id/assess_text_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/assess_checkbox_04"
+                android:text="没在车外等候"
+                android:textColor="#444444"
+                android:textSize="11sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/assess_relativeLayout_10"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/assess_linearLayout_02" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/assess_relativeLayout_11"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/assess_relativeLayout_10" >
+        
+     <ImageView 
+         android:id="@+id/assess_image_08"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentTop="true"
+         android:layout_alignParentBottom="true"
+         android:layout_marginLeft="5dp"
+         android:layout_marginTop="5dp"
+         android:layout_marginRight="5dp"
+         android:layout_marginBottom="5dp"
+         android:src="@mipmap/page_51"
+         
+         />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/assess_button_01"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="20dp"
+        android:background="@mipmap/yuanniu"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:text="提交评价" />
+
+</RelativeLayout>

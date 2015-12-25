@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_library" default="compile.module.library">
+  <dirname property="module.library.basedir" file="${ant.file.module_library}"/>
+  
+  <property name="module.jdk.home.library" value="${jdk.home.android_api_16_platform}"/>
+  <property name="module.jdk.bin.library" value="${jdk.bin.android_api_16_platform}"/>
+  <property name="module.jdk.classpath.library" value="jdk.classpath.android_api_16_platform"/>
+  
+  <property name="compiler.args.library" value="-encoding UTF-8 -source 1.6 ${compiler.args}"/>
+  
+  <property name="library.output.dir" value="${module.library.basedir}/build/intermediates/classes/debug"/>
+  <property name="library.testoutput.dir" value="${module.library.basedir}/build/intermediates/classes/androidTest/debug"/>
+  
+  <path id="library.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="library.module.production.classpath">
+    <path refid="${module.jdk.classpath.library}"/>
+  </path>
+  
+  <path id="library.runtime.production.module.classpath">
+    <pathelement location="${library.output.dir}"/>
+  </path>
+  
+  <path id="library.module.classpath">
+    <path refid="${module.jdk.classpath.library}"/>
+    <pathelement location="${library.output.dir}"/>
+  </path>
+  
+  <path id="library.runtime.module.classpath">
+    <pathelement location="${library.testoutput.dir}"/>
+    <pathelement location="${library.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.library">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.library">
+    <patternset refid="excluded.from.module.library"/>
+  </patternset>
+  
+  <path id="library.module.sourcepath">
+    <dirset dir="${module.library.basedir}">
+      <include name="src/main/res"/>
+      <include name="src/main/java"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.library" depends="compile.module.library.production,compile.module.library.tests" description="Compile module library"/>
+  
+  <target name="compile.module.library.production" depends="register.custom.compilers" description="Compile module library; production classes">
+    <mkdir dir="${library.output.dir}"/>
+    <javac2 destdir="${library.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.library}/javac">
+      <compilerarg line="${compiler.args.library}"/>
+      <bootclasspath refid="library.module.bootclasspath"/>
+      <classpath refid="library.module.production.classpath"/>
+      <src refid="library.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.library"/>
+    </javac2>
+    
+    <copy todir="${library.output.dir}">
+      <fileset dir="${module.library.basedir}/src/main/res">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.library.basedir}/src/main/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.library.tests" depends="register.custom.compilers,compile.module.library.production" description="compile module library; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.library" description="cleanup module">
+    <delete dir="${library.output.dir}"/>
+    <delete dir="${library.testoutput.dir}"/>
+  </target>
+</project>

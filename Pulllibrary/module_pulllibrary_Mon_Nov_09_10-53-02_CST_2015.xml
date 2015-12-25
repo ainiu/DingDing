@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_pulllibrary" default="compile.module.pulllibrary">
+  <dirname property="module.pulllibrary.basedir" file="${ant.file.module_pulllibrary}"/>
+  
+  <property name="module.jdk.home.pulllibrary" value="${jdk.home.android_api_16_platform_(6)}"/>
+  <property name="module.jdk.bin.pulllibrary" value="${jdk.bin.android_api_16_platform_(6)}"/>
+  <property name="module.jdk.classpath.pulllibrary" value="jdk.classpath.android_api_16_platform_(6)"/>
+  
+  <property name="compiler.args.pulllibrary" value="-encoding UTF-8 -source 1.6 ${compiler.args}"/>
+  
+  <property name="pulllibrary.output.dir" value="${module.pulllibrary.basedir}/build"/>
+  <property name="pulllibrary.testoutput.dir" value="${module.pulllibrary.basedir}/build"/>
+  
+  <path id="pulllibrary.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="pulllibrary.module.production.classpath">
+    <path refid="${module.jdk.classpath.pulllibrary}"/>
+  </path>
+  
+  <path id="pulllibrary.runtime.production.module.classpath">
+    <pathelement location="${pulllibrary.output.dir}"/>
+  </path>
+  
+  <path id="pulllibrary.module.classpath">
+    <path refid="${module.jdk.classpath.pulllibrary}"/>
+    <pathelement location="${pulllibrary.output.dir}"/>
+  </path>
+  
+  <path id="pulllibrary.runtime.module.classpath">
+    <pathelement location="${pulllibrary.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.pulllibrary">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.pulllibrary">
+    <patternset refid="excluded.from.module.pulllibrary"/>
+  </patternset>
+  
+  
+  <target name="compile.module.pulllibrary" depends="compile.module.pulllibrary.production,compile.module.pulllibrary.tests" description="Compile module Pulllibrary"/>
+  
+  <target name="compile.module.pulllibrary.production" depends="register.custom.compilers" description="Compile module Pulllibrary; production classes"/>
+  
+  <target name="compile.module.pulllibrary.tests" depends="register.custom.compilers,compile.module.pulllibrary.production" description="compile module Pulllibrary; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.pulllibrary" description="cleanup module">
+    <delete dir="${pulllibrary.output.dir}"/>
+    <delete dir="${pulllibrary.testoutput.dir}"/>
+  </target>
+</project>

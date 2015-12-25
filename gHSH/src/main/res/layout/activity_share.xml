@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/font_color_red" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="@string/share_title"
+        android:textColor="@color/font_color_666666"
+        android:textSize="18sp" />
+
+    <GridView
+        android:id="@+id/share_gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:horizontalSpacing="10dp"
+        android:listSelector="@color/transparent"
+        android:numColumns="3"
+        android:verticalSpacing="10dp" >
+    </GridView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/border_color" />
+
+    <Button
+        android:id="@+id/share_cancel_button"
+        style="@style/button_style_fun_border"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_red_bg"
+        android:focusable="false"
+        android:text="@string/cancel" />
+
+</LinearLayout>

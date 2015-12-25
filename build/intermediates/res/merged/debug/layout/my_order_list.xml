@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/myorder_relativeLayout_01"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#1FA9EB" >
+
+        <TextView
+            android:id="@+id/myorder_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="我的订单"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+
+        <ImageView
+            android:id="@+id/myorder_image_01"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:src="@drawable/ding_110" />
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/sou_radioGroup_01"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/myorder_relativeLayout_01"
+        android:background="#F6F6F6"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/sou_radioButton_01"
+            style="@style/daifu_button_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/my_order_quan" />
+
+        <RadioButton
+            android:id="@+id/sou_radioButton_02"
+            style="@style/daifu_button_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/my_order_dai" />
+
+        <RadioButton
+            android:id="@+id/sou_radioButton_03"
+            style="@style/daishou_button_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/my_order_shou" />
+
+        <RadioButton
+            android:id="@+id/sou_radioButton_04"
+            style="@style/daifa_button_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/my_order_shou" />
+
+        <RadioButton
+            android:id="@+id/sou_radioButton_05"
+            style="@style/wancheng_button_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/my_order_wan" />
+    </RadioGroup>
+
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/haiwai_button__true_color">
+
+    <ScrollView
+        android:id="@+id/hw_scrollView_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/Linear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/fragment_container"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#1FA9EB"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/sou_Layout_01"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="11dp"
+                    android:background="@drawable/ding_121"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:id="@+id/sou_image_02"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/ding_94" />
+
+                    <TextView
+                        android:id="@+id/sou_text_01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:text="搜索品牌或者宝贝"
+                        android:textColor="#999999"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <com.baidu.dingding.view.banner.BannerImageView
+                android:id="@+id/sou_banner"
+                android:layout_width="match_parent"
+                android:layout_height="180dp" />
+
+
+            <com.viewpagerindicator.TabPageIndicator
+                android:id="@+id/indicator"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:layout_height="30dp" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="180dp" />
+            <TextView
+                android:id="@+id/haiwai_fragment_text_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="13dp"
+                android:text="精品折扣"
+                android:textColor="#333333"
+                android:textSize="13sp" />
+
+
+            <com.baidu.dingding.view.MyView.MyListView
+                android:id="@+id/haiwai_fragment_listView_01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

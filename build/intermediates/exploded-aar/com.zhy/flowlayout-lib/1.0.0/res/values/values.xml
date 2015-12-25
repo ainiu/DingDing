@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TagFlowLayout"><attr format="boolean" name="auto_select_effect"/><attr format="integer" name="max_select"/></declare-styleable>
+    <!-- From: file:/Users/zhy/github_repository/mine/Github-FlowLayout/flowlayout-lib/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">flowlayout-lib</string>
+</resources>

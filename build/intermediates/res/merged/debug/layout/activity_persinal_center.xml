@@ -1,0 +1,169 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/com.baidu.dingding.view.MyView.CircleImageView"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PersinalCenterActivity">
+
+    <RelativeLayout
+        android:id="@+id/center_relativeLayout_01"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:background="#1FA9EB">
+
+        <TextView
+            android:id="@+id/center_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="个人中心"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/center_relativeLayout_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/center_relativeLayout_01"
+        android:padding="20dp">
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/center_photo_01"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ding_149"
+            />
+
+        <!--<com.tarena.utils.ImageCircleView
+            android:id="@+id/center_photo_01"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ding_149" />-->
+
+        <TextView
+            android:id="@+id/geren_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/center_photo_01"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="13dp"
+            android:layout_toRightOf="@+id/center_photo_01"
+            android:text="孟柯分弗格森"
+            android:textColor="#666666"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/geren_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/geren_name"
+            android:layout_below="@id/geren_name"
+            android:text="66666666@qq.com"
+            android:textColor="#666666"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/center_image_01"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/ding_115" />
+    </RelativeLayout>
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_below="@id/center_relativeLayout_02"
+        android:layout_height="0.2dp"
+        android:background="@color/haiwai_text_color_hai"
+        />
+    <ImageView
+        android:id="@+id/center_image_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/center_relativeLayout_02"
+        android:src="@drawable/xuxian" />
+
+    <LinearLayout
+        android:id="@+id/center_linearLayout_01"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/center_image_02"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/geren_daifukuan"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableTop="@drawable/wang_14"
+            android:text="待付款"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/geren_daifahuo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableTop="@drawable/ding_93"
+            android:text="待发货"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/geren_daishouhuo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableTop="@drawable/wang_16"
+            android:text="待收货"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/geren_yiwangcheng"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableTop="@drawable/wang_17"
+            android:text="已完成"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/geren_tuihou"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableTop="@drawable/ding_116"
+            android:text="退款/售后"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/center_linearLayout_01"
+        />
+
+
+
+</RelativeLayout>

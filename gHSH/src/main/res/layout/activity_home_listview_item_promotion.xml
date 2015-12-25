@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_while_rectangle_bg"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/home_item_image1"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/home_item_title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@color/font_color_333333"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/home_item_desc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@color/font_color_999999"
+        android:textSize="12sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/home_item_shopPrice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#f65e1b"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/home_item_time1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:drawableLeft="@drawable/home_promotion_icon_1"
+            android:textColor="#f65e1b"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</LinearLayout>

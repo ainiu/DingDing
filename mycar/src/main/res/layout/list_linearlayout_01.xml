@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/list_relativeLayout_01"
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <ImageView
+            android:id="@+id/list_image_01"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/page_38" />
+
+        <TextView
+            android:id="@+id/list_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:layout_toRightOf="@+id/list_image_01"
+            android:text="7月28号"
+            android:textColor="#666666"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/list_text_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/list_text_01"
+            android:text="08:00"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/list_text_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/list_text_01"
+            android:layout_alignBottom="@+id/list_text_01"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:text="已预约"
+            android:textColor="#666666"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/list_relativeLayout_02"
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/list_relativeLayout_01" >
+
+        <ImageView
+            android:id="@+id/list_image_02"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/page_35" />
+
+        <TextView
+            android:id="@+id/list_text_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:layout_toRightOf="@+id/list_image_02"
+            android:text="豪华5人座"
+            android:textColor="#666666"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/list_relativeLayout_03"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/list_relativeLayout_02" >
+
+        <ImageView
+            android:id="@+id/list_image_03"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/page_33" />
+
+        <TextView
+            android:id="@+id/list_text_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:layout_toRightOf="@+id/list_image_03"
+            android:text="专车"
+            android:textColor="#666666"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/list_relativeLayout_04"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/list_relativeLayout_03" >
+
+        <ImageView
+            android:id="@+id/list_image_04"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/page_39" />
+
+        <TextView
+            android:id="@+id/list_text_06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:layout_toRightOf="@+id/list_image_04"
+            android:text="2人"
+            android:textColor="#666666"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/list_relativeLayout_05"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/list_relativeLayout_04" >
+
+        <ImageView
+            android:id="@+id/list_image_05"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/page_40" />
+
+        <TextView
+            android:id="@+id/list_text_07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:layout_toRightOf="@+id/list_image_05"
+            android:text="无"
+            android:textColor="#666666"
+            android:textSize="10dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/list_relativeLayout_06"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/list_relativeLayout_05" >
+
+        <ImageView
+            android:id="@+id/list_image_06"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/page_45" />
+
+        <TextView
+            android:id="@+id/list_text_08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:layout_toRightOf="@+id/list_image_06"
+            android:text="是"
+            android:textColor="#666666"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/list_relativeLayout_07"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/list_relativeLayout_06" >
+
+        <ImageView
+            android:id="@+id/list_image_07"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/page_41" />
+
+        <TextView
+            android:id="@+id/list_text_09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:layout_toRightOf="@+id/list_image_07"
+            android:text="深圳口岸"
+            android:textColor="#666666"
+            android:textSize="10sp" />
+        
+        <ImageView 
+            android:id="@+id/list_image_13"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/page_28"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/list_relativeLayout_08"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/list_relativeLayout_07" >
+
+        <ImageView
+            android:id="@+id/list_image_08"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/page_42" />
+
+        <TextView
+            android:id="@+id/list_text_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:layout_toRightOf="@+id/list_image_08"
+            android:text="南山东滨路深圳湾口岸"
+            android:textColor="#666666"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/list_relativeLayout_09"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/list_relativeLayout_08" >
+
+        <ImageView
+            android:id="@+id/list_image_09"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/page_37" />
+
+        <TextView
+            android:id="@+id/list_text_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:layout_toRightOf="@+id/list_image_09"
+            android:text="香港九龙尖沙咀东部的尖沙咀海滨花园"
+            android:textColor="#666666"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/list_relativeLayout_10"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/list_relativeLayout_09" >
+
+        <ImageView
+            android:id="@+id/list_image_10"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/page_34" />
+
+        <TextView
+            android:id="@+id/list_text_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:layout_toRightOf="@+id/list_image_10"
+            android:text="¥1000元"
+            android:textColor="#666666"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/list_relativeLayout_11"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/list_relativeLayout_10" >
+
+        <ImageView
+            android:id="@+id/list_image_11"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/page_43" />
+
+        <TextView
+            android:id="@+id/list_text_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:layout_toRightOf="@+id/list_image_11"
+            android:text="¥50元"
+            android:textColor="#666666"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/list_relativeLayout_12"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/list_relativeLayout_11" >
+
+        <ImageView
+            android:id="@+id/list_image_12"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/page_36" />
+        <Button 
+            android:id="@+id/list_button_01"
+            android:layout_width="50dp"
+            android:layout_height="10dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:layout_toRightOf="@+id/list_image_12"
+            android:background="@mipmap/page_47"
+            />
+        
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/list_relativeLayout_13"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/list_relativeLayout_12"
+        >
+        <Button 
+            android:id="@+id/list_button_02"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+           android:layout_centerVertical="true"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="15dp"
+           android:background="@mipmap/page_44"
+           android:text="加小费"
+           android:textSize="10sp"
+           android:textColor="#666666"
+            />
+        
+    </RelativeLayout>
+    <ImageView 
+        android:id="@+id/list_image_14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/list_relativeLayout_13"
+        android:src="@mipmap/picture_90"
+        />
+   
+</RelativeLayout>

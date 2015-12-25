@@ -1,0 +1,351 @@
+[
+    {
+        "outputFile": "E:\\DingDing\\Pullsample\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 1511,
+                    "endColumn": 63,
+                    "endOffset": 1570
+                },
+                "from": {
+                    "file": "E:\\DingDing\\Pullsample\\build\\intermediates\\exploded-aar\\DingDing\\Pulllibrary\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 1511,
+                        "endColumn": 63,
+                        "endOffset": 1570
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 1575,
+                    "endColumn": 63,
+                    "endOffset": 1634
+                },
+                "from": {
+                    "file": "E:\\DingDing\\Pullsample\\build\\intermediates\\exploded-aar\\DingDing\\Pulllibrary\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 1575,
+                        "endColumn": 63,
+                        "endOffset": 1634
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 1639,
+                    "endColumn": 54,
+                    "endOffset": 1689
+                },
+                "from": {
+                    "file": "E:\\DingDing\\Pullsample\\build\\intermediates\\exploded-aar\\DingDing\\Pulllibrary\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 1639,
+                        "endColumn": 54,
+                        "endOffset": 1689
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 1694,
+                    "endColumn": 56,
+                    "endOffset": 1746
+                },
+                "from": {
+                    "file": "E:\\DingDing\\Pullsample\\build\\intermediates\\exploded-aar\\DingDing\\Pulllibrary\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 1694,
+                        "endColumn": 56,
+                        "endOffset": 1746
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 1751,
+                    "endColumn": 54,
+                    "endOffset": 1801
+                },
+                "from": {
+                    "file": "E:\\DingDing\\Pullsample\\build\\intermediates\\exploded-aar\\DingDing\\Pulllibrary\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 1751,
+                        "endColumn": 54,
+                        "endOffset": 1801
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 1806,
+                    "endColumn": 37,
+                    "endOffset": 1839
+                },
+                "from": {
+                    "file": "E:\\DingDing\\Pullsample\\build\\intermediates\\exploded-aar\\DingDing\\Pulllibrary\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 1806,
+                        "endColumn": 37,
+                        "endOffset": 1839
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 1844,
+                    "endColumn": 39,
+                    "endOffset": 1879
+                },
+                "from": {
+                    "file": "E:\\DingDing\\Pullsample\\build\\intermediates\\exploded-aar\\DingDing\\Pulllibrary\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1844,
+                        "endColumn": 39,
+                        "endOffset": 1879
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 1884,
+                    "endColumn": 36,
+                    "endOffset": 1916
+                },
+                "from": {
+                    "file": "E:\\DingDing\\Pullsample\\build\\intermediates\\exploded-aar\\DingDing\\Pulllibrary\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1884,
+                        "endColumn": 36,
+                        "endOffset": 1916
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1921,
+                    "endColumn": 57,
+                    "endOffset": 1974
+                },
+                "from": {
+                    "file": "E:\\DingDing\\Pullsample\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 126,
+                        "endColumn": 57,
+                        "endOffset": 179
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1979,
+                    "endColumn": 2892,
+                    "endOffset": 4867
+                },
+                "from": {
+                    "file": "E:\\DingDing\\Pullsample\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 184,
+                        "endColumn": 2892,
+                        "endOffset": 3072
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 4872,
+                    "endColumn": 69,
+                    "endOffset": 4937
+                },
+                "from": {
+                    "file": "E:\\DingDing\\Pullsample\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 69,
+                        "endOffset": 121
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 4942,
+                    "endColumn": 101,
+                    "endOffset": 5039
+                },
+                "from": {
+                    "file": "E:\\DingDing\\Pullsample\\build\\intermediates\\exploded-aar\\DingDing\\Pulllibrary\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1921,
+                        "endColumn": 101,
+                        "endOffset": 2018
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 5044,
+                    "endColumn": 113,
+                    "endOffset": 5153
+                },
+                "from": {
+                    "file": "E:\\DingDing\\Pullsample\\build\\intermediates\\exploded-aar\\DingDing\\Pulllibrary\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 2023,
+                        "endColumn": 113,
+                        "endOffset": 2132
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 5158,
+                    "endColumn": 107,
+                    "endOffset": 5261
+                },
+                "from": {
+                    "file": "E:\\DingDing\\Pullsample\\build\\intermediates\\exploded-aar\\DingDing\\Pulllibrary\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 2137,
+                        "endColumn": 107,
+                        "endOffset": 2240
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 5266,
+                    "endColumn": 71,
+                    "endOffset": 5333
+                },
+                "from": {
+                    "file": "E:\\DingDing\\Pullsample\\build\\intermediates\\exploded-aar\\DingDing\\Pulllibrary\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 2245,
+                        "endColumn": 71,
+                        "endOffset": 2312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 5338,
+                    "endColumn": 69,
+                    "endOffset": 5403
+                },
+                "from": {
+                    "file": "E:\\DingDing\\Pullsample\\build\\intermediates\\exploded-aar\\DingDing\\Pulllibrary\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 2317,
+                        "endColumn": 69,
+                        "endOffset": 2382
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 5408,
+                    "endColumn": 77,
+                    "endOffset": 5481
+                },
+                "from": {
+                    "file": "E:\\DingDing\\Pullsample\\build\\intermediates\\exploded-aar\\DingDing\\Pulllibrary\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2387,
+                        "endColumn": 77,
+                        "endOffset": 2460
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 5486,
+                    "endLine": 26,
+                    "endColumn": 12,
+                    "endOffset": 5830
+                },
+                "from": {
+                    "file": "E:\\DingDing\\Pullsample\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 115,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 459
+                    }
+                }
+            }
+        ]
+    }
+]

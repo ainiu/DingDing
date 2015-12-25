@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:zhy="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="210dp"
+        android:background="#ffffff" />
+
+    <RelativeLayout
+        android:id="@+id/haiwai_gouwu_lin1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="180dp"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/haiwai_gouwu_yi"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/haiwai_gouwu_imageView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:src="@drawable/ding_128" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3" />
+
+            <LinearLayout
+                android:id="@+id/haiwai_gouwu_lin2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/haiwai_gouwu_money"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="¥123"
+                    android:textColor="#ff5524" />
+
+                <TextView
+                    android:id="@+id/haiwai_gouwu_kuncun"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="库存多少"
+                    android:textColor="#ff5524" />
+
+                <TextView
+                    android:id="@+id/haiwai_gouwu_xuanzhechima"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="请选择尺码" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/haiwai_gouwu_cancle"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/ding_151" />
+
+        </LinearLayout>
+
+        <!--<com.zhy.view.flowlayout.TagFlowLayout
+            android:id="@+id/TagFlowLayout"
+            android:layout_width="match_parent"
+            zhy:max_select="-1"
+            android:padding="20dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/haiwai_gouwu_yi"
+            />-->
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/haiwai_gouwu_btn"
+            android:layout_below="@id/haiwai_gouwu_yi">
+
+            <LinearLayout
+                android:id="@+id/scrollview_lin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.baidu.dingding.view.MyView.MyListView
+                    android:id="@+id/mylistview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="?android:attr/listPreferredItemHeight"/>
+
+                <LinearLayout
+                    android:id="@+id/lin3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/haiwai_gouwu_count"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="购买数量"
+                        android:textColor="#5e5b5a"
+                        android:textSize="16sp" />
+
+                    <com.baidu.dingding.view.MyView.AddAndSubView
+                        android:id="@+id/addandsubview"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.8"
+                        android:gravity="center_horizontal"
+                        android:textSize="12sp"
+                        android:textColor="@color/wancheng_false"
+                        android:text="(限购数量20)" />
+                </LinearLayout>
+
+            </LinearLayout>
+            </ScrollView>
+
+        <Button
+            android:id="@+id/haiwai_gouwu_btn"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="11dp"
+            android:background="@drawable/btn_yuanjiao_lan"
+            android:text="确定"
+            android:textColor="#ffff" />
+
+    </RelativeLayout>
+
+</FrameLayout>

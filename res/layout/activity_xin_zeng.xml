@@ -1,0 +1,171 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".XinZengActivity" >
+
+    <RelativeLayout
+        android:id="@+id/xinzeng_relativeLayout_01"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:background="#1FA9EB" >
+
+        <TextView
+            android:id="@+id/xinzeng_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="新增地址"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+
+        <ImageView
+            android:id="@+id/xinzeng_image_01"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:onClick="doClick"
+            android:layout_marginLeft="13dp"
+            android:src="@drawable/ding_110" />
+
+        <Button
+            android:id="@+id/xinzeng_button_01"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/xinzeng_text_01"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:background="@null"
+            android:text="保存"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/xinzeng_linearLayout_01"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/xinzeng_relativeLayout_01"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/xinzeng_edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/bottom_biankuang"
+            android:ems="10"
+            android:hint="请输入姓名"
+            android:textColorHint="@color/gouwu_text_color_gou"
+            android:textSize="11sp" />
+
+        <EditText
+            android:id="@+id/xinzeng_edit_title"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingLeft="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/bottom_biankuang"
+            android:ems="10"
+            android:hint="请输入联系电话"
+            android:textColorHint="@color/gouwu_text_color_gou"
+            android:textSize="11sp" />
+        <EditText
+            android:id="@+id/xinzeng_edit_phone"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingLeft="20dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/bottom_biankuang"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="请输入手机号码"
+            android:textColorHint="@color/gouwu_text_color_gou"
+            android:textSize="11sp" />
+        <EditText
+            android:id="@+id/xinzeng_edit_Post"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/bottom_biankuang"
+            android:ems="10"
+            android:hint="请输入邮编"
+            android:textColorHint="@color/gouwu_text_color_gou"
+            android:textSize="11sp" />
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingRight="13dp"
+            android:background="@drawable/bottom_biankuang"
+            android:layout_height="0dp">
+        <TextView
+            android:id="@+id/xinzeng_edit_suozaiqu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:text="所在地区"
+            android:textColor="#9B9B9B"
+            android:textSize="11sp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ding_148"/>
+        </RelativeLayout>
+        <EditText
+            android:id="@+id/xinzeng_edit_xiangxidizhi"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:paddingLeft="20dp"
+            android:background="@drawable/bottom_biankuang"
+            android:ems="10"
+            android:hint="详细地址"
+            android:textColorHint="@color/gouwu_text_color_gou"
+            android:textSize="11sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/realamoren"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/xinzeng_linearLayout_01"
+        android:layout_marginTop="11dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bottom_biankuang">
+
+        <TextView
+            android:id="@+id/editText"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:background="@null"
+            android:text="设为默认地址"
+            android:paddingLeft="20dp"
+            android:textSize="14sp" />
+
+        <com.sevenheaven.iosswitch.ShSwitchView
+            xmlns:shSwitch="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/switch_view"
+            android:layout_width="66dip"
+            android:layout_height="44dip"
+            shSwitch:tintColor="@color/botton_switch"
+            shSwitch:shadowSpace="7dip"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:background="#FFF" >
+
+    <LinearLayout
+        android:id="@+id/cb_layout"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:background="#CCC"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/group_cb_img"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ck_checked" />
+    </LinearLayout>
+
+ 
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_toLeftOf="@id/zxjc_upload_cb_layout"
+            >
+
+
+            <TextView
+                android:id="@+id/group_name"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textSize="20sp" 
+                android:singleLine="true"
+                android:gravity="center_vertical"
+                android:textColor="#FF0000"/>
+        </LinearLayout>
+</RelativeLayout>

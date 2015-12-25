@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F6F6"
+    tools:context=".ChangeActivity" >
+
+    <RelativeLayout
+        android:id="@+id/change_relativeLayout_01"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:background="#1FA9EB" >
+        
+      <TextView 
+          android:id="@+id/change_text_01"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerVertical="true"
+          android:layout_centerHorizontal="true"
+          android:text="修改密码"
+          android:textColor="#FFFFFF"
+          android:textSize="21sp"
+          />  
+          
+      <ImageView 
+          android:id="@+id/change_image_01"
+          android:layout_width="20dp"
+          android:layout_height="20dp"
+          android:layout_alignParentLeft="true"
+          android:layout_centerVertical="true"
+          android:layout_marginLeft="13dp"
+          android:src="@drawable/ding_110"
+          />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/change_image_02"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/change_relativeLayout_01"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/ding_119" />
+
+    <EditText
+        android:id="@+id/change_edit_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/change_image_02"
+        android:layout_alignTop="@+id/change_image_02"
+        android:layout_alignRight="@+id/change_image_02"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="请输入旧密码"
+        android:inputType="textPassword"
+        android:textColor="#999999"
+        android:textSize="13sp" />
+    <ImageView
+        android:id="@+id/change_image_03"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/change_image_02"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/ding_119" />
+
+    <EditText
+        android:id="@+id/change_edit_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/change_image_03"
+        android:layout_alignTop="@+id/change_image_03"
+        android:layout_alignRight="@+id/change_image_03"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="请输入新密码"
+        android:inputType="textPassword"
+        android:textColor="#999999"
+        android:textSize="13sp" />
+    
+    <ImageView
+        android:id="@+id/change_image_04"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/change_image_03"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/ding_119" />
+
+    <EditText
+        android:id="@+id/change_edit_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/change_image_04"
+        android:layout_alignTop="@+id/change_image_04"
+        android:layout_alignRight="@+id/change_image_04"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="确认密码修改"
+        android:inputType="textPassword"
+        android:textColor="#999999"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/change_button_01"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/change_image_04"
+        android:layout_alignRight="@+id/change_image_04"
+        android:layout_below="@+id/change_image_04"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:background="@drawable/ding_89"
+        android:text="确  定" />
+
+</RelativeLayout>

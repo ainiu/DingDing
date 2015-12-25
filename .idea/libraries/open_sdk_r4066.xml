@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="open_sdk_r4066">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/gHSH/libs/open_sdk_r4066.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

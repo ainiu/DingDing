@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/recharge_money_view"
+                style="@style/edittext_style_radius_border"
+                android:hint="充值金额"
+                android:inputType="none" />
+
+            <EditText
+                android:id="@+id/recharge_desc_view"
+                style="@style/edittext_style_radius_border"
+                android:layout_marginTop="5dp"
+                android:hint="备注" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:text="请选择支付方式："
+                android:textColor="@color/font_color_666666"
+                android:textSize="14sp"/>
+
+            <com.ghsh.view.DListViewNoScroll
+                android:id="@+id/recharge_listView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/line_dotted"
+                android:dividerHeight="1dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

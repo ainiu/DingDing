@@ -1,0 +1,173 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/picture_49"
+    tools:context=".DriverRegisActivity" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <TextView
+            android:id="@+id/regis_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="注册"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+
+        <ImageView
+            android:id="@+id/regis_button"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:src="@mipmap/picture_04" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/regis_text_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="130dp"
+        android:text="手机号"
+        android:textColor="#BDBCBC"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:id="@+id/regis_image_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/regis_text_02"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/regis_text_02"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="3dp"
+        android:src="@mipmap/picture_84" />
+
+    <EditText
+        android:id="@+id/regis_edit_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/regis_text_02"
+        android:layout_alignBottom="@+id/regis_text_02"
+        android:layout_alignRight="@+id/regis_image_01"
+        android:layout_toRightOf="@+id/regis_text_02"
+        android:background="@null"
+        android:textSize="12sp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#BDBCBC"
+        android:ems="10"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/regis_button_02"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:layout_alignBottom="@+id/regis_image_01"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="35dp"
+        android:background="@mipmap/picture_85"
+        android:text="获取验证码"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/regis_text_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/regis_image_01"
+        android:layout_below="@+id/regis_image_01"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="35dp"
+        android:text="验证码"
+        android:textColor="#BDBCBC"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:id="@+id/regis_image_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/regis_text_03"
+        android:layout_below="@+id/regis_text_03"
+        android:layout_marginTop="3dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="35dp"
+        android:src="@mipmap/picture_86" />
+
+    <EditText
+        android:id="@+id/regis_edit_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/regis_text_03"
+        android:layout_alignBottom="@+id/regis_text_03"
+        android:layout_alignLeft="@+id/regis_edit_01"
+        android:background="@null"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#BDBCBC"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:id="@+id/regis_image_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/regis_image_02"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="35dp"
+        android:layout_below="@+id/regis_image_02"
+        android:layout_marginTop="60dp"
+        android:src="@mipmap/picture_80" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/regis_image_03"
+        android:layout_alignLeft="@+id/regis_image_03"
+        android:layout_marginBottom="6dp"
+        android:textColor="#BDBCBC"
+        android:background="@null"
+        android:ems="10"
+        android:textSize="12sp"
+        android:hint="请输入至少6位数密码"
+        android:inputType="textPassword" />
+
+    <ImageView
+        android:id="@+id/regis_image_04"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_alignRight="@+id/regis_image_03"
+        android:layout_alignBottom="@+id/regis_image_03"
+        android:layout_marginBottom="6dp"
+        android:layout_alignTop="@+id/editText1"
+        android:src="@mipmap/picture_87" />
+
+    <Button
+        android:id="@+id/regis_button_01"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/regis_image_03"
+        android:layout_alignRight="@+id/regis_image_03"
+        android:layout_below="@+id/regis_image_03"
+        android:layout_marginTop="40dp"
+        android:text="确定" 
+        android:background="@mipmap/picture_82"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"/>
+
+</RelativeLayout>

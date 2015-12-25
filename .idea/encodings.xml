@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$/expandableListTest/src/main/java/com/example/test/ListViewAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/mycar/src/main/java/com/fanc/mycar/util/ExceptionUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/baidu/dingding/MainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/baidu/dingding/adapter/AbstractBaseAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/baidu/dingding/adapter/ChanPinMuAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/baidu/dingding/adapter/XianshiAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/baidu/dingding/entity/XianShiEntity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/baidu/dingding/fragment/HaiWaiFragment.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/baidu/dingding/fragment/MainFragent.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/baidu/dingding/fragment/ShopingXQ.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/baidu/dingding/until/ExceptionUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/baidu/dingding/until/HttpUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/baidu/dingding/until/LogUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/baidu/dingding/view/LianXiActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/baidu/dingding/view/MyCollectionActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/baidu/dingding/view/PersonalProfileActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/baidu/dingding/view/RegisActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/baidu/dingding/view/ShopinghelpActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/baidu/dingding/view/ShouHuoActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/baidu/dingding/view/ShouHuoAdressActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/baidu/dingding/view/SousuoActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/baidu/dingding/view/XianShiActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/baidu/dingding/view/ZhaoHuiActivity.java" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

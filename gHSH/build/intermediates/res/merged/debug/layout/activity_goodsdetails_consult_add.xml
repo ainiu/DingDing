@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        layout="@layout/header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/consult_add_text_type"
+            android:textColor="@color/font_color_333333"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/consult_add_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/collect_spinner_selector"
+            android:gravity="center" 
+            android:entries="@array/consult_type"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/border_color" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/consult_add_text_content"
+        android:textColor="@color/font_color_333333"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/consult_add_inputView"
+        style="@style/edittext_style_radius_border"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="top"
+        android:hint="@string/consult_add_text_content_hid"
+        android:maxLength="150"
+        android:maxLines="4"
+        android:minLines="4"
+        android:singleLine="false"
+        android:textSize="14sp" />
+
+     <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp" >
+
+            <Button
+                android:id="@+id/consult_add_submit"
+                style="@style/button_style_fun_border"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_orange_bg"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="@string/submit" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/consult_add_checkBox"
+                    style="@style/checkBox_style"
+                    android:focusable="false" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/consult_add_text_anonymous"
+                    android:textColor="@color/font_color_666666"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </RelativeLayout>
+</LinearLayout>

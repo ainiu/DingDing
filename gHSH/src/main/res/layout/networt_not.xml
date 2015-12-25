@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/networt_not_pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg_color"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/body_radius_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="30dp"
+        android:paddingTop="50dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/networt_not_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:text="@string/networt_not_nothing"
+            android:textColor="@color/font_color_333333"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/network_not_setting_button"
+                style="@style/button_style_fun_border"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_while_radius_border_bg"
+                android:text="设置网络"
+                android:textColor="@color/font_color_999999" />
+
+            <Button
+                android:id="@+id/network_not_refresh_button"
+                style="@style/button_style_fun_border"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_while_radius_border_bg"
+                android:text="重新加载"
+                android:textColor="@color/font_color_999999" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

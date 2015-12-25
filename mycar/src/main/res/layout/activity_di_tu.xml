@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DiTuActivity" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout005"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" 
+        android:layout_alignParentRight="true"
+        android:background="#000000" >
+
+        <ImageView
+            android:id="@+id/diImage"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:src="@mipmap/biao" />
+
+        <ImageView
+            android:id="@+id/editText1"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/diImage"
+            android:background="@mipmap/page_30"
+            android:layout_marginRight="20dp"
+             />
+
+        <ImageView
+            android:id="@+id/tuImage"
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:layout_alignBottom="@+id/diImage"
+            android:layout_alignLeft="@+id/editText1"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/page_31" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tuImage"
+            android:background="@null"
+            android:ems="10"
+            android:hint="现在去哪儿"
+            android:textSize="13sp" 
+            android:textColor="#D3D3D3">
+
+            <requestFocus />
+        </EditText>
+        
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout005" />
+
+</RelativeLayout>

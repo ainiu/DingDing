@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\DingDing\\Pullsample\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "E:\\DingDing\\Pullsample\\build\\intermediates\\exploded-aar\\DingDing\\Pulllibrary\\unspecified\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\Pullsample\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "E:\\DingDing\\Pullsample\\build\\intermediates\\exploded-aar\\DingDing\\Pulllibrary\\unspecified\\res\\drawable\\indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\Pullsample\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
+        "source": "E:\\DingDing\\Pullsample\\src\\main\\res\\drawable\\icon.png"
+    }
+]

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <RelativeLayout 
+        android:id="@+id/pingfen_list_relativeLayout_01"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        >
+
+        <TextView
+            android:id="@+id/pingfen_list_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="135****5555" 
+            android:textColor="#999999"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:id="@+id/pingfen_list_text_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/pingfen_list_text_01"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/pingfen_list_text_01"
+            android:textColor="#999999"
+            android:textSize="13sp"
+            android:text="07-08" />
+
+        <TextView
+            android:id="@+id/pingfen_list_text_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/pingfen_list_text_02"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/pingfen_list_text_02"
+            android:textColor="#999999"
+            android:textSize="13sp"
+            android:text="10 : 17" />
+
+        <TextView
+            android:id="@+id/pingfen_list_text_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/pingfen_list_text_01"
+            android:layout_below="@+id/pingfen_list_text_03"
+            android:layout_marginTop="4dp"
+            android:textColor="#555555"
+            android:textSize="14sp"
+            android:text="师傅好耐心，好赞啊" />
+
+    </RelativeLayout>
+    
+    <ImageView 
+        android:id="@+id/pingfen_list_image_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/pingfen_list_relativeLayout_01"
+        android:src="@mipmap/picture_90"
+        />
+    
+
+</RelativeLayout>

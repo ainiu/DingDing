@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#FFFF"
+    android:layout_height="match_parent" >
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/fenlei_dianfu_image_01"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="13dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ding_146" />
+
+    <TextView
+        android:id="@+id/fenlei_dianfu_text_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fenlei_dianfu_image_01"
+        android:layout_below="@+id/fenlei_dianfu_image_01"
+        android:layout_marginTop="3dp"
+        android:text="名称 : "
+        android:textColor="#666666"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/fenlei_dianfu_text_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/fenlei_dianfu_text_01"
+        android:layout_alignBottom="@+id/fenlei_dianfu_text_01"
+        android:layout_toRightOf="@+id/fenlei_dianfu_text_01"
+        android:text="环太平洋"
+        android:textColor="#666666"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/fenlei_dianfu_text_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fenlei_dianfu_text_01"
+        android:layout_below="@+id/fenlei_dianfu_text_01"
+        android:text="卖家 : "
+        android:textColor="#666666"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/fenlei_dianfu_text_04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/fenlei_dianfu_text_03"
+        android:layout_toRightOf="@+id/fenlei_dianfu_text_03"
+        android:text="fhhjkn@163.com"
+        android:textColor="#666666"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/fenlei_dianfu_text_05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fenlei_dianfu_text_03"
+        android:layout_below="@+id/fenlei_dianfu_text_03"
+        android:text="店址 : "
+        android:textColor="#666666"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/fenlei_dianfu_text_06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/fenlei_dianfu_text_05"
+        android:layout_toRightOf="@+id/fenlei_dianfu_text_05"
+        android:text="中国"
+        android:textColor="#666666"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/fenlei_dianfu_text_07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fenlei_dianfu_text_05"
+        android:layout_below="@+id/fenlei_dianfu_text_05"
+        android:text="认证 : "
+        android:textColor="#666666"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/fenlei_dianfu_text_08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/fenlei_dianfu_text_07"
+        android:layout_toRightOf="@+id/fenlei_dianfu_text_07"
+        android:text="已认证"
+        android:textColor="#666666"
+        android:textSize="11sp" />
+
+</RelativeLayout>

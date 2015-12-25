@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.baidu.dingding"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="TApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+
+        <activity android:name="com.baidu.dingding.view.RegisActivity" />
+        <activity android:name="com.baidu.dingding.view.RestPasseActivity" />
+        <activity android:name="com.baidu.dingding.view.SousuoActivity" />
+        <activity android:name="com.baidu.dingding.MainActivity" />
+
+        <activity android:name="com.baidu.dingding.view.SecuritySettingsActivity" />
+        <activity android:name="com.baidu.dingding.view.ChangeActivity" />
+        <activity
+            android:name="com.baidu.dingding.view.XinZengActivity"
+            android:label="@string/title_activity_xin_zeng"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.baidu.dingding.view.ZhaoHuiActivity"
+            android:label="@string/title_activity_zhao_hui"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.baidu.dingding.view.ChongZhiActivity"
+            android:label="@string/title_activity_chong_zhi"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.baidu.dingding.view.ChanPinActivity"
+            android:label="@string/title_activity_chan_pin"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.baidu.dingding.view.ChanPinMuActivity"
+            android:label="@string/title_activity_chan_pin_mu"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.baidu.dingding.view.LianXiActivity"
+            android:label="@string/title_activity_lian_xi"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.baidu.dingding.view.ShouHuoActivity"
+            android:label="@string/title_activity_shou_huo"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.baidu.dingding.view.ShouHuoAdressActivity"
+            android:label="@string/title_activity_shou_huo_adress"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.baidu.dingding.view.PersonalProfileActivity"
+            android:label="@string/title_activity_personal_profile"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.baidu.dingding.view.MyOrderActivity"
+            android:label="@string/title_activity_my_order"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.baidu.dingding.view.MyCollectionActivity"
+            android:label="@string/title_activity_my_collection"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+
+        <activity
+            android:name="com.baidu.dingding.view.SkinActivity"
+            android:label="@string/title_activity_skin"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.baidu.dingding.view.QueRenActivity"
+            android:label="@string/title_activity_que_ren"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.baidu.dingding.view.PaymentActivity"
+            android:label="@string/title_activity_payment"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.baidu.dingding.view.OrderDetailsActivity"
+            android:label="@string/title_activity_order_details"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.baidu.dingding.view.ViewLogisticsActivity"
+            android:label="@string/title_activity_view_logistics"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+
+        <activity
+            android:name="com.baidu.dingding.view.GongGaoActivity"
+            android:label="@string/title_activity_gong_gao" >
+        </activity>
+        <activity
+            android:name="com.baidu.dingding.view.XianShiActivity"
+            android:label="@string/title_activity_xian_shi" >
+        </activity>
+        <activity android:name=".fragment.MainFragent" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.ShopinghelpActivity" >
+        </activity>
+    </application>
+
+</manifest>

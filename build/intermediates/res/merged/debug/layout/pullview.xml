@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F6F6">
+
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerHeight="13dp"
+            android:layout_above="@+id/shopping_fragment_relativeLayout_02"
+            android:layout_marginBottom="20dp"
+            />
+
+    <LinearLayout
+        android:id="@+id/shopping_fragment_relativeLayout_02"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        >
+
+        <CheckBox
+            android:id="@+id/selectAll"
+            style="@style/CustomCheckboxShopping"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:text="全选"
+            android:textColor="#666666"
+            android:textSize="12sp"
+            >
+        </CheckBox>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/sum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:text="合计:￥0.00"
+                android:textColor="#333333"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/shopping_fragment_text_04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="不含运费"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#333333"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/shopping_fragment_button_02"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="#1FA9EB"
+            android:text="@string/shoppingcart_button_accounts"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

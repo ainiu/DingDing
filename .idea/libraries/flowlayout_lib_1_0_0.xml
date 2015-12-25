@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="flowlayout-lib-1.0.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/build/intermediates/exploded-aar/com.zhy/flowlayout-lib/1.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/exploded-aar/com.zhy/flowlayout-lib/1.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.zhy/flowlayout-lib/1.0.0/7419c6c88ae9ebfd7f43e2d7683dae43f518bf7b/flowlayout-lib-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\DingDing\\Pullsample\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\default_ptr_flip.png",
+        "source": "E:\\DingDing\\Pullsample\\build\\intermediates\\exploded-aar\\DingDing\\Pulllibrary\\unspecified\\res\\drawable-mdpi-v4\\default_ptr_flip.png"
+    },
+    {
+        "merged": "E:\\DingDing\\Pullsample\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\indicator_arrow.png",
+        "source": "E:\\DingDing\\Pullsample\\build\\intermediates\\exploded-aar\\DingDing\\Pulllibrary\\unspecified\\res\\drawable-mdpi-v4\\indicator_arrow.png"
+    },
+    {
+        "merged": "E:\\DingDing\\Pullsample\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\default_ptr_rotate.png",
+        "source": "E:\\DingDing\\Pullsample\\build\\intermediates\\exploded-aar\\DingDing\\Pulllibrary\\unspecified\\res\\drawable-mdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "E:\\DingDing\\Pullsample\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icon.png",
+        "source": "E:\\DingDing\\Pullsample\\src\\main\\res\\drawable-mdpi\\icon.png"
+    }
+]

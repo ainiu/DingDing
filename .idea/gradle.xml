@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.7" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/MyJavaOne" />
+            <option value="$PROJECT_DIR$/MyUtils" />
+            <option value="$PROJECT_DIR$/Pulllibrary" />
+            <option value="$PROJECT_DIR$/Pullsample" />
+            <option value="$PROJECT_DIR$/Test" />
+            <option value="$PROJECT_DIR$/ViewPagerIndicator" />
+            <option value="$PROJECT_DIR$/dingjingdongye" />
+            <option value="$PROJECT_DIR$/expandableListTest" />
+            <option value="$PROJECT_DIR$/gHSH" />
+            <option value="$PROJECT_DIR$/jiangang" />
+            <option value="$PROJECT_DIR$/myapplication" />
+            <option value="$PROJECT_DIR$/myapplication2" />
+            <option value="$PROJECT_DIR$/mycar" />
+            <option value="$PROJECT_DIR$/tenheapplication" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

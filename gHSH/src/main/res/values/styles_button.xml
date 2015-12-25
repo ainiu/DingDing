@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- button 公共样式 -->
+    <style name="button_style_comment" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/font_color_666666</item>
+        <item name="android:textSize">@dimen/fontSize_button_style_comment</item>
+    </style>
+
+    <!-- button 右箭头直角边框样式 -->
+    <style name="button_style_rectangle_before" parent="@style/button_style_comment">
+        <item name="android:drawableRight">@drawable/before_gray_icon</item>
+        <item name="android:background">@drawable/button_while_rectangle_bg</item>
+    </style>
+
+    <!-- button 右箭头直角边框样式 -->
+    <style name="button_style_rectangle_before_border" parent="@style/button_style_comment">
+        <item name="android:drawableRight">@drawable/before_gray_icon</item>
+        <item name="android:background">@drawable/button_while_rectangle_border_bg</item>
+    </style>
+     <!-- button 右箭头直角边框样式 -->
+    <style name="button_style_rectangle_before_down_border" parent="@style/button_style_comment">
+        <item name="android:drawableRight">@drawable/before_down_gray_icon</item>
+        <item name="android:background">@drawable/button_while_rectangle_border_bg</item>
+    </style>
+     <style name="button_style_rectangle_border" parent="@style/button_style_comment">
+        <item name="android:background">@drawable/button_while_rectangle_border_bg</item>
+    </style>
+     <style name="button_style_rectangle" parent="@style/button_style_comment">
+        <item name="android:background">@drawable/button_while_rectangle_bg</item>
+    </style>
+
+    <!-- button 右箭头圆角样式 -->
+    <style name="button_style_radius_before_border" parent="@style/button_style_comment">
+        <item name="android:drawableRight">@drawable/before_gray_icon</item>
+        <item name="android:background">@drawable/button_while_radius_bg</item>
+    </style>
+    <!-- button 右箭头圆角边框样式 -->
+    <style name="button_style_radius_border_before_border" parent="@style/button_style_comment">
+        <item name="android:drawableRight">@drawable/before_gray_icon</item>
+        <item name="android:background">@drawable/button_while_radius_border_bg</item>
+    </style>
+
+    <!-- button 功能按钮样式 -->
+    <style name="button_style_fun_border" parent="@style/button_style_comment">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@drawable/button_while_radius_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+         <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+</resources>

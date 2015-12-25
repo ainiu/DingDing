@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10dp" >
+
+    <include layout="@layout/activity_personal_top" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/border_color" />
+
+    <Button
+        android:id="@+id/personal_list_allorder_button"
+        style="@style/button_style_rectangle_before"
+        android:drawableLeft="@drawable/personal_list_allorder_icon"
+        android:text="@string/personal_list_allorder" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/border_color" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/border_color" />
+
+    <Button
+        style="@style/button_style_rectangle_before"
+        android:drawableLeft="@drawable/personal_list_gift_icon"
+        android:text="@string/personal_list_gift"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/border_color"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/personal_list_address_button"
+        style="@style/button_style_rectangle_before"
+        android:drawableLeft="@drawable/personal_list_address_icon"
+        android:text="@string/personal_list_address" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/border_color" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/personal_list_collect_button"
+            style="@style/button_style_rectangle_before"
+            android:drawableLeft="@drawable/personal_list_collect_icon"
+            android:text="@string/personal_list_collect" />
+
+        <TextView
+            android:id="@+id/personal_my_collect_button_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="25dp"
+            android:textColor="@color/font_color_999999"
+            android:textSize="14sp" />
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/border_color" />
+
+    <Button
+        android:id="@+id/personal_list_bonus_button"
+        style="@style/button_style_rectangle_before"
+        android:drawableLeft="@drawable/personal_list_coupon_icon"
+        android:text="@string/personal_list_bonus" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/border_color" 
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/personal_list_coupon_button"
+        style="@style/button_style_rectangle_before"
+        android:drawableLeft="@drawable/personal_list_coupon_icon"
+        android:text="@string/personal_list_coupon"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/border_color" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/border_color" />
+
+    <Button
+        android:id="@+id/personal_list_msg_button"
+        style="@style/button_style_rectangle_before"
+        android:drawableLeft="@drawable/personal_list_msg_icon"
+        android:text="@string/personal_list_msg"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/border_color"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/personal_list_withdraw_button"
+        style="@style/button_style_rectangle_before"
+        android:drawableLeft="@drawable/personal_list_withdraw_icon"
+        android:text="@string/personal_list_withdraw" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/border_color" />
+    <Button
+        android:id="@+id/personal_list_recharge_button"
+        style="@style/button_style_rectangle_before"
+        android:drawableLeft="@drawable/personal_list_withdraw_icon"
+        android:text="@string/personal_list_recharge" 
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/border_color"
+        android:visibility="gone"  />
+
+    <Button
+        style="@style/button_style_rectangle_before"
+        android:drawableLeft="@drawable/personal_list_books_icon"
+        android:text="@string/personal_list_books"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/border_color"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/border_color" />
+
+    <Button
+        style="@style/button_style_rectangle_before"
+        android:drawableLeft="@drawable/personal_list_browse_icon"
+        android:text="@string/personal_list_browse"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/border_color"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/personal_list_user_button"
+        style="@style/button_style_rectangle_before"
+        android:drawableLeft="@drawable/personal_list_user_icon"
+        android:text="@string/personal_list_user" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/border_color" />
+
+    <Button
+        android:id="@+id/personal_list_useraccountrecord_button"
+        style="@style/button_style_rectangle_before"
+        android:drawableLeft="@drawable/personal_list_user_icon"
+        android:text="@string/personal_list_useraccountrecord" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/border_color" />
+
+    <Button
+        android:id="@+id/personal_list_history_button"
+        style="@style/button_style_rectangle_before"
+        android:drawableLeft="@drawable/personal_list_history_icon"
+        android:text="@string/personal_list_history"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/border_color"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/personal_list_opinion_button"
+        style="@style/button_style_rectangle_before"
+        android:drawableLeft="@drawable/personal_list_opinion_icon"
+        android:text="@string/personal_list_opinion" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/border_color" />
+
+</LinearLayout>

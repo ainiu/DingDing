@@ -1,0 +1,41 @@
+{
+    "result": 1,
+    "message": "获取成功",
+    "content": [
+      {
+            "shareId": "1",
+            "shareCode": "QQ",
+            "shareName": "QQ",
+            "shareDesc": "腾讯网(www.QQ.com)是中国浏览量最大的中文门户网站，是腾讯公司推出的集新闻信息、互动社区、娱乐产品和基础服务为一体的大型综合门户网站。",
+            "config": {
+                "APP_KEY": "2P4GeHRLgiN7flOl",
+                "APP_ID": "1104874801"
+            },
+            "sortOrder": "1",
+            "isLogin": "1"
+        },
+        {
+            "shareId": "2",
+            "shareCode": "sinaweibo",
+            "shareName": "新浪微博",
+            "shareDesc": "新浪微博-随时随地分享身边的新鲜事儿",
+            "config": {
+                "APP_KEY": "1282808630"
+            },
+            "sortOrder": "0",
+            "isLogin": "1"
+        },
+        {
+            "shareId": "3",
+            "shareCode": "QQwechat",
+            "shareName": "微信",
+            "shareDesc": "微信，是一个生活方式。",
+            "config": {
+                "APP_Secret": "ed4cf5dc803d6e15ec64a71f25d00c8a",
+                "APP_ID": "wxb1f24749acc9bce4"
+            }, 
+            "sortOrder": "0",
+            "isLogin": "1"
+        }
+    ]
+}

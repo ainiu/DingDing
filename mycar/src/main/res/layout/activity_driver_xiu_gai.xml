@@ -1,0 +1,146 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverXiuGaiActivity" >
+    
+    <RelativeLayout 
+        android:id="@+id/driver_xiugai_relativeLayout_01"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#000000"
+        >
+        
+        <TextView 
+            android:id="@+id/driver_xiugai_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="确认密码"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp"
+            />
+        
+        <ImageView 
+            android:id="@+id/driver_xiugai_image_01"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:src="@mipmap/picture_04"
+            />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/driver_xiugai_relativeLayout_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/driver_xiugai_relativeLayout_01"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="#F6F6F6"
+        >
+        <TextView 
+            android:id="@+id/driver_xiugai_text_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="13dp"
+            android:text="新密码 :"
+            android:textColor="#999999"
+            />
+        
+        <ImageView 
+            android:id="@+id/driver_xiugai_image_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/driver_xiugai_text_02"
+            android:src="@mipmap/picture_90"
+            />
+        
+        <RelativeLayout 
+            android:id="@+id/driver_xiugai_relativeLayout_03"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/driver_xiugai_image_02"
+            android:background="#FFFFFF"
+            >
+            <EditText 
+                android:id="@+id/driver_xiugai_edit_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="15dp"
+                android:background="@null"
+                android:hint="6-16个字符,区分大小写"
+                android:textSize="13sp"
+                android:textColor="#999999"
+                />
+            
+        </RelativeLayout>
+        <ImageView 
+            android:id="@+id/driver_xiugai_image_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/driver_xiugai_relativeLayout_03"
+            android:src="@mipmap/picture_90"
+            />
+        
+        <Button 
+            android:id="@+id/driver_xiugai_button_01"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_below="@+id/driver_xiugai_image_03"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:background="@mipmap/picture_82"
+            android:text="确认提交"
+            android:textSize="16sp"
+            android:textColor="#666666"
+            />
+        
+        <ImageView 
+            android:id="@+id/driver_xiugai_image_04"
+            android:layout_width="18dp" 
+            android:layout_height="18dp"
+            android:layout_below="@+id/driver_xiugai_button_01"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:background="@mipmap/picture_125"
+            />
+
+        <TextView
+            android:id="@+id/driver_xiugai_text_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/driver_xiugai_image_04"
+            android:layout_toRightOf="@+id/driver_xiugai_image_04"
+            android:layout_marginLeft="5dp"
+            android:textSize="13sp"
+            android:textColor="#777777"
+            android:text="显示密码" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

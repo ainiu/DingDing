@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/yankai/AndroidStudioProjects/Loading/lib/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="book_loading_background">#ffffff</color>
+    <color name="book_loading_book">#ff33b5e5</color>
+    <color name="book_loading_page">#ffffff</color>
+    <declare-styleable name="RotateLoading"><attr format="dimension" name="loading_width"/><attr format="color" name="loading_color"/><attr format="integer" name="shadow_position"/></declare-styleable>
+    <!-- From: file:/Users/yankai/AndroidStudioProjects/Loading/lib/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="book_border">10dp</dimen>
+    <dimen name="book_padding">15dp</dimen>
+    <dimen name="page_border">5dp</dimen>
+    <!-- From: file:/Users/yankai/AndroidStudioProjects/Loading/lib/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">lib</string>
+</resources>

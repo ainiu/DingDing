@@ -1,0 +1,154 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyOrderActivity">
+
+    <RelativeLayout
+        android:id="@+id/myorder_relativeLayout_01"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#1FA9EB">
+
+        <TextView
+            android:id="@+id/myorder_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="我的订单"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+
+        <ImageView
+            android:id="@+id/myorder_image_01"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:onClick="doClick"
+            android:src="@drawable/ding_110" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/myorder_linearLayout_01"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/myorder_relativeLayout_01"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/radio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/myorder_button_01"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:background="@null"
+                android:button="@null"
+                android:text="全部"
+                android:textColor="@color/fenlei_color_list"
+                android:textSize="13sp" />
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:background="#b1adad"
+                />
+
+            <RadioButton
+                android:id="@+id/myorder_button_02"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:button="@null"
+                android:text="待付款"
+                android:textColor="@color/fenlei_color_list"
+                android:textSize="13sp" />
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:background="#b1adad"
+                />
+
+            <RadioButton
+                android:id="@+id/myorder_button_03"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:gravity="center"
+                android:button="@null"
+                android:text="待发货"
+                android:textColor="@color/fenlei_color_list"
+                android:textSize="13sp" />
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:background="#b1adad"
+                />
+
+            <RadioButton
+                android:id="@+id/myorder_button_04"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:button="@null"
+                android:text="待收货"
+                android:textColor="@color/fenlei_color_list"
+                android:textSize="13sp" />
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:background="#b1adad"
+                />
+
+            <RadioButton
+                android:id="@+id/myorder_button_05"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:button="@null"
+                android:text="已完成"
+                android:textColor="@color/fenlei_color_list"
+                android:textSize="13sp" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_dindan"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_above="@+id/pager"
+        android:background="#d7d3d3" />
+    <!--<ImageView
+        android:id="@+id/myorder_image_06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myorder_linearLayout_01"
+        android:src="@drawable/ding_92" />-->
+    <com.baidu.dingding.view.MyView.ScrollViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/myorder_linearLayout_01"
+        android:layout_marginTop="13dp" />
+
+
+</RelativeLayout>

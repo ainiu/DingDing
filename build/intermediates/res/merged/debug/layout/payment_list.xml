@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F6F6" >
+
+    <RelativeLayout
+        android:id="@+id/payment_list_relativeLayout_01"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" >
+
+        <ImageView
+            android:id="@+id/payment_list_image_01"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:src="@drawable/ding_171" />
+
+        <TextView
+            android:id="@+id/payment_list_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/payment_list_image_01"
+            android:text="智付"
+            android:textColor="#333333"
+            android:textSize="15sp" />
+
+        <CheckBox
+            android:id="@+id/payment_list_checkBox_01"
+            style="@style/CustomCheckboxShopping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13dp"
+            android:checked="true" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/payment_list_image_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/payment_list_relativeLayout_01"
+        android:src="@drawable/ding_92" />
+
+</RelativeLayout>

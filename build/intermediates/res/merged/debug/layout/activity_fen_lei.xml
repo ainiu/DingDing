@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/hvChannel"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#1FA9EB"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:id="@+id/reshangp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_guid1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/fenlei_shangpingfenlei"
+                android:textColor="#FFFFF7FB"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="70dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/ding_18"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/resdianpu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_guid2"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/fenlei_dianpuliebiao"
+                android:textColor="#FFFFF7FB"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="70dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/ding_18"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/fenlei_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:persistentDrawingCache="animation" />
+
+
+</LinearLayout>

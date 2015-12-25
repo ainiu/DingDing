@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="unspecified"><source path="E:\DingDing\Pullsample\build\intermediates\exploded-aar\DingDing\Pulllibrary\unspecified\assets"/></dataSet><dataSet config="main"><source path="E:\DingDing\Pullsample\src\main\assets"><file name="ptr_webview2_sample.html" path="E:\DingDing\Pullsample\src\main\assets\ptr_webview2_sample.html"/></source></dataSet><dataSet config="debug"><source path="E:\DingDing\Pullsample\src\debug\assets"/></dataSet></merger>

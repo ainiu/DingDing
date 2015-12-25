@@ -1,0 +1,6 @@
+<resources>
+    <!--  网格商品图片高度 -->
+	<dimen name="goods_image_gridview_height">150dp</dimen>
+	
+
+</resources>

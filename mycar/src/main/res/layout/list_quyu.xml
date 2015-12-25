@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <RelativeLayout 
+        android:id="@+id/quyu_list_relativeLayout_01"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        >
+        
+        <ImageView 
+            android:id="@+id/quyu_list_image_01"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/picture_110"
+            />
+
+        <TextView
+            android:id="@+id/quyu_list_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/quyu_list_image_01"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@+id/quyu_list_image_01"
+            android:text="宝通大厦"
+            android:textColor="#5B5B5B"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/quyu_list_text_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/quyu_list_text_01"
+            android:layout_below="@+id/quyu_list_text_01"
+            android:text="宝民一路210号"
+            android:textColor="#5B5B5B"
+            android:textSize="11sp" />
+
+    </RelativeLayout>
+    
+    <ImageView 
+        android:id="@+id/quyu_list_image_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quyu_list_relativeLayout_01"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/picture_90"
+        />
+
+</RelativeLayout>

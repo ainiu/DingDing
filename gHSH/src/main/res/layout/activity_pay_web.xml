@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        layout="@layout/header" />
+
+    <ProgressBar
+        android:id="@+id/web_progress"
+        style="@style/progress_anim_style"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_weight="1" />
+
+    <WebView
+        android:id="@+id/pay_web"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:visibility="gone" />
+
+    <include
+        layout="@layout/activity_pay_web_tools"
+        android:visibility="gone" />
+
+</LinearLayout>

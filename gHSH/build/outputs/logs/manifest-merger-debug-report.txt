@@ -1,0 +1,639 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:2:1-304:12
+	xmlns:tools
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:2:11-69
+	package
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:4:5-23
+		INJECTED from E:\DingDing\gHSH\src\main\AndroidManifest.xml
+		INJECTED from E:\DingDing\gHSH\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from E:\DingDing\gHSH\src\main\AndroidManifest.xml
+		INJECTED from E:\DingDing\gHSH\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from E:\DingDing\gHSH\src\main\AndroidManifest.xml
+		INJECTED from E:\DingDing\gHSH\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-v4:23.1.1] E:\DingDing\gHSH\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:10:9-38
+		INJECTED from E:\DingDing\gHSH\src\main\AndroidManifest.xml
+		INJECTED from E:\DingDing\gHSH\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:9:9-34
+		INJECTED from E:\DingDing\gHSH\src\main\AndroidManifest.xml
+		INJECTED from E:\DingDing\gHSH\src\main\AndroidManifest.xml
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:13:2-82
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:13:19-79
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:14:2-64
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:14:19-62
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:15:2-73
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:15:19-70
+uses-permission#android.permission.GET_TASKS
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:16:2-65
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:16:19-62
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:17:2-70
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:17:19-67
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:18:2-76
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:18:19-73
+uses-permission#android.permission.READ_CONTACTS
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:20:5-72
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:20:22-69
+uses-permission#android.permission.INTERNET
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:21:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:22:5-76
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:22:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:24:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:25:5-75
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:25:22-72
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:26:5-81
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:26:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:27:5-66
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:27:22-63
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:28:5-84
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:28:22-81
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:29:2-76
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:29:19-73
+application
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:30:5-302:19
+MERGED from [com.android.support:support-v4:23.1.1] E:\DingDing\gHSH\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:35:9-45
+	android:label
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:34:9-41
+	android:allowBackup
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:32:9-36
+	android:icon
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:33:9-38
+	android:theme
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:36:9-62
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:31:9-45
+meta-data#com.amap.api.v2.apikey
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:37:9-39:63
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:38:13-50
+	android:value
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:39:13-61
+activity#com.ghsh.activity.StartActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:40:9-49:20
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:43:13-49
+	android:label
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:42:13-45
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:41:13-59
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:44:13-48:29
+action#android.intent.action.MAIN
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:45:17-69
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:45:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:47:17-77
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:47:27-74
+activity#com.ghsh.activity.HomeActivity1
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:50:9-52:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:52:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:51:13-59
+activity#com.ghsh.activity.HomeActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:53:9-55:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:55:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:54:13-58
+activity#com.ghsh.activity.RegisterMobileActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:56:9-58:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:58:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:57:13-68
+activity#com.ghsh.activity.OpinionActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:59:9-61:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:61:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:60:13-61
+activity#com.ghsh.activity.OpinionAddActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:62:9-64:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:64:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:63:13-64
+activity#com.ghsh.activity.LoginBindAccountActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:65:9-67:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:67:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:66:13-70
+activity#com.ghsh.view.banner.BannerActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:68:9-70:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:70:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:69:13-63
+activity#com.ghsh.activity.ConductActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:71:9-73:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:73:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:72:13-61
+activity#com.ghsh.activity.LoginActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:74:9-76:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:76:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:75:13-59
+activity#com.ghsh.activity.RegisterActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:77:9-79:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:79:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:78:13-62
+activity#com.ghsh.activity.ShoppingCartActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:80:9-82:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:82:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:81:13-66
+activity#com.ghsh.activity.SearchActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:83:9-85:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:85:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:84:13-60
+activity#com.ghsh.activity.GroupDetailsActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:86:9-88:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:88:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:87:13-66
+activity#com.ghsh.activity.GoodsListActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:89:9-91:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:91:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:90:13-63
+activity#com.ghsh.activity.GoodsDetailsActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:92:9-94:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:94:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:93:13-66
+activity#com.ghsh.activity.GoodsDetailsMainActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:95:9-97:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:97:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:96:13-70
+activity#com.ghsh.activity.GoodsDetailsBaseActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:98:9-100:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:100:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:99:13-70
+activity#com.ghsh.activity.GoodsDetailsConsultActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:101:9-103:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:103:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:102:13-73
+activity#com.ghsh.activity.GoodsDetailsDesActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:104:9-106:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:106:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:105:13-69
+activity#com.ghsh.activity.GoodsDetailsEvaluateActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:107:9-109:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:109:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:108:13-74
+activity#com.ghsh.activity.OrderListActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:110:9-112:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:112:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:111:13-63
+activity#com.ghsh.activity.OrderDetalisActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:113:9-115:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:115:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:114:13-66
+activity#com.ghsh.activity.OrderBonusActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:116:9-118:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:118:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:117:13-64
+activity#com.ghsh.activity.SettingActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:119:9-121:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:121:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:120:13-61
+activity#com.ghsh.activity.GoodsCategoryActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:122:9-124:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:124:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:123:13-67
+activity#com.ghsh.activity.OrderPayWayActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:125:9-127:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:127:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:126:13-65
+activity#com.ghsh.activity.OrderPaymentWayActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:128:9-130:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:130:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:129:13-69
+activity#com.ghsh.activity.OrderReceiptActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:131:9-133:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:133:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:132:13-66
+activity#com.ghsh.activity.PersonalActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:134:9-136:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:136:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:135:13-62
+activity#com.ghsh.activity.MyCollectActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:137:9-139:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:139:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:138:13-63
+activity#com.ghsh.activity.MyBonusActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:140:9-142:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:142:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:141:13-61
+activity#com.ghsh.activity.MySendInfoActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:143:9-145:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:145:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:144:13-64
+activity#com.ghsh.activity.MySendInfoAddActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:146:9-148:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:148:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:147:13-67
+activity#com.ghsh.activity.MyInformationActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:149:9-151:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:151:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:150:13-67
+activity#com.ghsh.activity.MyInformationModifyActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:152:9-154:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:154:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:153:13-73
+activity#com.ghsh.activity.MyModifyPwdActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:155:9-157:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:157:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:156:13-65
+activity#com.ghsh.activity.CommentAddActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:158:9-161:55
+	android:windowSoftInputMode
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:161:13-52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:160:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:159:13-64
+activity#com.ghsh.activity.ConsultAddActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:162:9-164:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:164:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:163:13-64
+activity#com.ghsh.activity.PayWebActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:165:9-167:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:167:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:166:13-60
+activity#com.ghsh.activity.MoreActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:168:9-170:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:170:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:169:13-58
+activity#com.ghsh.activity.WebActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:171:9-173:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:173:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:172:13-57
+activity#com.ghsh.activity.SinglePageWebActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:174:9-176:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:176:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:175:13-67
+activity#com.ghsh.activity.ForgetPwdActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:177:9-179:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:179:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:178:13-63
+activity#com.ghsh.activity.MessageActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:180:9-182:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:182:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:181:13-61
+activity#com.ghsh.activity.MainTabActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:183:9-185:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:185:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:184:13-61
+activity#com.ghsh.activity.UploadImageActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:186:9-189:59
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:188:13-49
+	android:theme
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:189:13-56
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:187:13-65
+activity#com.ghsh.activity.RegionActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:190:9-193:59
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:192:13-49
+	android:theme
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:193:13-56
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:191:13-60
+activity#com.ghsh.activity.MyGoodsHistoryActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:194:9-196:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:196:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:195:13-68
+activity#com.ghsh.activity.OrderLogisticsActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:197:9-199:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:199:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:198:13-68
+activity#com.ghsh.activity.OrderCouponActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:200:9-202:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:202:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:201:13-65
+activity#com.ghsh.activity.WithdrawActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:203:9-205:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:205:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:204:13-62
+activity#com.ghsh.activity.WithdrawToAlipayActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:206:9-208:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:208:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:207:13-70
+activity#com.ghsh.activity.WithdrawToBankActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:209:9-211:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:211:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:210:13-68
+activity#com.ghsh.activity.WithdrawAddBankActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:212:9-214:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:214:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:213:13-69
+activity#com.ghsh.activity.UserAccountRecordActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:215:9-217:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:217:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:216:13-71
+activity#com.ghsh.activity.UserAccountWithdrawActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:218:9-220:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:220:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:219:13-73
+activity#com.ghsh.activity.UserAccountRechargeActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:221:9-223:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:223:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:222:13-73
+activity#com.ghsh.activity.GroupbuyListActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:224:10-226:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:226:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:225:13-66
+activity#com.ghsh.activity.ForgetNewPwdActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:227:10-229:51
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:229:12-48
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:228:12-65
+activity#com.ghsh.activity.MapGaoDeActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:230:10-232:51
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:232:12-48
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:231:12-61
+activity#com.ghsh.activity.OrderReturnActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:233:10-235:51
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:235:12-48
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:234:12-64
+activity#com.ghsh.activity.NewHomeActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:236:11-238:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:238:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:237:13-61
+activity#com.ghsh.activity.NewListActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:239:9-241:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:241:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:240:13-61
+activity#com.ghsh.activity.NewDetailsActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:242:9-244:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:244:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:243:13-64
+activity#com.ghsh.activity.ShareActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:245:9-248:59
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:247:13-49
+	android:theme
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:248:13-56
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:246:13-59
+activity#com.ghsh.activity.MyCouponActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:249:9-251:52
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:251:13-49
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:250:13-62
+activity#com.tencent.tauth.AuthActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:252:9-265:20
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:256:13-49
+	android:noHistory
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:255:13-37
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:253:13-58
+	android:launchMode
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:254:13-44
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:257:13-264:29
+action#android.intent.action.VIEW
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:258:17-69
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:258:25-66
+category#android.intent.category.DEFAULT
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:260:17-76
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:260:27-73
+category#android.intent.category.BROWSABLE
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:261:17-78
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:261:27-75
+data
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:263:17-57
+	android:scheme
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:263:23-54
+activity#com.tencent.connect.common.AssistActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:266:9-270:75
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:269:13-49
+	android:configChanges
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:268:13-74
+	android:theme
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:270:13-72
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:267:13-69
+activity#com.alipay.sdk.app.H5PayActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:271:9-276:70
+	android:windowSoftInputMode
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:276:13-67
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:275:13-47
+	android:configChanges
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:273:13-74
+	android:exported
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:274:13-37
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:272:13-60
+activity#com.alipay.sdk.auth.AuthActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:277:9-281:50
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:281:13-47
+	android:configChanges
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:279:13-74
+	android:exported
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:280:13-37
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:278:13-60
+activity#com.ghsh.wxapi.WXEntryActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:282:9-285:20
+	android:exported
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:284:13-36
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:283:13-50
+activity#com.unionpay.uppay.PayActivity
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:286:9-291:58
+	android:windowSoftInputMode
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:291:13-55
+	android:screenOrientation
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:290:13-49
+	android:configChanges
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:288:13-63
+	android:excludeFromRecents
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:289:13-46
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:287:13-58
+service#com.ghsh.services.MessageServices
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:292:9-296:19
+	android:enabled
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:292:67-89
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:292:18-66
+intent-filter#com.ghsh.services.MessageServices
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:293:13-295:29
+action#com.ghsh.services.MessageServices
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:294:17-83
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:294:25-73
+service#com.ghsh.services.UpdateService
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:297:9-301:19
+	android:enabled
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:297:65-87
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:297:18-64
+intent-filter#com.ghsh.services.UpdateService
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:298:13-300:29
+action#com.ghsh.services.UpdateService
+ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:299:17-81
+	android:name
+		ADDED from E:\DingDing\gHSH\src\main\AndroidManifest.xml:299:25-71

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/body_rectangle_while_border_bg"
+        android:orientation="vertical"
+        android:padding="15dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/order_receipt_rise"
+            android:textColor="@color/font_color_666666"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/receipt_rise_view"
+            style="@style/edittext_style_radius_border"
+            android:hint="@string/order_receipt_rise" />
+    </LinearLayout>
+
+</LinearLayout>

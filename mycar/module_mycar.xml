@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_mycar" default="compile.module.mycar">
+  <dirname property="module.mycar.basedir" file="${ant.file.module_mycar}"/>
+  
+  <property name="module.jdk.home.mycar" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.mycar" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.mycar" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.mycar" value="-encoding UTF-8 -source 1.7 ${compiler.args}"/>
+  
+  <property name="mycar.output.dir" value="${module.mycar.basedir}/build"/>
+  <property name="mycar.testoutput.dir" value="${module.mycar.basedir}/build"/>
+  
+  <path id="mycar.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="mycar.module.production.classpath">
+    <path refid="${module.jdk.classpath.mycar}"/>
+  </path>
+  
+  <path id="mycar.runtime.production.module.classpath">
+    <pathelement location="${mycar.output.dir}"/>
+  </path>
+  
+  <path id="mycar.module.classpath">
+    <path refid="${module.jdk.classpath.mycar}"/>
+    <pathelement location="${mycar.output.dir}"/>
+  </path>
+  
+  <path id="mycar.runtime.module.classpath">
+    <pathelement location="${mycar.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.mycar">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.mycar">
+    <patternset refid="excluded.from.module.mycar"/>
+  </patternset>
+  
+  
+  <target name="compile.module.mycar" depends="compile.module.mycar.production,compile.module.mycar.tests" description="Compile module mycar"/>
+  
+  <target name="compile.module.mycar.production" depends="register.custom.compilers" description="Compile module mycar; production classes"/>
+  
+  <target name="compile.module.mycar.tests" depends="register.custom.compilers,compile.module.mycar.production" description="compile module mycar; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.mycar" description="cleanup module">
+    <delete dir="${mycar.output.dir}"/>
+    <delete dir="${mycar.testoutput.dir}"/>
+  </target>
+</project>

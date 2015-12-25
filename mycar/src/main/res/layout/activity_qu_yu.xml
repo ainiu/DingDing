@@ -1,0 +1,164 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuYuActivity" >
+
+    <RelativeLayout
+        android:id="@+id/quyu_driver_relativeLayout_01"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF" >
+
+        <TextView
+            android:id="@+id/quyu_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="请输入您负责区域"
+            android:textColor="#999999"
+            android:textSize="21sp" />
+
+        <ImageView
+            android:id="@+id/quyu_image_01"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:src="@mipmap/picture_58" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/quyu_image_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/quyu_driver_relativeLayout_01"
+        android:src="@mipmap/picture_90" />
+
+    <RelativeLayout
+        android:id="@+id/quyu_driver_relativeLayout_02"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/quyu_image_02" >
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/quyu_image_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/quyu_driver_relativeLayout_02"
+        android:src="@mipmap/picture_90" />
+    
+     <LinearLayout 
+         android:id="@+id/quyu_linearLayout_01"
+         android:layout_below="@+id/quyu_image_03"
+         android:layout_width="wrap_content"
+         android:layout_height="40dp"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+         android:orientation="horizontal"
+         >
+         <RelativeLayout 
+             android:id="@+id/quyu_driver_relativeLayout_03"
+             android:layout_width="match_parent"
+             android:layout_height="40dp"
+             android:layout_weight="2"
+             >
+             
+             <ImageView 
+                 android:id="@+id/quyu_image_04"
+                 android:layout_width="18dp"
+                 android:layout_height="18dp"
+                 android:layout_centerVertical="true"
+                 android:layout_alignParentLeft="true"
+                 android:layout_marginLeft="15dp"
+                 android:src="@mipmap/picture_60"
+                 />
+
+             <TextView
+                 android:id="@+id/quyu_text_02"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_centerVertical="true"
+                 android:layout_marginLeft="8dp"
+                 android:layout_toRightOf="@+id/quyu_image_04"
+                 android:text="深圳"
+                 android:textColor="#999999"
+                 android:textSize="15sp" />
+             
+             <ImageView 
+                 android:id="@+id/quyu_image_07"
+                 android:layout_width="14dp"
+                 android:layout_height="14dp"
+                 android:layout_toRightOf="@+id/quyu_text_02"
+                 android:layout_centerVertical="true"
+                 android:layout_marginLeft="8dp"
+                 android:src="@mipmap/picture_59"
+                 />
+             
+         </RelativeLayout>
+
+         
+         <ImageView 
+             android:id="@+id/quyu_image_06"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@mipmap/picture_109"
+             />
+         
+         <RelativeLayout 
+             android:id="@+id/quyu_driver_relativeLayout_04"
+             android:layout_width="match_parent"
+             android:layout_height="40dp"
+             android:layout_weight="1"
+             >
+             <ImageView 
+                 android:id="@+id/quyu_image_08"
+                 android:layout_width="20dp"
+                 android:layout_height="20dp"
+                 android:layout_alignParentLeft="true"
+                 android:layout_marginLeft="15dp"
+                 android:layout_centerVertical="true"
+                 android:src="@mipmap/picture_112"
+                 />
+             
+             <EditText 
+                 android:id="@+id/quyu_edit_01"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_toRightOf="@+id/quyu_image_08"
+                 android:layout_marginLeft="10dp"
+                 android:layout_alignParentRight="true"
+                 android:layout_marginRight="10dp"
+                 android:layout_centerVertical="true"
+                 android:textSize="17sp"
+                 android:textColor="#999999"
+                 android:background="@null"
+                 />
+             
+         </RelativeLayout>
+         
+     </LinearLayout>
+     
+     <ImageView 
+         android:id="@+id/quyu_image_05"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/quyu_linearLayout_01"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+         android:src="@mipmap/picture_90"
+         />
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Android_Location_V1.3.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/gHSH/libs/Android_Location_V1.3.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

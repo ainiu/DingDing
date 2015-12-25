@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/button_while_rectangle_bg"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp" >
+
+    <ImageView
+        android:id="@+id/funs_item_image_view"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/funs_item_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/font_color_666666"
+        android:textSize="14sp" />
+
+</LinearLayout>

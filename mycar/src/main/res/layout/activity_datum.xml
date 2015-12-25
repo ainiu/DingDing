@@ -1,0 +1,523 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DatumActivity" >
+
+    <RelativeLayout
+        android:id="@+id/datum_relativeLayout_01"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#000000" >
+
+        <TextView
+            android:id="@+id/datum_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="完善资料"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+
+        <ImageView
+            android:id="@+id/datum_image_01"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:src="@mipmap/picture_04" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/datum_relativeLayout_02"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/datum_relativeLayout_01" >
+
+        <TextView
+            android:id="@+id/datum_text_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/datum_image_02"
+            android:layout_marginRight="50dp"
+            android:text="手机 :"
+            android:textColor="#A2A2A2"
+            android:textSize="11sp" />
+
+        <ImageView
+            android:id="@+id/datum_image_02"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:src="@mipmap/picture_50" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/datum_image_02"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="14dp"
+            android:background="@null"
+            android:ems="10"
+            android:inputType="number"
+            android:text="13627569812"
+            android:textColor="#A2A2A2"
+            android:textSize="11sp" >
+
+            <requestFocus />
+        </EditText>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/datum_image_17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/datum_relativeLayout_02"
+        android:src="@mipmap/picture_90" />
+
+    <RelativeLayout
+        android:id="@+id/datum_relativeLayout_03"
+        android:layout_width="wrap_content"
+        android:layout_height="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/datum_image_17"
+        android:background="#F6F6F6" >
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/datum_image_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/datum_relativeLayout_03"
+        android:src="@mipmap/picture_90" />
+
+    <RelativeLayout
+        android:id="@+id/datum_image_04"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/datum_image_03" >
+
+        <ImageView
+            android:id="@+id/datum_image_05"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:src="@mipmap/picture_104" />
+
+        <TextView
+            android:id="@+id/datum_text_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/datum_image_05"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/datum_image_05"
+            android:text="性别"
+            android:textColor="#666666"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/datum_image_06"
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/picture_91" />
+
+        <EditText
+            android:id="@+id/datum_edit_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/datum_image_06"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_toRightOf="@+id/datum_text_03"
+            android:background="@null"
+            android:ems="10"
+            android:textColor="#666666"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/datum_image_07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/datum_image_04"
+        android:src="@mipmap/picture_90" />
+
+    <RelativeLayout
+        android:id="@+id/datum_relativeLayout_04"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/datum_image_07" >
+
+        <ImageView
+            android:id="@+id/datum_image_08"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:src="@mipmap/pictutre_105" />
+
+        <EditText
+            android:id="@+id/datum_edit_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/datum_image_08"
+            android:background="@null"
+            android:ems="10"
+            android:hint="人数"
+            android:inputType="number"
+            android:textColor="#E5E5E5"
+            android:textSize="11sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/datum_image_09"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/datum_relativeLayout_04"
+        android:src="@mipmap/picture_90" />
+
+    <RelativeLayout
+        android:id="@+id/datum_relativeLayout_05"
+        android:layout_width="wrap_content"
+        android:layout_height="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/datum_image_09"
+        android:background="#F6F6F6" >
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/datum_image_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/datum_relativeLayout_05"
+        android:src="@mipmap/picture_90" />
+
+    <RelativeLayout
+        android:id="@+id/datum_relativeLayout_06"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/datum_image_10" >
+
+        <ImageView
+            android:id="@+id/datum_image_11"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:src="@mipmap/picture_106" />
+
+        <TextView
+            android:id="@+id/datum_text_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/datum_image_11"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/datum_image_11"
+            android:text="车型"
+            android:textColor="#666666"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/datum_image_12"
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/picture_91" />
+
+        <EditText
+            android:id="@+id/datum_edit_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_toRightOf="@+id/datum_text_05"
+            android:background="@null"
+            android:ems="10"
+            android:textColor="#666666"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/datum_image_13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/datum_relativeLayout_06"
+        android:src="@mipmap/picture_90" />
+
+    <RelativeLayout
+        android:id="@+id/datum_relativeLayout_07"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/datum_image_13" >
+
+        <ImageView
+            android:id="@+id/datum_image_14"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/picture_107" />
+
+        <TextView
+            android:id="@+id/datum_text_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/datum_image_14"
+            android:text="乘车类型"
+            android:textColor="#666666"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/datum_edit_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_toRightOf="@+id/datum_text_04"
+            android:background="@null"
+            android:textColor="#666666"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/datum_image_15"
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/picture_91" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/datum_image_16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/datum_relativeLayout_07"
+        android:src="@mipmap/picture_90" />
+
+    <RelativeLayout
+        android:id="@+id/datum_relativeLayout_08"
+        android:layout_width="wrap_content"
+        android:layout_height="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/datum_image_16"
+        android:background="#F6F6F6" >
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/datum_image_18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/datum_relativeLayout_08"
+        android:src="@mipmap/picture_90" />
+
+    <RelativeLayout
+        android:id="@+id/datum_relativeLayout_09"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/datum_image_18" >
+
+        <ImageView
+            android:id="@+id/datum_image_19"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:src="@mipmap/picture_51" />
+
+        <TextView
+            android:id="@+id/datum_text_06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/datum_image_19"
+            android:text="所在地"
+            android:textColor="#666666"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/datum_edit_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_toRightOf="@+id/datum_text_06"
+            android:background="@null"
+            android:textColor="#666666"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/datum_image_20"
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/picture_91" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/datum_image_21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/datum_relativeLayout_09"
+        android:src="@mipmap/picture_90" />
+
+    <RelativeLayout
+        android:id="@+id/datum_relativeLayout_10"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/datum_image_21" >
+
+        <ImageView
+            android:id="@+id/datum_image_22"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:src="@mipmap/picture_52" />
+
+        <TextView
+            android:id="@+id/datum_text_07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/datum_image_22"
+            android:text="负责区域"
+            android:textColor="#666666"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/datum_edit_06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_toRightOf="@+id/datum_text_07"
+            android:background="@null"
+            android:textColor="#666666"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/datum_image_23"
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/picture_90" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/datum_image_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/datum_relativeLayout_10"
+        android:src="@mipmap/picture_90" />
+
+    <RelativeLayout
+        android:id="@+id/datum_relativeLayout_11"
+        android:layout_width="wrap_content"
+        android:layout_height="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/datum_image_24"
+        android:background="#F6F6F6" >
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/datum_image_25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/datum_relativeLayout_11"
+        android:src="@mipmap/picture_90" />
+
+    <Button
+        android:id="@+id/datum_button_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/datum_image_25"
+        android:background="@null"
+        android:text="确定"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+</RelativeLayout>

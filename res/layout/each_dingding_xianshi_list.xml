@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/xianshi_list_image_01"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/xianshi_list_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="雅诗兰黛肌透眼部精华霜11ml,深透眼部肌肤,一瓶修护!"
+            android:textColor="#666666"
+            android:textSize="11sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/xianshi_list_text_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="活动价¥"
+                android:textColor="#666666"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/xianshi_list_text_04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¥178.0"
+                android:textColor="#666666"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/xianshi_list_image_02"
+                android:layout_width="30dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="7dp"
+                android:src="@drawable/ding_126" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="3dp"
+            >
+
+            <ImageView
+                android:id="@+id/xianshi_list_image_03"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:src="@drawable/ding_33" />
+
+            <TextView
+                android:id="@+id/xianshi_list_text_02"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:paddingLeft="5dp"
+                android:text="美妆"
+                android:textColor="#9A9A9A"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/xianshi_list_timetitle"
+               android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="距离结束"
+                android:textColor="#EB6877"
+                android:textSize="9sp"
+                />
+
+            <ImageView
+                android:id="@+id/xianshi_list_image_04"
+                android:layout_width="11dp"
+                android:layout_height="11dp"
+                android:src="@drawable/ding_105" />
+
+            <TextView
+                android:id="@+id/xianshi_list_text_05"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="23:59:00"
+                android:textColor="#EB6877"
+                android:textSize="9sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

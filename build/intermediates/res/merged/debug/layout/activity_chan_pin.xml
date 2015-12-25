@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChanPinActivity" >
+
+    <RelativeLayout
+        android:id="@+id/changpin_relativeLayout_01"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#1FA9EB" >
+        
+    <TextView 
+        android:id="@+id/changpin_text_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="产品列表"
+        android:textColor="#FFFFFF"
+        android:textSize="21sp"
+        />    
+        
+    <ImageView 
+        android:id="@+id/chanpin_image_01"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="13dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ding_110"
+        android:onClick="doClick"
+        />
+    
+    <ImageView 
+        android:id="@+id/chanpin_image_02"
+        android:layout_height="20dp"
+        android:layout_width="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="13dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ding_124"
+        android:onClick="doClick"
+        />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/chanpin_listView_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/changpin_relativeLayout_01" >
+    </ListView>
+
+</RelativeLayout>

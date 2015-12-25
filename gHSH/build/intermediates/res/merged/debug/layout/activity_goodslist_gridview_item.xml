@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listview_item_bg"
+    android:orientation="vertical"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingTop="1dp" >
+
+    <ImageView
+        android:id="@+id/goods_item_image"
+        style="@style/imageview_style_comment"
+        android:layout_height="@dimen/goods_image_gridview_height"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/default_image" />
+
+    <TextView
+        android:id="@+id/goods_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:lines="2"
+        android:textColor="@color/black_font_color"
+        android:textSize="@dimen/fontSize_goods_list_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="2dp" >
+
+        <TextView
+            android:id="@+id/goods_item_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/goods_price_color"
+            android:textSize="@dimen/fontSize_goods_list_price" />
+
+        <TextView
+            android:id="@+id/goods_item_price_shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/goods_item_price"
+            android:textColor="@color/font_color_999999"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</LinearLayout>

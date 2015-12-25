@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerHeight="13dp"
+            android:layout_above="@+id/shopping_fragment_relativeLayout_02"
+            android:layout_marginBottom="20dp"
+            />
+
+
+    <LinearLayout
+        android:id="@+id/shopping_fragment_relativeLayout_02"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        >
+
+        <CheckBox
+            android:id="@+id/selectAll"
+            style="@style/CustomCheckboxShopping"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="全选"
+            android:textColor="#666666"
+            android:layout_marginLeft="13dp" >
+        </CheckBox>
+
+
+        <Button
+            android:id="@+id/yidaoshouchang"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="移到收藏夹"
+            android:background="@drawable/btn_stroke_lan"
+            android:textSize="13sp" />
+
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="#1FA9EB"
+            android:text="删除"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+    </LinearLayout>
+</RelativeLayout>

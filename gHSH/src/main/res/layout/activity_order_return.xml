@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/header" />
+
+    <EditText
+        android:id="@+id/order_return_desc"
+        style="@style/edittext_style_radius_border"
+        android:layout_margin="15dp"
+        android:gravity="top|left"
+        android:hint="@string/order_return_hint_desc"
+        android:lines="8"
+        android:singleLine="false" />
+
+    <Button
+        android:id="@+id/order_return_button"
+        style="@style/button_style_fun_border"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/button_red_bg"
+        android:text="@string/order_return_button_ok" />
+
+</LinearLayout>

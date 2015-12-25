@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChanPinMuActivity" >
+
+    <RelativeLayout
+        android:id="@+id/chanpinmu_relativeLayout_01"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#1FA9EB" >
+        
+      <TextView 
+          android:id="@+id/chanpinmu_text_01"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:layout_centerVertical="true"
+          android:text="产品列表"
+          android:textColor="#FFFFFF"
+          android:textSize="21sp"
+          /> 
+          
+      <ImageView 
+          android:id="@+id/chanpinmu_list_image_01"
+          android:layout_width="20dp"
+          android:layout_height="20dp"
+          android:layout_alignParentLeft="true"
+          android:layout_centerVertical="true"
+          android:layout_marginLeft="13dp"
+          android:src="@drawable/ding_110"
+          />
+      
+      <ImageView 
+          android:id="@+id/changpinmu_list_image_02"
+          android:layout_width="20dp"
+          android:layout_height="20dp"
+          android:layout_alignParentRight="true"
+          android:layout_marginRight="13dp"
+          android:layout_centerVertical="true"
+          android:src="@drawable/ding_127"
+          />
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/chanpinmu_relativeLayout_01"
+        android:numColumns="2" >
+    </GridView>
+
+</RelativeLayout>

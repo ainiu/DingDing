@@ -1,0 +1,363 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/personal_profile_relativeLayout_01"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/haiwai_text_color_wai" >
+
+        <TextView
+            android:id="@+id/personal_profile_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="个人资料"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+
+        <ImageView
+            android:id="@+id/personal_profile_image_01"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:onClick="doClick"
+            android:background="@null"
+            android:src="@drawable/ding_110" />
+
+
+    </RelativeLayout>
+    <com.baidu.dingding.view.MyView.MyScrollView
+        android:id="@+id/myscroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:id="@+id/liearscr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/personal_profile_linearLayout_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:background="@drawable/bottom_biankuang"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/personal_profile_image_02"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ding_147" />
+
+        <TextView
+            android:id="@+id/personal_profile_text_02"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="头像"
+
+            android:textSize="12sp" />
+        <com.baidu.dingding.view.MyView.CircleImageView
+            android:id="@+id/personal_profile_image_03"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ding_149"
+            app:civ_border_color="#f7f4f4"
+            app:civ_border_width="2dp" />
+        <!--<com.tarena.utils.ImageCircleView
+            android:id="@+id/personal_profile_image_03"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="175dp"
+            android:src="@drawable/ding_149" />-->
+
+        <ImageView
+            android:id="@+id/personal_profile_image_04"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="14dp"
+            android:src="@drawable/ding_148" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/geren_group_item"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_marginTop="11dp"
+        android:padding="11dp"
+        android:background="@drawable/bottom_biankuang"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/personal_profile_log"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/wang_29" />
+        <TextView
+            android:id="@+id/personal_profile_text_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/personal_profile_log"
+            android:layout_marginLeft="13dp"
+            android:text="名称"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/personal_profile_text_imgtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_toLeftOf="@+id/personal_profile_xiala"
+            android:layout_marginRight="13dp"
+            android:textColor="@color/haiwai_text_color_hai"
+            android:textSize="12sp" />
+        <ImageView
+            android:id="@+id/personal_profile_xiala"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/linea1"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:background="@drawable/bottom_biankuang"
+        android:layout_height="35dp">
+        <com.baidu.dingding.view.MyView.ClearEditText
+            android:id="@+id/clearview1"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="20dp"
+            android:background="@null"
+            android:textSize="12sp"
+            android:textColor="@color/haiwai_text_color_hai"
+            android:layout_gravity="center_vertical"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/truename"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_marginTop="11dp"
+        android:padding="11dp"
+        android:background="@drawable/bottom_biankuang"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/personal_profile_log1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/wang_30" />
+        <TextView
+            android:id="@+id/personal_profile_text_body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/personal_profile_log1"
+            android:layout_marginLeft="13dp"
+            android:text="真实姓名"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/personal_profile_text_imgtv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_toLeftOf="@+id/personal_profile_xiala1"
+            android:layout_marginRight="13dp"
+            android:textColor="@color/haiwai_text_color_hai"
+            android:textSize="12sp" />
+        <ImageView
+            android:id="@+id/personal_profile_xiala1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/linea2"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:background="@drawable/bottom_biankuang"
+        android:layout_height="35dp">
+        <com.baidu.dingding.view.MyView.ClearEditText
+            android:id="@+id/clearview"
+            android:layout_width="match_parent"
+            android:background="@null"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:textSize="12sp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/haiwai_text_color_hai"
+            android:layout_height="30dp"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/sex"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_marginTop="11dp"
+        android:padding="11dp"
+        android:background="@drawable/bottom_biankuang"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/personal_profile_log2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/wang_31" />
+        <TextView
+            android:id="@+id/personal_profile_text_body2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/personal_profile_log2"
+            android:layout_marginLeft="13dp"
+            android:text="性别"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/personal_profile_text_imgtv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_toLeftOf="@+id/personal_profile_xiala2"
+            android:layout_marginRight="13dp"
+            android:textColor="@color/haiwai_text_color_hai"
+            android:textSize="12sp" />
+        <ImageView
+            android:id="@+id/personal_profile_xiala2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/linea3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/geren_child_one"
+            android:layout_width="match_parent"
+            android:background="@drawable/bottom_biankuang"
+            android:paddingLeft="50dp"
+            android:paddingRight="20dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/ed0"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:text="女"
+                android:textColor="@color/haiwai_text_color_hai"
+                />
+            <ImageView
+                android:id="@+id/img_gild"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/wang_34"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/geren_child_two"
+            android:layout_width="match_parent"
+            android:paddingLeft="50dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/bottom_biankuang"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/ed1"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/haiwai_text_color_hai"
+                android:text="男"
+                />
+            <ImageView
+                android:id="@+id/img_body"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/wang_34"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/geren_group_item3"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_marginTop="11dp"
+        android:padding="11dp"
+        android:background="@drawable/bottom_biankuang"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/personal_profile_log3"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/wang_29" />
+        <TextView
+            android:id="@+id/personal_profile_text_body3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/personal_profile_log3"
+            android:layout_marginLeft="13dp"
+            android:text="身份证号"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/personal_profile_text_imgtv3"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="middle"
+            android:singleLine="true"
+            android:layout_toLeftOf="@+id/personal_profile_xiala3"
+            android:layout_marginRight="13dp"
+            android:textColor="@color/haiwai_text_color_hai"
+            android:textSize="12sp" />
+        <ImageView
+            android:id="@+id/personal_profile_xiala3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/linea4"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:background="@drawable/bottom_biankuang"
+        android:layout_height="35dp">
+        <com.baidu.dingding.view.MyView.ClearEditText
+            android:id="@+id/clearview3"
+            android:layout_width="match_parent"
+            android:background="@null"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:textSize="12sp"
+            android:textColor="@color/haiwai_text_color_hai"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/baocun"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="13dp"
+        android:text="保存"
+        android:background="@drawable/gerenxinxi_baocun"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+        </LinearLayout>
+    </com.baidu.dingding.view.MyView.MyScrollView>
+</LinearLayout>

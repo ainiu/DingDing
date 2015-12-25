@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\color\\fu_color_list.xml",
+        "source": "E:\\DingDing\\res\\color\\fu_color_list.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\color\\dai_color_list.xml",
+        "source": "E:\\DingDing\\res\\color\\dai_color_list.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\color\\shou_colot_list.xml",
+        "source": "E:\\DingDing\\res\\color\\shou_colot_list.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\color\\geren_color_list.xml",
+        "source": "E:\\DingDing\\res\\color\\geren_color_list.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\color\\shouye_color_list.xml",
+        "source": "E:\\DingDing\\res\\color\\shouye_color_list.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\color\\yi_color_list.xml",
+        "source": "E:\\DingDing\\res\\color\\yi_color_list.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\color\\quan_color_list.xml",
+        "source": "E:\\DingDing\\res\\color\\quan_color_list.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\color\\haiwai_color_shoping.xml",
+        "source": "E:\\DingDing\\res\\color\\haiwai_color_shoping.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\color\\gouwu_grid_item_color.xml",
+        "source": "E:\\DingDing\\res\\color\\gouwu_grid_item_color.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\color\\haiwai_color_list.xml",
+        "source": "E:\\DingDing\\res\\color\\haiwai_color_list.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\color\\vpi__dark_theme.xml",
+        "source": "E:\\DingDing\\res\\color\\vpi__dark_theme.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\color\\vpi__light_theme.xml",
+        "source": "E:\\DingDing\\res\\color\\vpi__light_theme.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\color\\geren_select.xml",
+        "source": "E:\\DingDing\\res\\color\\geren_select.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\color\\fenlei_color_list.xml",
+        "source": "E:\\DingDing\\res\\color\\fenlei_color_list.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\color\\fenlei_btn_color.xml",
+        "source": "E:\\DingDing\\res\\color\\fenlei_btn_color.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\color\\gouwu_color_list.xml",
+        "source": "E:\\DingDing\\res\\color\\gouwu_color_list.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "E:\\DingDing\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "E:\\DingDing\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    }
+]

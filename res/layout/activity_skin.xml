@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SkinActivity" >
+
+    <RelativeLayout
+        android:id="@+id/skin_relativeLayout_01"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#1FA9EB" >
+
+        <TextView
+            android:id="@+id/skin_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="护肤品"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+
+        <ImageView
+            android:id="@+id/skin_image_01"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13sp"
+            android:src="@drawable/ding_110" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/skin_linearLayout_01"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/skin_relativeLayout_01"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ding_156"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/skin_linearLayout_02"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/skin_linearLayout_03"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/skin_linearLayout_04"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/skin_linearLayout_05"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/skin_linearLayout_06"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/skin_listView_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/skin_linearLayout_01"
+        android:layout_marginTop="5dp" >
+    </ListView>
+
+</RelativeLayout>

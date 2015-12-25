@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 输入框 公共 -->
+    <style name="edittext_style_comment" parent="@android:style/Widget.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColorHint">@color/font_hint_color</item>
+    </style>
+
+    <!-- 输入框 无边框 -->
+    <style name="edittext_style_null_border" parent="@style/edittext_style_comment">
+        <item name="android:background">@color/white</item>
+    </style>
+    <!-- 输入框 圆角 -->
+    <style name="edittext_style_radius_border" parent="@style/edittext_style_comment">
+        <item name="android:background">@drawable/body_radius_bg</item>
+    </style>
+    <!-- 输入框 圆角又箭头 -->
+    <style name="edittext_style_radius_before_border" parent="@style/edittext_style_comment">
+        <item name="android:background">@drawable/body_radius_bg</item>
+        <item name="android:drawableRight">@drawable/before_gray_icon</item>
+    </style>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.ghsh.view.banner.BannerImageView
+        android:id="@+id/home_banner"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/body_rectangle_while_border_bg"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:stretchColumns="*" >
+
+        <TableRow>
+
+            <include
+                android:id="@+id/home_funs_layout1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                layout="@layout/activity_home_funs_item" />
+
+            <include
+                android:id="@+id/home_funs_layout2"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                layout="@layout/activity_home_funs_item" />
+
+            <include
+                android:id="@+id/home_funs_layout3"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                layout="@layout/activity_home_funs_item" />
+        </TableRow>
+
+        <TableRow>
+
+            <include
+                android:id="@+id/home_funs_layout4"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                layout="@layout/activity_home_funs_item" />
+
+            <include
+                android:id="@+id/home_funs_layout5"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                layout="@layout/activity_home_funs_item" />
+
+            <include
+                android:id="@+id/home_funs_layout6"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                layout="@layout/activity_home_funs_item" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

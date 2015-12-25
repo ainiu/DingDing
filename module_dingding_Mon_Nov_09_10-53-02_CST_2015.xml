@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_dingding" default="compile.module.dingding">
+  <dirname property="module.dingding.basedir" file="${ant.file.module_dingding}"/>
+  
+  <property name="module.jdk.home.dingding" value="${jdk.home.android_api_18_platform_(6)}"/>
+  <property name="module.jdk.bin.dingding" value="${jdk.bin.android_api_18_platform_(6)}"/>
+  <property name="module.jdk.classpath.dingding" value="jdk.classpath.android_api_18_platform_(6)"/>
+  
+  <property name="compiler.args.dingding" value="-encoding UTF-8 -source 1.6 ${compiler.args}"/>
+  
+  <property name="dingding.output.dir" value="${module.dingding.basedir}/build"/>
+  <property name="dingding.testoutput.dir" value="${module.dingding.basedir}/build"/>
+  
+  <path id="dingding.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="dingding.module.production.classpath">
+    <path refid="${module.jdk.classpath.dingding}"/>
+    <path refid="library.support-annotations-23.1.0.classpath"/>
+    <path refid="library.gson-2.2.1.classpath"/>
+    <path refid="library.universal-image-loader-1.8.6-with-sources.classpath"/>
+    <path refid="library.volley.classpath"/>
+    <path refid="library.support-v4-23.1.0.classpath"/>
+    <pathelement location="${pulllibrary.output.dir}"/>
+  </path>
+  
+  <path id="dingding.runtime.production.module.classpath">
+    <pathelement location="${dingding.output.dir}"/>
+    <path refid="library.support-annotations-23.1.0.classpath"/>
+    <path refid="library.gson-2.2.1.classpath"/>
+    <path refid="library.universal-image-loader-1.8.6-with-sources.classpath"/>
+    <path refid="library.volley.classpath"/>
+    <path refid="library.support-v4-23.1.0.classpath"/>
+    <path refid="pulllibrary.runtime.production.module.classpath"/>
+  </path>
+  
+  <path id="dingding.module.classpath">
+    <path refid="${module.jdk.classpath.dingding}"/>
+    <pathelement location="${dingding.output.dir}"/>
+    <path refid="library.support-annotations-23.1.0.classpath"/>
+    <path refid="library.gson-2.2.1.classpath"/>
+    <path refid="library.universal-image-loader-1.8.6-with-sources.classpath"/>
+    <path refid="library.volley.classpath"/>
+    <path refid="library.support-v4-23.1.0.classpath"/>
+    <pathelement location="${pulllibrary.output.dir}"/>
+  </path>
+  
+  <path id="dingding.runtime.module.classpath">
+    <pathelement location="${dingding.output.dir}"/>
+    <path refid="library.support-annotations-23.1.0.classpath"/>
+    <path refid="library.gson-2.2.1.classpath"/>
+    <path refid="library.universal-image-loader-1.8.6-with-sources.classpath"/>
+    <path refid="library.volley.classpath"/>
+    <path refid="library.support-v4-23.1.0.classpath"/>
+    <path refid="pulllibrary.runtime.module.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.dingding">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.dingding">
+    <patternset refid="excluded.from.module.dingding"/>
+  </patternset>
+  
+  
+  <target name="compile.module.dingding" depends="compile.module.dingding.production,compile.module.dingding.tests" description="Compile module DingDing"/>
+  
+  <target name="compile.module.dingding.production" depends="register.custom.compilers,compile.module.pulllibrary" description="Compile module DingDing; production classes"/>
+  
+  <target name="compile.module.dingding.tests" depends="register.custom.compilers,compile.module.dingding.production" description="compile module DingDing; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.dingding" description="cleanup module">
+    <delete dir="${dingding.output.dir}"/>
+    <delete dir="${dingding.testoutput.dir}"/>
+  </target>
+</project>

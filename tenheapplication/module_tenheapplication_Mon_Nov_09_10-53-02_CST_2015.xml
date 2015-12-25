@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_tenheapplication" default="compile.module.tenheapplication">
+  <dirname property="module.tenheapplication.basedir" file="${ant.file.module_tenheapplication}"/>
+  
+  <property name="module.jdk.home.tenheapplication" value="${jdk.home.android_api_23_platform_(6)}"/>
+  <property name="module.jdk.bin.tenheapplication" value="${jdk.bin.android_api_23_platform_(6)}"/>
+  <property name="module.jdk.classpath.tenheapplication" value="jdk.classpath.android_api_23_platform_(6)"/>
+  
+  <property name="compiler.args.tenheapplication" value="-encoding UTF-8 -source 1.7 ${compiler.args}"/>
+  
+  <property name="tenheapplication.output.dir" value="${module.tenheapplication.basedir}/build"/>
+  <property name="tenheapplication.testoutput.dir" value="${module.tenheapplication.basedir}/build"/>
+  
+  <path id="tenheapplication.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="tenheapplication.module.production.classpath">
+    <path refid="${module.jdk.classpath.tenheapplication}"/>
+  </path>
+  
+  <path id="tenheapplication.runtime.production.module.classpath">
+    <pathelement location="${tenheapplication.output.dir}"/>
+  </path>
+  
+  <path id="tenheapplication.module.classpath">
+    <path refid="${module.jdk.classpath.tenheapplication}"/>
+    <pathelement location="${tenheapplication.output.dir}"/>
+  </path>
+  
+  <path id="tenheapplication.runtime.module.classpath">
+    <pathelement location="${tenheapplication.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.tenheapplication">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.tenheapplication">
+    <patternset refid="excluded.from.module.tenheapplication"/>
+  </patternset>
+  
+  
+  <target name="compile.module.tenheapplication" depends="compile.module.tenheapplication.production,compile.module.tenheapplication.tests" description="Compile module tenheapplication"/>
+  
+  <target name="compile.module.tenheapplication.production" depends="register.custom.compilers" description="Compile module tenheapplication; production classes"/>
+  
+  <target name="compile.module.tenheapplication.tests" depends="register.custom.compilers,compile.module.tenheapplication.production" description="compile module tenheapplication; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.tenheapplication" description="cleanup module">
+    <delete dir="${tenheapplication.output.dir}"/>
+    <delete dir="${tenheapplication.testoutput.dir}"/>
+  </target>
+</project>

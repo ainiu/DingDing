@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/listview_item_bg"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/order_item_orderStatus_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/order_list_order_status"
+                    android:textColor="@color/font_color_333333"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/order_item_orderStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/font_color_red"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/line_dotted" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/order_item_orderSN_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/order_list_order_sn"
+                android:textColor="@color/font_color_333333"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/order_item_orderSN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/order_item_orderSN_text"
+                android:textColor="@color/font_color_999999"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/order_item_totalNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textColor="@color/font_color_999999"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/order_item_goods_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/order_list_order_total"
+                    android:textColor="@color/font_color_333333"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/order_item_total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/goods_price_color"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/order_item_button1_pay"
+                    style="@style/button_style_fun_border"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/button_red_bg"
+                    android:focusable="false"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/order_list_order_button1_pay"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/order_item_button2_remind"
+                    style="@style/button_style_fun_border"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/button_gray_light_bg"
+                    android:focusable="false"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/order_list_order_button2_remind"
+                    android:textColor="@color/font_color_999999"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/order_item_button3_stream"
+                    style="@style/button_style_fun_border"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/button_gray_light_bg"
+                    android:focusable="false"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/order_list_order_button3_stream"
+                    android:textColor="@color/font_color_999999"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/order_item_button3_receipt"
+                    style="@style/button_style_fun_border"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/button_blue_bg"
+                    android:focusable="false"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/order_list_order_button3_receipt"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/order_item_button4_evaluate"
+                    style="@style/button_style_fun_border"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/button_gray_light_bg"
+                    android:focusable="false"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/order_list_order_button4_evaluate"
+                    android:textColor="@color/font_color_999999"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

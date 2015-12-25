@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentActivity" >
+
+    <RelativeLayout
+        android:id="@+id/payment_zhifu"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:background="#1FA9EB" >
+
+        <ImageView
+            android:id="@+id/payment_image_01"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:onClick="onClick"
+            android:src="@drawable/ding_110" />
+
+        <TextView
+            android:id="@+id/payment_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="支付方式"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/parme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/payment_zhifu"
+        android:padding="13dp"
+        android:background="#FFFF"
+       >
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ding_76"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:id="@+id/selectzhifu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img"
+            android:layout_marginLeft="20dp"
+            android:text="智付支付"
+            android:layout_centerVertical="true"
+            />
+        <CheckBox
+            android:id="@+id/selectAll"
+            style="@style/CustomCheckboxShopping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:checked="true"
+            android:clickable="false"
+            android:textColor="#666666"
+           >
+        </CheckBox>
+    </RelativeLayout>
+
+</RelativeLayout>

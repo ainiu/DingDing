@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/header" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/comment_button_layout"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/body_rectangle_while_border_bg"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <Button
+                android:id="@+id/comment_add_button"
+                style="@style/button_style_fun_border"
+                android:layout_centerInParent="true"
+                android:background="@drawable/button_blue_bg"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="@string/comment_button_publish" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/comment_add_checkBox"
+                    style="@style/checkBox_style" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/comment_text_anonymous"
+                    android:textColor="@color/font_color_666666"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/comment_add_listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/comment_button_layout"
+            android:descendantFocusability="beforeDescendants"
+            android:divider="@color/transparent"
+            android:dividerHeight="15dp" >
+        </ListView>
+    </RelativeLayout>
+
+</LinearLayout>

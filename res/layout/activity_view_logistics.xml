@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewLogisticsActivity" >
+
+    <RelativeLayout
+        android:id="@+id/view_logistics_relativeLayout_01"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#1FA9EB" >
+
+        <ImageView
+            android:id="@+id/view_logistics_image_01"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:src="@drawable/ding_110" />
+
+        <TextView
+            android:id="@+id/view_logistics_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="查看物流"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/view_logistics_listView_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/view_logistics_relativeLayout_01" >
+    </ListView>
+
+</RelativeLayout>

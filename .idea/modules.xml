@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DingDing.iml" filepath="$PROJECT_DIR$/DingDing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyJavaOne/MyJavaOne.iml" filepath="$PROJECT_DIR$/MyJavaOne/MyJavaOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyUtils/MyUtils.iml" filepath="$PROJECT_DIR$/MyUtils/MyUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pulllibrary/Pulllibrary.iml" filepath="$PROJECT_DIR$/Pulllibrary/Pulllibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pullsample/Pullsample.iml" filepath="$PROJECT_DIR$/Pullsample/Pullsample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViewPagerIndicator/ViewPagerIndicator.iml" filepath="$PROJECT_DIR$/ViewPagerIndicator/ViewPagerIndicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dingjingdongye/dingjingdongye.iml" filepath="$PROJECT_DIR$/dingjingdongye/dingjingdongye.iml" />
+      <module fileurl="file://$PROJECT_DIR$/expandableListTest/expandableListTest.iml" filepath="$PROJECT_DIR$/expandableListTest/expandableListTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gHSH/gHSH.iml" filepath="$PROJECT_DIR$/gHSH/gHSH.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jiangang/jiangang.iml" filepath="$PROJECT_DIR$/jiangang/jiangang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myapplication2/myapplication2.iml" filepath="$PROJECT_DIR$/myapplication2/myapplication2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycar/mycar.iml" filepath="$PROJECT_DIR$/mycar/mycar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tenheapplication/tenheapplication.iml" filepath="$PROJECT_DIR$/tenheapplication/tenheapplication.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,189 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <Button
+                    style="@style/button_style_rectangle_border"
+                    android:drawableLeft="@drawable/withdraw_alipay_to_money_icon"
+                    android:text="@string/withdraw_text_record_current_money" />
+
+                <TextView
+                    android:id="@+id/withdraw_user_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="25dp"
+                    android:text="0.00元"
+                    android:textColor="@color/font_color_red_fc5b5b"
+                    android:textSize="14sp" />
+            </FrameLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/body_rectangle_while_dddddd_border_bg"
+                android:stretchColumns="1" >
+
+                <TableRow
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="@string/withdraw_text_record_bank_card"
+                        android:textColor="@color/font_color_333333"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/withdraw_bank_card"
+                        style="@style/edittext_style_radius_border"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/transparent"
+                        android:editable="false"
+                        android:hint="@string/withdraw_hint_record_bank_card" />
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/border_color_dddddd" />
+
+                <TableRow
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="@string/withdraw_text_record_bank_bankName"
+                        android:textColor="@color/font_color_333333"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/withdraw_bank_bankName"
+                        style="@style/edittext_style_radius_border"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/transparent"
+                        android:editable="false"
+                        android:hint="@string/withdraw_hint_record_bank_bankName" />
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/border_color_dddddd" />
+
+                <TableRow
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="@string/withdraw_text_record_bank_name"
+                        android:textColor="@color/font_color_333333"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/withdraw_bank_name"
+                        style="@style/edittext_style_radius_border"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/transparent"
+                        android:editable="false"
+                        android:hint="@string/withdraw_hint_record_bank_name" />
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/border_color_dddddd" />
+
+                <TableRow
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="@string/withdraw_text_record_bank_mobile"
+                        android:textColor="@color/font_color_333333"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/withdraw_bank_mobile"
+                        style="@style/edittext_style_radius_border"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/transparent"
+                        android:editable="false"
+                        android:hint="@string/withdraw_hint_record_bank_mobile" />
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/border_color_dddddd" />
+
+                <TableRow
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="@string/withdraw_text_record_bank_money"
+                        android:textColor="@color/font_color_333333"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/withdraw_bank_money"
+                        style="@style/edittext_style_radius_border"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/transparent"
+                        android:hint="@string/withdraw_hint_record_bank_money" />
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="*提现金额需大于10元，提现后2-3个工作日到账"
+                android:textColor="@color/font_color_red_fc5b5b"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/withdraw_alipay_button"
+                style="@style/button_style_fun_border"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_red_bg"
+                android:text="@string/withdraw_text_button_record" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

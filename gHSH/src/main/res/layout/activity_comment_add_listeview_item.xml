@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listview_item_bg"
+    android:orientation="vertical"
+    android:paddingBottom="15dp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/comment_text_goods_comment"
+        android:textColor="@color/font_color_333333"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/line_dotted" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp" >
+
+        <ImageView
+            android:id="@+id/comment_item_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/body_rectangle_null_centent_bg"
+            android:padding="1dp"
+            android:src="@drawable/default_image" />
+
+        <TextView
+            android:id="@+id/comment_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/comment_item_image"
+            android:ellipsize="end"
+            android:lines="2"
+            android:textColor="@color/font_color_666666"
+            android:textSize="14sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/comment_item_name"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/comment_item_image"
+            android:stretchColumns="*" >
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/comment_item_number"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:textColor="@color/font_color_999999"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/comment_item_price"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:textColor="@color/font_color_999999"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/comment_item_goodsAttr"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:textColor="@color/font_color_999999"
+                    android:textSize="14sp" />
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/before_gray_icon" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="@string/comment_text_goods_comment1"
+            android:textColor="@color/font_color_666666"
+            android:textSize="16sp" />
+
+        <RatingBar
+            android:id="@+id/comment_item_ratingbar1"
+            style="@style/ratingBar_style"
+            android:focusable="false" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/comment_item_comment"
+        style="@style/edittext_style_radius_border"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:gravity="top"
+        android:hint="@string/comment_text_comment"
+        android:minLines="2"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:singleLine="false"
+        android:textSize="14sp" />
+
+</LinearLayout>
